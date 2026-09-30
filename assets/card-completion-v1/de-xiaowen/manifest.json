@@ -1,0 +1,309 @@
+{
+  "generator": "native image_gen",
+  "cards": [
+    {
+      "cardId": "card.dxw.ink_probe",
+      "name": "拓痕",
+      "slug": "ink-probe",
+      "source": "assets-src/card-completion-v1/de-xiaowen/ink-probe.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/ink-probe.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/probe-strike.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "4fb5bdb36d8e410c0032b758913aeadc7b36a0db1b55ed186abe739213615ef1",
+      "runtimeSha256": "aff385c97be4fdcbf6e6d1ecad16e9a116a018169083251220dd4b6b9fb67ab2",
+      "runtimeBytes": 167538
+    },
+    {
+      "cardId": "card.dxw.thread_needle",
+      "name": "穿隙",
+      "slug": "thread-needle",
+      "source": "assets-src/card-completion-v1/de-xiaowen/thread-needle.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/thread-needle.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/probe-strike.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "5e08d9d2a2ac01430683c02f5c3d2e95c5b4d17c82093db7871f68a6e374ecbc",
+      "runtimeSha256": "732a40f82dc49fb668876011aae56073af4c2882d7b8ad5ec743225376c0ed51",
+      "runtimeBytes": 147270
+    },
+    {
+      "cardId": "card.dxw.annotation",
+      "name": "批注",
+      "slug": "annotation",
+      "source": "assets-src/card-completion-v1/de-xiaowen/annotation.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/annotation.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/inspiration.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "560cfc89a32bbc4855bb9ee596a3771d287d367aad09691751f5fc370b3e93df",
+      "runtimeSha256": "28797786031db6a8e102f2b17f47679776a0db5de760cb505324f02bded2bd01",
+      "runtimeBytes": 148046
+    },
+    {
+      "cardId": "card.dxw.paper_screen",
+      "name": "纸幕",
+      "slug": "paper-screen",
+      "source": "assets-src/card-completion-v1/de-xiaowen/paper-screen.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/paper-screen.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/sidestep.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "a65a346784c068d0e7098ed60762e2dd190a6c80a8ea255748d92f854708c36d",
+      "runtimeSha256": "b6553bdb020e297ed5fb09fff892f66dfaa3e9b16693405f851b8df539727e2c",
+      "runtimeBytes": 173818
+    },
+    {
+      "cardId": "card.dxw.folio_guard",
+      "name": "护卷待发",
+      "slug": "folio-guard",
+      "source": "assets-src/card-completion-v1/de-xiaowen/folio-guard.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/folio-guard.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/sidestep.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "55ec81e22d52e406d7cfe93a829f529ab04378cac404ef62e667360cbe388ca7",
+      "runtimeSha256": "8978d7aa9d5f2ea6174b92f113a10b4111b639644bd0e5dec9bb60aca7488082",
+      "runtimeBytes": 174920
+    },
+    {
+      "cardId": "card.dxw.margin_counter",
+      "name": "以守作答",
+      "slug": "margin-counter",
+      "source": "assets-src/card-completion-v1/de-xiaowen/margin-counter.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/margin-counter.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/probe-strike.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "c69b82b4f56c0a3675f9c0bcbc8d4940a6c041c9fa68cc045ae500ce4f8a2769",
+      "runtimeSha256": "c6e70671557faef35dedca4e2cf065dbfea5f01e77f68077766d8de99c9075fa",
+      "runtimeBytes": 170040
+    },
+    {
+      "cardId": "card.dxw.bound_volume",
+      "name": "合订",
+      "slug": "bound-volume",
+      "source": "assets-src/card-completion-v1/de-xiaowen/bound-volume.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/bound-volume.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/inspiration.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "3980de4a9a3322f0ca953e80e4394b5de866579f7a96109d1c79cb8b54edd382",
+      "runtimeSha256": "f25a7eca939227d1625e2be5d9f7cecfc6c483c84619e9c1c0eab8bad4f33e89",
+      "runtimeBytes": 147320
+    },
+    {
+      "cardId": "card.dxw.cross_reference",
+      "name": "交叉索引",
+      "slug": "cross-reference",
+      "source": "assets-src/card-completion-v1/de-xiaowen/cross-reference.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/cross-reference.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/inspiration.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "a11452d15ae177d9098f339ed00799aabeb855bd374dd537dad717dc88c60cd7",
+      "runtimeSha256": "39578ba0019a9c164446ba80c522b3b7773a4b4efcc0fed042308c403ade7609",
+      "runtimeBytes": 151128
+    },
+    {
+      "cardId": "card.dxw.sealed_note",
+      "name": "封签",
+      "slug": "sealed-note",
+      "source": "assets-src/card-completion-v1/de-xiaowen/sealed-note.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/sealed-note.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/inspiration.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "d430e734ba21951ca7e593839e1a3f79ef2cbd790de0bc0d2ba542440c04b317",
+      "runtimeSha256": "cf96293fed426af499f351d556cf6edc4bcf26dbc0bfb37b6f8a933879c4bcad",
+      "runtimeBytes": 132580
+    },
+    {
+      "cardId": "card.dxw.archive_echo",
+      "name": "旧卷回响",
+      "slug": "archive-echo",
+      "source": "assets-src/card-completion-v1/de-xiaowen/archive-echo.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/archive-echo.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/probe-strike.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "958093914633298a6ccc1d08b3384e30f4b42819d65f26dccc6fac9ed6142a8e",
+      "runtimeSha256": "9aeb104437ff74c9138e3b3731cd66ff65bf54130dff570bdaf2124d27d01afb",
+      "runtimeBytes": 170482
+    },
+    {
+      "cardId": "card.dxw.final_draft",
+      "name": "终稿",
+      "slug": "final-draft",
+      "source": "assets-src/card-completion-v1/de-xiaowen/final-draft.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/final-draft.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/probe-strike.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "6e19999bb483c1c791589031f9a56efbf5e2d015cc21d00ea08800bedb3290c6",
+      "runtimeSha256": "8c25fa02a6f9f9dd8ec042314e55b4ab355cdd158e59820debb3cc1f690510eb",
+      "runtimeBytes": 188470
+    },
+    {
+      "cardId": "card.dxw.quick_index",
+      "name": "速检",
+      "slug": "quick-index",
+      "source": "assets-src/card-completion-v1/de-xiaowen/quick-index.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/quick-index.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/inspiration.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "9cbda5625393247b438e0237951a6b7801aedd0de400a2774995b7c763cdd7d6",
+      "runtimeSha256": "a77258918f64316627c466bef1daf01f37a3e50566d91b958630bfc37d0393c4",
+      "runtimeBytes": 136716
+    },
+    {
+      "cardId": "card.dxw.ground_plan",
+      "name": "落笔成垒",
+      "slug": "ground-plan",
+      "source": "assets-src/card-completion-v1/de-xiaowen/ground-plan.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/ground-plan.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/sidestep.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "55662728b95ca67bfe47e8c4eb768a3a0fbc82e82acb61cc9bbdb3b8abe0b2c6",
+      "runtimeSha256": "217cd6486372cc9815893c4a48e879888aa117f4456bd3882a14224ebae3292d",
+      "runtimeBytes": 169862
+    },
+    {
+      "cardId": "card.dxw.erase_outline",
+      "name": "消隐线",
+      "slug": "erase-outline",
+      "source": "assets-src/card-completion-v1/de-xiaowen/erase-outline.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/erase-outline.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/probe-strike.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "cc875c64c81cd3f36c38c30d916f602f5bd920115cedc340a2458ae958e0770c",
+      "runtimeSha256": "e178878787d46719e040e7e59257afa6d5a1146b9d0689496d96d7223d7bc962",
+      "runtimeBytes": 170022
+    },
+    {
+      "cardId": "card.dxw.deep_read",
+      "name": "静读",
+      "slug": "deep-read",
+      "source": "assets-src/card-completion-v1/de-xiaowen/deep-read.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/deep-read.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/inspiration.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "d010f69aaa694bb0ba4dd993d3887779740d0f85ac284fb93fa8c148b1e9fdd6",
+      "runtimeSha256": "5cf2d185a33e40f490440b7b7565a587da3f8d2cc02cee9eb2711fcca8493932",
+      "runtimeBytes": 155148
+    },
+    {
+      "cardId": "card.dxw.locked_archive",
+      "name": "封藏释力",
+      "slug": "locked-archive",
+      "source": "assets-src/card-completion-v1/de-xiaowen/locked-archive.png",
+      "runtime": "assets/card-completion-v1/de-xiaowen/locked-archive.webp",
+      "reference": "public/assets/card-sample/de-xiaowen/probe-strike.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtimeSize": [
+        768,
+        512
+      ],
+      "sourceSha256": "27e17661375ef10e8e841f388596673864eb4eb1665f122d45e9dd40b649082f",
+      "runtimeSha256": "d74be4e3369b17553e4081729a2a4c4a36b5e6e1f7a7384668c9bf75f40d9384",
+      "runtimeBytes": 160538
+    }
+  ]
+}

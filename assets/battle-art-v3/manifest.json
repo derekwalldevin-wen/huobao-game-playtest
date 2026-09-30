@@ -1,0 +1,80 @@
+{
+  "generator": "tools/visual-v1/build-jade-v3.mjs",
+  "assets": [
+    {
+      "name": "tablet",
+      "source": "tablet.png",
+      "sourceSha256": "26dc16e2ca2ac6ddd79875881f14aad909373668c3f3f25f2f43ef6d2655ba71",
+      "sourceSize": [
+        2170,
+        725
+      ],
+      "runtimeSize": [
+        768,
+        199
+      ],
+      "clearPixels": 30141,
+      "partialAlphaPixels": 121683
+    },
+    {
+      "name": "panel",
+      "source": "panel.png",
+      "sourceSha256": "6c1b222dcb1ab395e3bc92a205f9f118fa340dd6294e47db75dc16c778ac19d4",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "runtimeSize": [
+        512,
+        496
+      ],
+      "clearPixels": 6663,
+      "partialAlphaPixels": 245600
+    },
+    {
+      "name": "bi",
+      "source": "bi.png",
+      "sourceSha256": "fe0d22aacdb607bdf82036714b9cd51bb42eecceda89f38dee589eb3dfcb1f54",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "runtimeSize": [
+        512,
+        516
+      ],
+      "clearPixels": 71714,
+      "partialAlphaPixels": 191418
+    },
+    {
+      "name": "vein",
+      "source": "vein.png",
+      "sourceSha256": "4d7e418074575b000410f2404596566b5de2ad4d1dea3d99b6a250e5f97b0ace",
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "runtimeSize": [
+        1024,
+        139
+      ],
+      "clearPixels": 69854,
+      "partialAlphaPixels": 72479
+    },
+    {
+      "name": "paper",
+      "source": "paper.png",
+      "sourceSha256": "9ac1aa12a82213b5c5b02824cc746c8c34147c772e624dad5bacded528597781",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "runtimeSize": [
+        512,
+        512
+      ],
+      "clearPixels": 0,
+      "partialAlphaPixels": 0
+    }
+  ]
+}

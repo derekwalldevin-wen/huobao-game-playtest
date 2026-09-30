@@ -1,0 +1,833 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "m3c-sample-1",
+  "worldGrid": "640x360",
+  "profiles": {
+    "webSd": "2x",
+    "webHd": "3x"
+  },
+  "palette": [
+    "#24232B",
+    "#48434A",
+    "#8B6755",
+    "#B79578",
+    "#EDE2C8",
+    "#3E6861",
+    "#79A58C",
+    "#C3D1AC",
+    "#F7EFDA",
+    "#BB6252",
+    "#829BA5",
+    "#C6AD69"
+  ],
+  "transparency": "binary-alpha",
+  "assets": [
+    {
+      "id": "character.ling-xiaoyu.idle",
+      "label": "凌小玉待机",
+      "kind": "sprite",
+      "sourceKind": "generated-raster-master",
+      "editableNativeSource": false,
+      "sourceGrid": "96x128",
+      "pivot": {
+        "x": 48,
+        "y": 120
+      },
+      "transparent": true,
+      "palette": [
+        "#24232B",
+        "#48434A",
+        "#8B6755",
+        "#B79578",
+        "#EDE2C8",
+        "#3E6861",
+        "#79A58C",
+        "#C3D1AC",
+        "#F7EFDA",
+        "#BB6252",
+        "#829BA5",
+        "#C6AD69"
+      ],
+      "generator": "OpenAI built-in imagegen",
+      "generatedOn": "2026-09-15",
+      "prompt": "凌小玉，活玉档案守护者，宽扁玉首、横向刻眼、中央方孔、短稳身体、腰挂赭色档案签；全身前三分之二侧待机姿态，12 色玉土拓印像素语言，透明背景，无文字、地面、阴影、UI 或额外物件。",
+      "reference": "docs/art/m3b/images/direction-board.png",
+      "provenanceStatus": "project-generated; release rights review pending",
+      "raw": {
+        "path": "assets-src/m3c/raw/exec-f07788ca-2d8b-4a41-9942-2a177a673163.png",
+        "sha256": "1cfef7a9957d15bfeef3ac027170074b5df2224253bc3009b1b9d13c9049e0ed"
+      },
+      "source": {
+        "path": "assets-src/m3c/source/characters/ling-xiaoyu/idle.source.png",
+        "width": 96,
+        "height": 128,
+        "bytes": 1762,
+        "sha256": "8c59e40c423cdfa1ec47776c7decb199ca1f31c52c4ee0077fa77656215fa349",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 12,
+        "visibleBounds": {
+          "left": 8,
+          "top": 10,
+          "right": 87,
+          "bottom": 117
+        }
+      },
+      "webSd": {
+        "path": "public/assets/web-sd/characters/ling-xiaoyu/idle@sd.png",
+        "width": 192,
+        "height": 256,
+        "bytes": 1992,
+        "sha256": "e0ce037c27a380b882513088744b40419b9552c8252b716df655f303370b602d",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 12,
+        "visibleBounds": {
+          "left": 16,
+          "top": 20,
+          "right": 175,
+          "bottom": 235
+        }
+      },
+      "webHd": {
+        "path": "public/assets/web-hd/characters/ling-xiaoyu/idle@hd.png",
+        "width": 288,
+        "height": 384,
+        "bytes": 2906,
+        "sha256": "f329064b2324771ae89bd1702672e354620a9b9edb2684d0bba54db7b429ff3f",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 12,
+        "visibleBounds": {
+          "left": 24,
+          "top": 30,
+          "right": 263,
+          "bottom": 353
+        }
+      }
+    },
+    {
+      "id": "enemy.clay-sentinel.idle",
+      "label": "泥纹守卫待机",
+      "kind": "sprite",
+      "sourceKind": "generated-raster-master",
+      "editableNativeSource": false,
+      "sourceGrid": "128x144",
+      "pivot": {
+        "x": 64,
+        "y": 136
+      },
+      "transparent": true,
+      "palette": [
+        "#24232B",
+        "#48434A",
+        "#8B6755",
+        "#B79578",
+        "#EDE2C8",
+        "#3E6861",
+        "#79A58C",
+        "#C3D1AC",
+        "#F7EFDA",
+        "#BB6252",
+        "#829BA5",
+        "#C6AD69"
+      ],
+      "generator": "OpenAI built-in imagegen",
+      "generatedOn": "2026-09-15",
+      "prompt": "泥纹守卫，不对称叠土与泥板构体、低重心、横向眼缝、断裂重前臂、抽象刻纹；全身前三分之二侧待机姿态，12 色玉土拓印像素语言，透明背景，无西式盔甲、王冠、武器、文字、地面或 UI。",
+      "reference": "docs/art/m3b/images/direction-board.png",
+      "provenanceStatus": "project-generated; release rights review pending",
+      "raw": {
+        "path": "assets-src/m3c/raw/exec-9c36a966-26a6-4554-b892-895ffe779505.png",
+        "sha256": "6ea0c65d19fd74196cd1053535dd6cdbe95aaaa7556f1fb2e9d070b3d2ab2283"
+      },
+      "source": {
+        "path": "assets-src/m3c/source/enemies/clay-sentinel/idle.source.png",
+        "width": 128,
+        "height": 144,
+        "bytes": 2467,
+        "sha256": "0ce8679e33168eb59d6d0a96b17924d1fe4b522ec47edfee4622762c14a8de64",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 8,
+        "visibleBounds": {
+          "left": 10,
+          "top": 21,
+          "right": 117,
+          "bottom": 121
+        }
+      },
+      "webSd": {
+        "path": "public/assets/web-sd/enemies/clay-sentinel/idle@sd.png",
+        "width": 256,
+        "height": 288,
+        "bytes": 2813,
+        "sha256": "713d17e5d922bced4f686b1fcae1591c5d2c4da91c25bc14e51935bc4684fc71",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 8,
+        "visibleBounds": {
+          "left": 20,
+          "top": 42,
+          "right": 235,
+          "bottom": 243
+        }
+      },
+      "webHd": {
+        "path": "public/assets/web-hd/enemies/clay-sentinel/idle@hd.png",
+        "width": 384,
+        "height": 432,
+        "bytes": 3987,
+        "sha256": "d787a04bccc172ffeafc7562c0825a0031a801859d4b3ee752ffc76a3227bbb8",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 8,
+        "visibleBounds": {
+          "left": 30,
+          "top": 63,
+          "right": 353,
+          "bottom": 365
+        }
+      }
+    },
+    {
+      "id": "card.lxy.jade-strike.art",
+      "label": "玉击牌图",
+      "kind": "sprite",
+      "sourceKind": "generated-raster-master",
+      "editableNativeSource": false,
+      "sourceGrid": "128x128",
+      "pivot": {
+        "x": 64,
+        "y": 64
+      },
+      "transparent": true,
+      "palette": [
+        "#24232B",
+        "#48434A",
+        "#8B6755",
+        "#B79578",
+        "#EDE2C8",
+        "#3E6861",
+        "#79A58C",
+        "#C3D1AC",
+        "#F7EFDA",
+        "#BB6252",
+        "#829BA5",
+        "#C6AD69"
+      ],
+      "generator": "OpenAI built-in imagegen",
+      "generatedOn": "2026-09-15",
+      "prompt": "玉击：单枚青玉楔向斜上方突进，恰好两道朱砂冲击短痕与少量方形矿屑；128 概念源格像素图，透明背景，无卡框、文字、数字、角色、手、UI 或场景。",
+      "reference": "docs/art/m3b/images/direction-board.png",
+      "provenanceStatus": "project-generated; release rights review pending",
+      "raw": {
+        "path": "assets-src/m3c/raw/exec-ba386b22-3a11-485a-8d69-27066bd7f647.png",
+        "sha256": "45b9f842828de7d3277ef244630399d7eb89fc09523f39e9a479e36a910d8929"
+      },
+      "source": {
+        "path": "assets-src/m3c/source/cards/jade-strike/art.source.png",
+        "width": 128,
+        "height": 128,
+        "bytes": 1357,
+        "sha256": "6d646c9d52d2116b2ecd827efaa1f30e53c84a0dd9252fc20d9bde8bb7ba13e6",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 11,
+        "visibleBounds": {
+          "left": 12,
+          "top": 15,
+          "right": 115,
+          "bottom": 111
+        }
+      },
+      "webSd": {
+        "path": "public/assets/web-sd/cards/jade-strike/art@sd.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 2186,
+        "sha256": "0b309e901dece538b1ee348720a5173b8e9bc5c99bbe2f602f229fc296373925",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 11,
+        "visibleBounds": {
+          "left": 48,
+          "top": 60,
+          "right": 463,
+          "bottom": 447
+        }
+      },
+      "webHd": {
+        "path": "public/assets/web-hd/cards/jade-strike/art@hd.png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 3771,
+        "sha256": "b414fab8d57ea01f0e4e01acc1fc8b526f8bd308cf2e806a509854f29dc33faf",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 11,
+        "visibleBounds": {
+          "left": 96,
+          "top": 120,
+          "right": 927,
+          "bottom": 895
+        }
+      }
+    },
+    {
+      "id": "card.lxy.jade-guard.art",
+      "label": "玉护牌图",
+      "kind": "sprite",
+      "sourceKind": "generated-raster-master",
+      "editableNativeSource": false,
+      "sourceGrid": "128x128",
+      "pivot": {
+        "x": 64,
+        "y": 64
+      },
+      "transparent": true,
+      "palette": [
+        "#24232B",
+        "#48434A",
+        "#8B6755",
+        "#B79578",
+        "#EDE2C8",
+        "#3E6861",
+        "#79A58C",
+        "#C3D1AC",
+        "#F7EFDA",
+        "#BB6252",
+        "#829BA5",
+        "#C6AD69"
+      ],
+      "generator": "OpenAI built-in imagegen",
+      "generatedOn": "2026-09-15",
+      "prompt": "玉护：三片重叠青玉板围成紧凑护弧，中间留一枚方孔，少量赭色碎屑；128 概念源格像素图，透明背景，无卡框、文字、数字、角色、手、UI 或场景。",
+      "reference": "docs/art/m3b/images/direction-board.png",
+      "provenanceStatus": "project-generated; release rights review pending",
+      "raw": {
+        "path": "assets-src/m3c/raw/exec-fb4ad9a2-c550-433c-bcf1-b0ac14a8f7ed.png",
+        "sha256": "e4020ae23c361c3a64846d9071dd3502ad6a54af6ade59d8451946817c3ca3bd"
+      },
+      "source": {
+        "path": "assets-src/m3c/source/cards/jade-guard/art.source.png",
+        "width": 128,
+        "height": 128,
+        "bytes": 1648,
+        "sha256": "dd0c6b5a3a13043dd2381c933a0e21d6fd259175a6c0ddca18de07f164ee89ac",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 12,
+        "visibleBounds": {
+          "left": 12,
+          "top": 12,
+          "right": 114,
+          "bottom": 115
+        }
+      },
+      "webSd": {
+        "path": "public/assets/web-sd/cards/jade-guard/art@sd.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 2684,
+        "sha256": "b04c2b61e95e8081dac95ad9267751f913cec859f3557feedc5e263aeb274482",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 12,
+        "visibleBounds": {
+          "left": 48,
+          "top": 48,
+          "right": 459,
+          "bottom": 463
+        }
+      },
+      "webHd": {
+        "path": "public/assets/web-hd/cards/jade-guard/art@hd.png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 4400,
+        "sha256": "f53ec197ad6b938431ca882062bffaab0119bd24b79ec27c959dd6bc66f85a19",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 12,
+        "visibleBounds": {
+          "left": 96,
+          "top": 96,
+          "right": 919,
+          "bottom": 927
+        }
+      }
+    },
+    {
+      "id": "card.lxy.breathing.art",
+      "label": "调息牌图",
+      "kind": "sprite",
+      "sourceKind": "generated-raster-master",
+      "editableNativeSource": false,
+      "sourceGrid": "128x128",
+      "pivot": {
+        "x": 64,
+        "y": 64
+      },
+      "transparent": true,
+      "palette": [
+        "#24232B",
+        "#48434A",
+        "#8B6755",
+        "#B79578",
+        "#EDE2C8",
+        "#3E6861",
+        "#79A58C",
+        "#C3D1AC",
+        "#F7EFDA",
+        "#BB6252",
+        "#829BA5",
+        "#C6AD69"
+      ],
+      "generator": "OpenAI built-in imagegen",
+      "generatedOn": "2026-09-15",
+      "prompt": "调息：一枚悬浮小青玉珠位于恰好三道阶梯状拓印呼吸线之上，配一枚暖赭脉冲点；128 概念源格像素图，透明背景，无卡框、文字、数字、角色、手、UI 或场景。",
+      "reference": "docs/art/m3b/images/direction-board.png",
+      "provenanceStatus": "project-generated; release rights review pending",
+      "raw": {
+        "path": "assets-src/m3c/raw/exec-53384137-c9fd-478b-8954-568010d76603.png",
+        "sha256": "49c7638478970c5ca50ca594d3e48278f601dc55d54878c31edea6dff183b041"
+      },
+      "source": {
+        "path": "assets-src/m3c/source/cards/breath-regulation/art.source.png",
+        "width": 128,
+        "height": 128,
+        "bytes": 725,
+        "sha256": "ec36659e7994a9d9a8ccb16556680ed4b8e91124d684dca5efcf911793d2f8e5",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 10,
+        "visibleBounds": {
+          "left": 15,
+          "top": 12,
+          "right": 111,
+          "bottom": 115
+        }
+      },
+      "webSd": {
+        "path": "public/assets/web-sd/cards/breath-regulation/art@sd.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 1321,
+        "sha256": "eff59bf913a706a15717606cfb7abdeb4d5fd72a6974ed28de875a782899b66a",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 10,
+        "visibleBounds": {
+          "left": 60,
+          "top": 48,
+          "right": 447,
+          "bottom": 463
+        }
+      },
+      "webHd": {
+        "path": "public/assets/web-hd/cards/breath-regulation/art@hd.png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 2563,
+        "sha256": "4764b48b726ec9d446218aed83b253a1e7e50d6d165aa071fd676ab691ddcbe7",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 10,
+        "visibleBounds": {
+          "left": 120,
+          "top": 96,
+          "right": 895,
+          "bottom": 927
+        }
+      }
+    },
+    {
+      "id": "relic.archive-seal.icon",
+      "label": "档案印图标",
+      "kind": "sprite",
+      "sourceKind": "generated-raster-master",
+      "editableNativeSource": false,
+      "sourceGrid": "32x32",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "transparent": true,
+      "palette": [
+        "#24232B",
+        "#48434A",
+        "#8B6755",
+        "#B79578",
+        "#EDE2C8",
+        "#3E6861",
+        "#79A58C",
+        "#C3D1AC",
+        "#F7EFDA",
+        "#BB6252",
+        "#829BA5",
+        "#C6AD69"
+      ],
+      "generator": "OpenAI built-in imagegen",
+      "generatedOn": "2026-09-15",
+      "prompt": "档案印：矮方赭石印体，偏心矩形缺口，空白印面，两侧带克制墨痕；32 概念源格像素图，透明背景，无文字、卡框、UI、地面或投影。",
+      "reference": "docs/art/m3b/images/direction-board.png",
+      "provenanceStatus": "project-generated; release rights review pending",
+      "raw": {
+        "path": "assets-src/m3c/raw/exec-eed7eed1-1e68-49c5-b5a2-43aa3538e6e8.png",
+        "sha256": "64715bcdc8533b8df2695016c3f2dd85142028bf9e43f9a6fcea9344836c0741"
+      },
+      "source": {
+        "path": "assets-src/m3c/source/relics/archive-seal/icon.source.png",
+        "width": 32,
+        "height": 32,
+        "bytes": 316,
+        "sha256": "442d7c179736ee8d2a813d0374d3523397a7e34f8016d721eb64968688432b87",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 7,
+        "visibleBounds": {
+          "left": 4,
+          "top": 5,
+          "right": 27,
+          "bottom": 26
+        }
+      },
+      "webSd": {
+        "path": "public/assets/web-sd/relics/archive-seal/icon@sd.png",
+        "width": 128,
+        "height": 128,
+        "bytes": 416,
+        "sha256": "7f0698a020b98fd2a4db29b936fceb0a0c2c0f06d7435c925fca5c07dd88f8b5",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 7,
+        "visibleBounds": {
+          "left": 16,
+          "top": 20,
+          "right": 111,
+          "bottom": 107
+        }
+      },
+      "webHd": {
+        "path": "public/assets/web-hd/relics/archive-seal/icon@hd.png",
+        "width": 256,
+        "height": 256,
+        "bytes": 547,
+        "sha256": "c84c38627bbb4b1dcba1be255cbfcc4d0f3ec1c14d9136dd21ff44f094e9aa36",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 7,
+        "visibleBounds": {
+          "left": 32,
+          "top": 40,
+          "right": 223,
+          "bottom": 215
+        }
+      }
+    },
+    {
+      "id": "relic.jade-needle.icon",
+      "label": "玉针图标",
+      "kind": "sprite",
+      "sourceKind": "generated-raster-master",
+      "editableNativeSource": false,
+      "sourceGrid": "32x32",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "transparent": true,
+      "palette": [
+        "#24232B",
+        "#48434A",
+        "#8B6755",
+        "#B79578",
+        "#EDE2C8",
+        "#3E6861",
+        "#79A58C",
+        "#C3D1AC",
+        "#F7EFDA",
+        "#BB6252",
+        "#829BA5",
+        "#C6AD69"
+      ],
+      "generator": "OpenAI built-in imagegen",
+      "generatedOn": "2026-09-15",
+      "prompt": "玉针：略向上倾斜的细长浅青玉针，钝端有一穿孔及一小段赭色纤维环；32 概念源格像素图，透明背景，无文字、卡框、UI、地面或投影。",
+      "reference": "docs/art/m3b/images/direction-board.png",
+      "provenanceStatus": "project-generated; release rights review pending",
+      "raw": {
+        "path": "assets-src/m3c/raw/exec-7c1917c6-dedb-4293-ae63-e4e9573c723a.png",
+        "sha256": "3fc06fe5ae2866051c4431e7442631a472912b8d9d5aa16873c30049e958a01f"
+      },
+      "source": {
+        "path": "assets-src/m3c/source/relics/jade-needle/icon.source.png",
+        "width": 32,
+        "height": 32,
+        "bytes": 272,
+        "sha256": "63867e4e510773ea08f2adfffef22182073e66fefea91497ce6e234b031f7a46",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 11,
+        "visibleBounds": {
+          "left": 5,
+          "top": 5,
+          "right": 27,
+          "bottom": 25
+        }
+      },
+      "webSd": {
+        "path": "public/assets/web-sd/relics/jade-needle/icon@sd.png",
+        "width": 128,
+        "height": 128,
+        "bytes": 368,
+        "sha256": "a587963ccf490bb2cb4f34689c6e2cf96115a925f5049cf8282edaf019422c6e",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 11,
+        "visibleBounds": {
+          "left": 20,
+          "top": 20,
+          "right": 111,
+          "bottom": 103
+        }
+      },
+      "webHd": {
+        "path": "public/assets/web-hd/relics/jade-needle/icon@hd.png",
+        "width": 256,
+        "height": 256,
+        "bytes": 489,
+        "sha256": "60fe50c9d0f3ec826c0c0b891831fef9d16e6faf810841d0b2d87172af94047c",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 11,
+        "visibleBounds": {
+          "left": 40,
+          "top": 40,
+          "right": 223,
+          "bottom": 207
+        }
+      }
+    },
+    {
+      "id": "relic.river-stone.icon",
+      "label": "河石图标",
+      "kind": "sprite",
+      "sourceKind": "generated-raster-master",
+      "editableNativeSource": false,
+      "sourceGrid": "32x32",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "transparent": true,
+      "palette": [
+        "#24232B",
+        "#48434A",
+        "#8B6755",
+        "#B79578",
+        "#EDE2C8",
+        "#3E6861",
+        "#79A58C",
+        "#C3D1AC",
+        "#F7EFDA",
+        "#BB6252",
+        "#829BA5",
+        "#C6AD69"
+      ],
+      "generator": "OpenAI built-in imagegen",
+      "generatedOn": "2026-09-15",
+      "prompt": "河石：略不对称的圆润河石，三条不规则深土、暗玉、暖纸色矿带，一处轻微崩角；32 概念源格像素图，透明背景，无文字、卡框、UI、地面或投影。",
+      "reference": "docs/art/m3b/images/direction-board.png",
+      "provenanceStatus": "project-generated; release rights review pending",
+      "raw": {
+        "path": "assets-src/m3c/raw/exec-a0637804-8988-4677-9dcc-72aa029f5221.png",
+        "sha256": "47af14136c863047c2a1dbfbc9e354863d41a72b7775b107eeca8e4116e12de0"
+      },
+      "source": {
+        "path": "assets-src/m3c/source/relics/river-stone/icon.source.png",
+        "width": 32,
+        "height": 32,
+        "bytes": 315,
+        "sha256": "1e14b35f332a4fb3c0c934837424befcf3a89514d575cee7eef4b4d1fbd76a9a",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 9,
+        "visibleBounds": {
+          "left": 4,
+          "top": 7,
+          "right": 27,
+          "bottom": 23
+        }
+      },
+      "webSd": {
+        "path": "public/assets/web-sd/relics/river-stone/icon@sd.png",
+        "width": 128,
+        "height": 128,
+        "bytes": 415,
+        "sha256": "7e6d6a64c529891f738dd00fa995c6897bfc93c631d3c6a41238e95665f2ff6d",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 9,
+        "visibleBounds": {
+          "left": 16,
+          "top": 28,
+          "right": 111,
+          "bottom": 95
+        }
+      },
+      "webHd": {
+        "path": "public/assets/web-hd/relics/river-stone/icon@hd.png",
+        "width": 256,
+        "height": 256,
+        "bytes": 531,
+        "sha256": "c396f3f6447e8268d57c21be922ba4b11b7278df6337d1df82317e2252a83de9",
+        "alphaValues": [
+          0,
+          255
+        ],
+        "visibleColors": 9,
+        "visibleBounds": {
+          "left": 32,
+          "top": 56,
+          "right": 223,
+          "bottom": 191
+        }
+      }
+    },
+    {
+      "id": "scene.lingjiatan.battle",
+      "label": "遗迹战斗背景",
+      "kind": "background",
+      "sourceKind": "generated-raster-master",
+      "editableNativeSource": false,
+      "sourceGrid": "640x360",
+      "pivot": {
+        "x": 320,
+        "y": 180
+      },
+      "transparent": false,
+      "palette": [
+        "#24232B",
+        "#48434A",
+        "#8B6755",
+        "#B79578",
+        "#EDE2C8",
+        "#3E6861",
+        "#79A58C",
+        "#C3D1AC",
+        "#F7EFDA",
+        "#BB6252",
+        "#829BA5",
+        "#C6AD69"
+      ],
+      "generator": "OpenAI built-in imagegen",
+      "generatedOn": "2026-09-15",
+      "prompt": "凌家滩启发的低矮石院与发掘土层、空白拓片碑、浅祭坛台阶、断裂石梁；中段留安静战斗通道，左上暖光，低对比，640×360 概念源格，完整不透明画布，无角色、卡牌、UI、文字或标志。",
+      "reference": "docs/art/m3b/images/direction-board.png",
+      "provenanceStatus": "project-generated; release rights review pending",
+      "raw": {
+        "path": "assets-src/m3c/raw/exec-0f381d1b-6f99-4b7d-85b3-555c4e4bec5d.png",
+        "sha256": "0faa6ced79cfdd963197883d69ec734ab4f6c6aed268166024c0546c8c3485bd"
+      },
+      "source": {
+        "path": "assets-src/m3c/source/scenes/lingjiatan-battle/source.png",
+        "width": 640,
+        "height": 360,
+        "bytes": 26193,
+        "sha256": "df4932de35310ed2833ca1e7032942f75cf873e11f10566dcf4c13dd029ada47",
+        "alphaValues": [
+          255
+        ],
+        "visibleColors": 11,
+        "visibleBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 639,
+          "bottom": 359
+        }
+      },
+      "webSd": {
+        "path": "public/assets/web-sd/scenes/lingjiatan-battle@sd.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 29161,
+        "sha256": "958ceff7c43233e85a8884a63f620bb3f6a84693e3bca7aa9806c369a181048c",
+        "alphaValues": [
+          255
+        ],
+        "visibleColors": 11,
+        "visibleBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1279,
+          "bottom": 719
+        }
+      },
+      "webHd": {
+        "path": "public/assets/web-hd/scenes/lingjiatan-battle@hd.png",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 40912,
+        "sha256": "e274b3d81c47230a666c76adf0428f0863b2195e8d41a83615be896d67c3895f",
+        "alphaValues": [
+          255
+        ],
+        "visibleColors": 11,
+        "visibleBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1919,
+          "bottom": 1079
+        }
+      }
+    }
+  ]
+}

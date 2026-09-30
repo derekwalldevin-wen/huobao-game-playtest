@@ -1,0 +1,4995 @@
+{
+  "schemaVersion": 1,
+  "batch": "B1",
+  "builtOn": "2026-09-15",
+  "completedThrough": "B1",
+  "productionAuthorizedBeyondB0": true,
+  "productionAuthorizedBeyondB1": false,
+  "palette": [
+    "#24232B",
+    "#48434A",
+    "#8B6755",
+    "#B79578",
+    "#EDE2C8",
+    "#3E6861",
+    "#79A58C",
+    "#C3D1AC",
+    "#F7EFDA",
+    "#BB6252",
+    "#829BA5",
+    "#C6AD69"
+  ],
+  "assets": [
+    {
+      "id": "character.ling-xiaoyu.idle",
+      "kind": "sprite",
+      "status": "b1-animation-pass",
+      "sourceGrid": "96x128",
+      "pivot": {
+        "x": 48,
+        "y": 120
+      },
+      "input": {
+        "path": "assets-src/m3c/source/characters/ling-xiaoyu/idle.source.png",
+        "sha256": "8c59e40c423cdfa1ec47776c7decb199ca1f31c52c4ee0077fa77656215fa349"
+      },
+      "raw": null,
+      "source": {
+        "path": "assets-src/production-v1/characters/ling-xiaoyu/idle.source.png",
+        "sha256": "69f236324cec9b4a79addedd28dee9b74b07be3973c2ab014e754fc6b5bbe182",
+        "bytes": 1766,
+        "width": 96,
+        "height": 128,
+        "colors": [
+          "#48434a",
+          "#3e6861",
+          "#8b6755",
+          "#f7efda",
+          "#79a58c",
+          "#c3d1ac",
+          "#ede2c8",
+          "#b79578",
+          "#829ba5",
+          "#24232b",
+          "#bb6252",
+          "#c6ad69"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 8,
+          "top": 12,
+          "right": 87,
+          "bottom": 119
+        },
+        "margin": {
+          "left": 8,
+          "top": 12,
+          "right": 8,
+          "bottom": 8
+        }
+      },
+      "webSd": {
+        "path": "public/assets/production-v1/web-sd/characters/ling-xiaoyu/idle@sd.png",
+        "sha256": "969cc68b17c3991df8f6a3c00a1980edd4e26e0a047aa8713fea78773db72207",
+        "bytes": 2038,
+        "width": 192,
+        "height": 256,
+        "colors": [
+          "#48434a",
+          "#3e6861",
+          "#8b6755",
+          "#f7efda",
+          "#79a58c",
+          "#c3d1ac",
+          "#ede2c8",
+          "#b79578",
+          "#829ba5",
+          "#24232b",
+          "#bb6252",
+          "#c6ad69"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 16,
+          "top": 24,
+          "right": 175,
+          "bottom": 239
+        },
+        "margin": {
+          "left": 16,
+          "top": 24,
+          "right": 16,
+          "bottom": 16
+        }
+      },
+      "webHd": {
+        "path": "public/assets/production-v1/web-hd/characters/ling-xiaoyu/idle@hd.png",
+        "sha256": "97a783a81ad97abc093fddbd0100c3ee20c86f11e9c5c3384d2a301fcb3d59d9",
+        "bytes": 3161,
+        "width": 288,
+        "height": 384,
+        "colors": [
+          "#48434a",
+          "#3e6861",
+          "#8b6755",
+          "#f7efda",
+          "#79a58c",
+          "#c3d1ac",
+          "#ede2c8",
+          "#b79578",
+          "#829ba5",
+          "#24232b",
+          "#bb6252",
+          "#c6ad69"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 24,
+          "top": 36,
+          "right": 263,
+          "bottom": 359
+        },
+        "margin": {
+          "left": 24,
+          "top": 36,
+          "right": 24,
+          "bottom": 24
+        }
+      },
+      "thumbnail": null,
+      "layers": {
+        "kind": "palette-separated-png-layers",
+        "editableNativeSource": false,
+        "layers": [
+          {
+            "path": "assets-src/production-v1/characters/ling-xiaoyu/idle.layers/silhouette.png",
+            "sha256": "7181c2c013f38429086bbcc68005a797dbce83b9c280b0b0d62017ef7544829a",
+            "bytes": 864,
+            "width": 96,
+            "height": 128,
+            "colors": [
+              "#48434a",
+              "#24232b"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 8,
+              "top": 12,
+              "right": 87,
+              "bottom": 119
+            },
+            "margin": {
+              "left": 8,
+              "top": 12,
+              "right": 8,
+              "bottom": 8
+            }
+          },
+          {
+            "path": "assets-src/production-v1/characters/ling-xiaoyu/idle.layers/material.png",
+            "sha256": "101f9e6c97e6481ac71a0f2744c3dbfeebf8890efc91f73ac3f8e240ceb078d5",
+            "bytes": 1450,
+            "width": 96,
+            "height": 128,
+            "colors": [
+              "#3e6861",
+              "#8b6755",
+              "#f7efda",
+              "#79a58c",
+              "#c3d1ac",
+              "#ede2c8",
+              "#b79578"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 9,
+              "top": 12,
+              "right": 86,
+              "bottom": 118
+            },
+            "margin": {
+              "left": 9,
+              "top": 12,
+              "right": 9,
+              "bottom": 9
+            }
+          },
+          {
+            "path": "assets-src/production-v1/characters/ling-xiaoyu/idle.layers/marks.png",
+            "sha256": "d590ad5077a42b59d65642b5d4de26159ae828ea1d8742fe9fdf9e97bf3f9d9c",
+            "bytes": 311,
+            "width": 96,
+            "height": 128,
+            "colors": [
+              "#829ba5",
+              "#bb6252",
+              "#c6ad69"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 17,
+              "top": 17,
+              "right": 76,
+              "bottom": 111
+            },
+            "margin": {
+              "left": 17,
+              "top": 17,
+              "right": 19,
+              "bottom": 16
+            }
+          }
+        ],
+        "compositeEqualsSourceAfterTransparentRgbCanonicalization": true
+      },
+      "native": {
+        "requiredFormat": ".aseprite",
+        "available": true,
+        "path": "assets-src/production-v1/characters/ling-xiaoyu/idle.aseprite",
+        "sha256": "cce52c1ba139c5ff9088f70770d3fbc73201375c4c0d4e563ecdb751c03f5af7",
+        "bytes": 3971,
+        "asepriteVersion": "Aseprite 1.3.18.5-x64",
+        "layerNames": [
+          "silhouette",
+          "material",
+          "marks"
+        ],
+        "reopened": true,
+        "exportPath": "docs/art/m3e0/evidence/native-roundtrip/character.ling-xiaoyu.idle.source.png",
+        "exportedPngSha256": "22f3198123cd5b8c1805f6c39745228dc49149a3967d2e2105250dc879c7b44c",
+        "exportMatchesApprovedSourceAfterTransparentRgbCanonicalization": true,
+        "binaryAlpha": true,
+        "pivot": {
+          "x": 48,
+          "y": 120
+        },
+        "editabilityReview": {
+          "id": "character.ling-xiaoyu.idle",
+          "decision": "pass",
+          "reason": "Contour and shadow mass, jade/cloth body materials, and archive-tag/accent marks remain independently visible and editable.",
+          "limitation": "Future animation still requires purpose-built body-part and frame separation."
+        }
+      },
+      "animation": {
+        "id": "character.ling-xiaoyu.animation",
+        "batch": "B1",
+        "available": true,
+        "runtimeId": "character.ling_xiaoyu",
+        "sourceGrid": "96x128",
+        "pivot": {
+          "x": 48,
+          "y": 120
+        },
+        "footBottom": 119,
+        "native": {
+          "path": "assets-src/production-v1/characters/ling-xiaoyu/animation.aseprite",
+          "sha256": "e336778825f7b07887223310e5ff40653c5862cd1521f6e6130f6c6b56007847",
+          "bytes": 48969,
+          "reopened": true,
+          "layerNames": [
+            "silhouette",
+            "material",
+            "marks"
+          ],
+          "palette": [
+            "#24232B",
+            "#48434A",
+            "#8B6755",
+            "#B79578",
+            "#EDE2C8",
+            "#3E6861",
+            "#79A58C",
+            "#C3D1AC",
+            "#F7EFDA",
+            "#BB6252",
+            "#829BA5",
+            "#C6AD69"
+          ],
+          "tags": [
+            {
+              "name": "idle",
+              "from": 0,
+              "to": 3
+            },
+            {
+              "name": "attack",
+              "from": 4,
+              "to": 7
+            },
+            {
+              "name": "hit",
+              "from": 8,
+              "to": 9
+            },
+            {
+              "name": "defeat",
+              "from": 10,
+              "to": 13
+            }
+          ],
+          "durationsMs": [
+            167,
+            166,
+            167,
+            167,
+            83,
+            84,
+            83,
+            83,
+            83,
+            84,
+            125,
+            125,
+            125,
+            125
+          ]
+        },
+        "actions": [
+          {
+            "name": "idle",
+            "durations": [
+              167,
+              166,
+              167,
+              167
+            ]
+          },
+          {
+            "name": "attack",
+            "durations": [
+              83,
+              84,
+              83,
+              83
+            ]
+          },
+          {
+            "name": "hit",
+            "durations": [
+              83,
+              84
+            ]
+          },
+          {
+            "name": "defeat",
+            "durations": [
+              125,
+              125,
+              125,
+              125
+            ]
+          }
+        ],
+        "frames": [
+          {
+            "globalFrame": 0,
+            "action": "idle",
+            "actionFrame": 0,
+            "durationMs": 167,
+            "pose": {
+              "kind": "lean",
+              "dx": 0
+            },
+            "source": {
+              "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/000.source.png",
+              "sha256": "69f236324cec9b4a79addedd28dee9b74b07be3973c2ab014e754fc6b5bbe182",
+              "bytes": 1766,
+              "width": 96,
+              "height": 128,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#829ba5",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8",
+                "#f7efda"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 8,
+                "top": 12,
+                "right": 87,
+                "bottom": 119
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/000.layers/silhouette.png",
+                "sha256": "7a3c01e369e132f42543712aac42707821ad396321a7b7a7aa772c89a64cff32",
+                "bytes": 824,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/000.layers/material.png",
+                "sha256": "613334a8f3ce27e1c18f33ce8c3db596034c60d826de8db5716a1e20c36b25c4",
+                "bytes": 1435,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/000.layers/marks.png",
+                "sha256": "08758ec6b874f0a9ae1a4ee2f4a1e1bf8265026b9f660a722711b07478e042f3",
+                "bytes": 300,
+                "width": 96,
+                "height": 128
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/characters/ling-xiaoyu/animation/idle/000@sd.png",
+              "sha256": "09465354562923e6f06463dc9289a2585b313a95c7c3720fe700ec88d577d6ab",
+              "bytes": 1993,
+              "width": 192,
+              "height": 256
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/characters/ling-xiaoyu/animation/idle/000@hd.png",
+              "sha256": "c5d11c010aef1c4bb767b6627090dc6e22990482e12eb0d94fb367418df973e9",
+              "bytes": 2907,
+              "width": 288,
+              "height": 384
+            }
+          },
+          {
+            "globalFrame": 1,
+            "action": "idle",
+            "actionFrame": 1,
+            "durationMs": 166,
+            "pose": {
+              "kind": "lean",
+              "dx": 1
+            },
+            "source": {
+              "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/001.source.png",
+              "sha256": "02fec0f9436e2593a8049ae28ce806a6dd6d0ea1b233ed97af1685e794ff6fdb",
+              "bytes": 1772,
+              "width": 96,
+              "height": 128,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#829ba5",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8",
+                "#f7efda"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 8,
+                "top": 12,
+                "right": 87,
+                "bottom": 119
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/001.layers/silhouette.png",
+                "sha256": "2508fe41f736fc35a75aef4f49f3be7e525464ed3f1beca40dd7dfbcb32e6a56",
+                "bytes": 834,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/001.layers/material.png",
+                "sha256": "cb971acd74b8a6bed1e8751c6acc56d142f03dbf517195b6cdf9cc65acea6db8",
+                "bytes": 1453,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/001.layers/marks.png",
+                "sha256": "938d30ec7550a61f547defe931d523a009a156e9d6c7773ac026aa46a7f8abb2",
+                "bytes": 299,
+                "width": 96,
+                "height": 128
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/characters/ling-xiaoyu/animation/idle/001@sd.png",
+              "sha256": "81c680ed7b08320f3e171eea77c7b5ef07e2999088a36736a546894b273ce91a",
+              "bytes": 1993,
+              "width": 192,
+              "height": 256
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/characters/ling-xiaoyu/animation/idle/001@hd.png",
+              "sha256": "4d49ea7c2405fc249646cfd323d48374590dbd462d2bd1f20373e71c39f9b81a",
+              "bytes": 2902,
+              "width": 288,
+              "height": 384
+            }
+          },
+          {
+            "globalFrame": 2,
+            "action": "idle",
+            "actionFrame": 2,
+            "durationMs": 167,
+            "pose": {
+              "kind": "lean",
+              "dx": 0
+            },
+            "source": {
+              "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/002.source.png",
+              "sha256": "69f236324cec9b4a79addedd28dee9b74b07be3973c2ab014e754fc6b5bbe182",
+              "bytes": 1766,
+              "width": 96,
+              "height": 128,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#829ba5",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8",
+                "#f7efda"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 8,
+                "top": 12,
+                "right": 87,
+                "bottom": 119
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/002.layers/silhouette.png",
+                "sha256": "7a3c01e369e132f42543712aac42707821ad396321a7b7a7aa772c89a64cff32",
+                "bytes": 824,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/002.layers/material.png",
+                "sha256": "613334a8f3ce27e1c18f33ce8c3db596034c60d826de8db5716a1e20c36b25c4",
+                "bytes": 1435,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/002.layers/marks.png",
+                "sha256": "08758ec6b874f0a9ae1a4ee2f4a1e1bf8265026b9f660a722711b07478e042f3",
+                "bytes": 300,
+                "width": 96,
+                "height": 128
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/characters/ling-xiaoyu/animation/idle/002@sd.png",
+              "sha256": "09465354562923e6f06463dc9289a2585b313a95c7c3720fe700ec88d577d6ab",
+              "bytes": 1993,
+              "width": 192,
+              "height": 256
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/characters/ling-xiaoyu/animation/idle/002@hd.png",
+              "sha256": "c5d11c010aef1c4bb767b6627090dc6e22990482e12eb0d94fb367418df973e9",
+              "bytes": 2907,
+              "width": 288,
+              "height": 384
+            }
+          },
+          {
+            "globalFrame": 3,
+            "action": "idle",
+            "actionFrame": 3,
+            "durationMs": 167,
+            "pose": {
+              "kind": "lean",
+              "dx": -1
+            },
+            "source": {
+              "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/003.source.png",
+              "sha256": "ab34763c1aa74815a9f8b51a701f6daa403f0104e5de759d5e74dec349fcbf37",
+              "bytes": 1776,
+              "width": 96,
+              "height": 128,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#829ba5",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8",
+                "#f7efda"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 8,
+                "top": 12,
+                "right": 87,
+                "bottom": 119
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/003.layers/silhouette.png",
+                "sha256": "9ae9b6ebcdd145170cec92839ffcf151c145c0ba4d19b1c7c940a3d14bd89118",
+                "bytes": 835,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/003.layers/material.png",
+                "sha256": "462ef1c028276b4ad8f583b5561ccaf70a4112316a8f428a9ecac5af9b9b5b9b",
+                "bytes": 1453,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/idle/003.layers/marks.png",
+                "sha256": "470a8cfe0181b56cf85a0fd63087df6b1b56bec48920c317484a2dd8a51f3742",
+                "bytes": 299,
+                "width": 96,
+                "height": 128
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/characters/ling-xiaoyu/animation/idle/003@sd.png",
+              "sha256": "14a1743a76f9ed309dcdd55cfe32306d30d79d47719e7a93b74017fd970b8d80",
+              "bytes": 1994,
+              "width": 192,
+              "height": 256
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/characters/ling-xiaoyu/animation/idle/003@hd.png",
+              "sha256": "75df3df409684d36c11d7463f0988fd472ae2d7d3918e272a9261ea864bec259",
+              "bytes": 2902,
+              "width": 288,
+              "height": 384
+            }
+          },
+          {
+            "globalFrame": 4,
+            "action": "attack",
+            "actionFrame": 0,
+            "durationMs": 83,
+            "pose": {
+              "kind": "lean",
+              "dx": 0
+            },
+            "source": {
+              "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/000.source.png",
+              "sha256": "69f236324cec9b4a79addedd28dee9b74b07be3973c2ab014e754fc6b5bbe182",
+              "bytes": 1766,
+              "width": 96,
+              "height": 128,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#829ba5",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8",
+                "#f7efda"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 8,
+                "top": 12,
+                "right": 87,
+                "bottom": 119
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/000.layers/silhouette.png",
+                "sha256": "7a3c01e369e132f42543712aac42707821ad396321a7b7a7aa772c89a64cff32",
+                "bytes": 824,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/000.layers/material.png",
+                "sha256": "613334a8f3ce27e1c18f33ce8c3db596034c60d826de8db5716a1e20c36b25c4",
+                "bytes": 1435,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/000.layers/marks.png",
+                "sha256": "08758ec6b874f0a9ae1a4ee2f4a1e1bf8265026b9f660a722711b07478e042f3",
+                "bytes": 300,
+                "width": 96,
+                "height": 128
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/characters/ling-xiaoyu/animation/attack/000@sd.png",
+              "sha256": "09465354562923e6f06463dc9289a2585b313a95c7c3720fe700ec88d577d6ab",
+              "bytes": 1993,
+              "width": 192,
+              "height": 256
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/characters/ling-xiaoyu/animation/attack/000@hd.png",
+              "sha256": "c5d11c010aef1c4bb767b6627090dc6e22990482e12eb0d94fb367418df973e9",
+              "bytes": 2907,
+              "width": 288,
+              "height": 384
+            }
+          },
+          {
+            "globalFrame": 5,
+            "action": "attack",
+            "actionFrame": 1,
+            "durationMs": 84,
+            "pose": {
+              "kind": "lean",
+              "dx": 2
+            },
+            "source": {
+              "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/001.source.png",
+              "sha256": "d2f7d4b4b71a93532f7906b22580729982459b802b42b4f2324ff263009cf056",
+              "bytes": 1773,
+              "width": 96,
+              "height": 128,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#829ba5",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8",
+                "#f7efda"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 8,
+                "top": 12,
+                "right": 88,
+                "bottom": 119
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/001.layers/silhouette.png",
+                "sha256": "881d15f25286ab42993e6a73abd5386944e5d44f129158676289a207ba8031c0",
+                "bytes": 835,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/001.layers/material.png",
+                "sha256": "47976611e5681c4fffb796c63f8c2568f519d5d65963ab8e4e00bf4d829fc465",
+                "bytes": 1441,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/001.layers/marks.png",
+                "sha256": "5cb06e9eb4802102ef7757a04ad009475b0c53f5ebe14356ae9f4ed62dee5a1f",
+                "bytes": 299,
+                "width": 96,
+                "height": 128
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/characters/ling-xiaoyu/animation/attack/001@sd.png",
+              "sha256": "7fe273610e4f8105e59b97cd043fcd9eac0d5aae6cdaea4eb67be27a84a6f505",
+              "bytes": 2002,
+              "width": 192,
+              "height": 256
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/characters/ling-xiaoyu/animation/attack/001@hd.png",
+              "sha256": "c826ba27a105f00b696c0d4a71569d52b426a237ad4ff2ab690cb56973e40e1b",
+              "bytes": 2924,
+              "width": 288,
+              "height": 384
+            }
+          },
+          {
+            "globalFrame": 6,
+            "action": "attack",
+            "actionFrame": 2,
+            "durationMs": 83,
+            "pose": {
+              "kind": "lean",
+              "dx": 6
+            },
+            "source": {
+              "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/002.source.png",
+              "sha256": "379e19052776a03ff464492ac5a005ddfe4f773cf88651e72fd677209af1f317",
+              "bytes": 1770,
+              "width": 96,
+              "height": 128,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#829ba5",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8",
+                "#f7efda"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 9,
+                "top": 12,
+                "right": 89,
+                "bottom": 119
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/002.layers/silhouette.png",
+                "sha256": "e5b1c2a9e07715165fc980517d85b720de0589f168cb405010e2cca4ca6670b7",
+                "bytes": 839,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/002.layers/material.png",
+                "sha256": "ae75b0cb3fa67c1bf5cea3801540234499fa5cf104942807eb6e88c1e491d265",
+                "bytes": 1441,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/002.layers/marks.png",
+                "sha256": "b10160fcc0904ae6f9257b05fde006084533e06bdf2363b3132dcc0e99b598b2",
+                "bytes": 298,
+                "width": 96,
+                "height": 128
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/characters/ling-xiaoyu/animation/attack/002@sd.png",
+              "sha256": "f57e2c53d96ccc093c1e0214d6c2a5c4598764aa3d487fe44c69e255985314c6",
+              "bytes": 2011,
+              "width": 192,
+              "height": 256
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/characters/ling-xiaoyu/animation/attack/002@hd.png",
+              "sha256": "a365a6fd0daa5ee5d281c89ec1defd4f706b0599ca004f61705949e6e2c9d904",
+              "bytes": 2916,
+              "width": 288,
+              "height": 384
+            }
+          },
+          {
+            "globalFrame": 7,
+            "action": "attack",
+            "actionFrame": 3,
+            "durationMs": 83,
+            "pose": {
+              "kind": "lean",
+              "dx": 3
+            },
+            "source": {
+              "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/003.source.png",
+              "sha256": "27a988a6cc0c5163c1447917808d8b9a8dbc300cc974a0d66bbc146316fa98db",
+              "bytes": 1771,
+              "width": 96,
+              "height": 128,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#829ba5",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8",
+                "#f7efda"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 8,
+                "top": 12,
+                "right": 88,
+                "bottom": 119
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/003.layers/silhouette.png",
+                "sha256": "139e922b1120449f2f17220bb459a9ab5353fda9f0fa89b98a1ece3dc562ef56",
+                "bytes": 832,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/003.layers/material.png",
+                "sha256": "2d3fd7666998b3436c3d325c7366b187665abc3ccde64a4e193445e481b21c57",
+                "bytes": 1436,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/attack/003.layers/marks.png",
+                "sha256": "ae7dcceb44b6dc428543e399d821c08e2dd6d21b1affb066dc0eb42476f11e6c",
+                "bytes": 295,
+                "width": 96,
+                "height": 128
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/characters/ling-xiaoyu/animation/attack/003@sd.png",
+              "sha256": "ea6692304ef4a98b45608f03e10329320bc797167a1cdcdc5afb8a7d6c74e6db",
+              "bytes": 2000,
+              "width": 192,
+              "height": 256
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/characters/ling-xiaoyu/animation/attack/003@hd.png",
+              "sha256": "551525eac7f3d80f7948977184c8b6d471c2ec3a9b253b455cd0691e904fedcd",
+              "bytes": 2910,
+              "width": 288,
+              "height": 384
+            }
+          },
+          {
+            "globalFrame": 8,
+            "action": "hit",
+            "actionFrame": 0,
+            "durationMs": 83,
+            "pose": {
+              "kind": "lean",
+              "dx": -3
+            },
+            "source": {
+              "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/hit/000.source.png",
+              "sha256": "f99e7ed23f9768c7340d40411b6aff910c8b35326b3227d5e727e0ef94b8d4ca",
+              "bytes": 1774,
+              "width": 96,
+              "height": 128,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#829ba5",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8",
+                "#f7efda"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 7,
+                "top": 12,
+                "right": 86,
+                "bottom": 119
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/hit/000.layers/silhouette.png",
+                "sha256": "d0f2c3e709698b0a9de03bc0bdac70239200f4740b1b37ee4b30509ec9379252",
+                "bytes": 831,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/hit/000.layers/material.png",
+                "sha256": "fbd9c2ce8ab50e3a7764c38f9f1b637cdd16ea0aa0768ca3d6a3b9f54581618d",
+                "bytes": 1439,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/hit/000.layers/marks.png",
+                "sha256": "b71f86a62e0caeff7c9974c55f63bd218126e133cc4ad7a6714938fe6fec9392",
+                "bytes": 295,
+                "width": 96,
+                "height": 128
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/characters/ling-xiaoyu/animation/hit/000@sd.png",
+              "sha256": "338b6ed6d3edf5f575da22d4467be7d8b4b5d798051e1362d01717b9946c3322",
+              "bytes": 1996,
+              "width": 192,
+              "height": 256
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/characters/ling-xiaoyu/animation/hit/000@hd.png",
+              "sha256": "8596cba3b9f0ddf716ac874f0504d236cafa168d7500a88b858437d8861e112b",
+              "bytes": 2907,
+              "width": 288,
+              "height": 384
+            }
+          },
+          {
+            "globalFrame": 9,
+            "action": "hit",
+            "actionFrame": 1,
+            "durationMs": 84,
+            "pose": {
+              "kind": "lean",
+              "dx": 0
+            },
+            "source": {
+              "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/hit/001.source.png",
+              "sha256": "69f236324cec9b4a79addedd28dee9b74b07be3973c2ab014e754fc6b5bbe182",
+              "bytes": 1766,
+              "width": 96,
+              "height": 128,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#829ba5",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8",
+                "#f7efda"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 8,
+                "top": 12,
+                "right": 87,
+                "bottom": 119
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/hit/001.layers/silhouette.png",
+                "sha256": "7a3c01e369e132f42543712aac42707821ad396321a7b7a7aa772c89a64cff32",
+                "bytes": 824,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/hit/001.layers/material.png",
+                "sha256": "613334a8f3ce27e1c18f33ce8c3db596034c60d826de8db5716a1e20c36b25c4",
+                "bytes": 1435,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/hit/001.layers/marks.png",
+                "sha256": "08758ec6b874f0a9ae1a4ee2f4a1e1bf8265026b9f660a722711b07478e042f3",
+                "bytes": 300,
+                "width": 96,
+                "height": 128
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/characters/ling-xiaoyu/animation/hit/001@sd.png",
+              "sha256": "09465354562923e6f06463dc9289a2585b313a95c7c3720fe700ec88d577d6ab",
+              "bytes": 1993,
+              "width": 192,
+              "height": 256
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/characters/ling-xiaoyu/animation/hit/001@hd.png",
+              "sha256": "c5d11c010aef1c4bb767b6627090dc6e22990482e12eb0d94fb367418df973e9",
+              "bytes": 2907,
+              "width": 288,
+              "height": 384
+            }
+          },
+          {
+            "globalFrame": 10,
+            "action": "defeat",
+            "actionFrame": 0,
+            "durationMs": 125,
+            "pose": {
+              "kind": "scale",
+              "x": 1,
+              "y": 1,
+              "offset": 0
+            },
+            "source": {
+              "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/000.source.png",
+              "sha256": "69f236324cec9b4a79addedd28dee9b74b07be3973c2ab014e754fc6b5bbe182",
+              "bytes": 1766,
+              "width": 96,
+              "height": 128,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#829ba5",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8",
+                "#f7efda"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 8,
+                "top": 12,
+                "right": 87,
+                "bottom": 119
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/000.layers/silhouette.png",
+                "sha256": "7a3c01e369e132f42543712aac42707821ad396321a7b7a7aa772c89a64cff32",
+                "bytes": 824,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/000.layers/material.png",
+                "sha256": "613334a8f3ce27e1c18f33ce8c3db596034c60d826de8db5716a1e20c36b25c4",
+                "bytes": 1435,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/000.layers/marks.png",
+                "sha256": "08758ec6b874f0a9ae1a4ee2f4a1e1bf8265026b9f660a722711b07478e042f3",
+                "bytes": 300,
+                "width": 96,
+                "height": 128
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/characters/ling-xiaoyu/animation/defeat/000@sd.png",
+              "sha256": "09465354562923e6f06463dc9289a2585b313a95c7c3720fe700ec88d577d6ab",
+              "bytes": 1993,
+              "width": 192,
+              "height": 256
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/characters/ling-xiaoyu/animation/defeat/000@hd.png",
+              "sha256": "c5d11c010aef1c4bb767b6627090dc6e22990482e12eb0d94fb367418df973e9",
+              "bytes": 2907,
+              "width": 288,
+              "height": 384
+            }
+          },
+          {
+            "globalFrame": 11,
+            "action": "defeat",
+            "actionFrame": 1,
+            "durationMs": 125,
+            "pose": {
+              "kind": "scale",
+              "x": 1.02,
+              "y": 0.9,
+              "offset": -1
+            },
+            "source": {
+              "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/001.source.png",
+              "sha256": "b03b01c795ab6f4f47fb6b4ae4232fcb815be78a182dca826870fe08685b307b",
+              "bytes": 1637,
+              "width": 96,
+              "height": 128,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#829ba5",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8",
+                "#f7efda"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 6,
+                "top": 23,
+                "right": 87,
+                "bottom": 119
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/001.layers/silhouette.png",
+                "sha256": "399aedcf76d389ecafcd6e7d73a4ef97bf8a61bfe4ac6d2bea87c463d3af02b7",
+                "bytes": 771,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/001.layers/material.png",
+                "sha256": "2915951c687e0435c34e50c4cdb74296b6d317f1433e624d9c41218b002330df",
+                "bytes": 1352,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/001.layers/marks.png",
+                "sha256": "522dadfb3eb509f09dcddec01a35d673e3ea00b4a2fe2c6de9abb207609482c8",
+                "bytes": 284,
+                "width": 96,
+                "height": 128
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/characters/ling-xiaoyu/animation/defeat/001@sd.png",
+              "sha256": "b0d87dff0e941c68c1aec2a076f027858a8e0992ab90b4705a3ff73d22366a41",
+              "bytes": 1856,
+              "width": 192,
+              "height": 256
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/characters/ling-xiaoyu/animation/defeat/001@hd.png",
+              "sha256": "fe5f20f2c6c9dda31647cbd17e6d1ddbbd8fd92f46348f0e8fbbfd0016ac68b6",
+              "bytes": 2683,
+              "width": 288,
+              "height": 384
+            }
+          },
+          {
+            "globalFrame": 12,
+            "action": "defeat",
+            "actionFrame": 2,
+            "durationMs": 125,
+            "pose": {
+              "kind": "scale",
+              "x": 1.06,
+              "y": 0.64,
+              "offset": -2
+            },
+            "source": {
+              "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/002.source.png",
+              "sha256": "dc3c682f6b6ad50c0bbb0b1c2ef893d9b1402817658354f8bfd7f63b3696e5a2",
+              "bytes": 1304,
+              "width": 96,
+              "height": 128,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#829ba5",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8",
+                "#f7efda"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 4,
+                "top": 51,
+                "right": 87,
+                "bottom": 119
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/002.layers/silhouette.png",
+                "sha256": "a540f9be77f7933e42b8d69664ab0eb74f4c7a4f873b32a1a4b34e7872e204ac",
+                "bytes": 645,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/002.layers/material.png",
+                "sha256": "d5cb08fc7c00e9d56d28a215a8165bb17be3d98c4e3c462dcb924dbe90518c38",
+                "bytes": 1058,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/002.layers/marks.png",
+                "sha256": "c28fa5655894d75f5175678925c6560f8b98a285a201c62493a36464beed9e3c",
+                "bytes": 252,
+                "width": 96,
+                "height": 128
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/characters/ling-xiaoyu/animation/defeat/002@sd.png",
+              "sha256": "b43cd18d101e076a75b023b8b38cbeaac7a6a7e03a70a7d7d012996678cdbba6",
+              "bytes": 1485,
+              "width": 192,
+              "height": 256
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/characters/ling-xiaoyu/animation/defeat/002@hd.png",
+              "sha256": "4a3299b4ee68041e5c200a0fc5b70ac4f349f4ba2ae080061dfa02bbd32a7aec",
+              "bytes": 2127,
+              "width": 288,
+              "height": 384
+            }
+          },
+          {
+            "globalFrame": 13,
+            "action": "defeat",
+            "actionFrame": 3,
+            "durationMs": 125,
+            "pose": {
+              "kind": "scale",
+              "x": 1.1,
+              "y": 0.38,
+              "offset": -3
+            },
+            "source": {
+              "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/003.source.png",
+              "sha256": "e635a417d29af46e3714c05b9d738f4298aabd6e10f37c54236f364464f41844",
+              "bytes": 917,
+              "width": 96,
+              "height": 128,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#829ba5",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8",
+                "#f7efda"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 1,
+                "top": 79,
+                "right": 88,
+                "bottom": 119
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/003.layers/silhouette.png",
+                "sha256": "6e47c36b363eb67dce6d890da29e3e41ff314c9646d2363ed0d10631fdbc67a9",
+                "bytes": 457,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/003.layers/material.png",
+                "sha256": "d0d587d837d38d665d8767be052096d3fed5155d785d22c831320f1eb601917e",
+                "bytes": 744,
+                "width": 96,
+                "height": 128
+              },
+              {
+                "path": "assets-src/production-v1/characters/ling-xiaoyu/animation/defeat/003.layers/marks.png",
+                "sha256": "16c49917bd93375f7119f595ae2ef8849ca78daaa6149846bd5d6f17561767e8",
+                "bytes": 222,
+                "width": 96,
+                "height": 128
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/characters/ling-xiaoyu/animation/defeat/003@sd.png",
+              "sha256": "ce3522e5348ace53aa66bae8f3ef131b34008a6c23832ad46db0bb87b9bfcbdf",
+              "bytes": 1054,
+              "width": 192,
+              "height": 256
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/characters/ling-xiaoyu/animation/defeat/003@hd.png",
+              "sha256": "bc61139d1a0e0f63aac3883a56e6ee2511309dc41c62b2277655c12f527ae35c",
+              "bytes": 1484,
+              "width": 288,
+              "height": 384
+            }
+          }
+        ],
+        "visualReview": {
+          "id": "character.ling-xiaoyu.animation",
+          "decision": "pass",
+          "checks": {
+            "idle": "脚部稳定，头身仅作一像素横向呼吸摆动",
+            "attack": "向右前倾，轮廓变化在战斗阅读距离可见",
+            "hit": "反向短促偏移，未改变脚锚",
+            "defeat": "以脚锚为基准分四阶段压低塌落，末帧与站立轮廓明确区分"
+          },
+          "limitation": "B1 使用确定性整数像素姿态变换，未制作肢体骨骼或附加攻击特效。"
+        },
+        "contactSheet": "docs/art/b1/evidence/character.ling-xiaoyu.animation-sequence.png"
+      }
+    },
+    {
+      "id": "enemy.clay-sentinel.idle",
+      "kind": "sprite",
+      "status": "b1-animation-pass",
+      "sourceGrid": "128x144",
+      "pivot": {
+        "x": 64,
+        "y": 136
+      },
+      "input": {
+        "path": "assets-src/m3e0/raw/clay-sentinel-revision.png",
+        "sha256": "05b38ae818919eef3d1a6bb613c612e13c7b7933e18888b4aba2decab8107c33"
+      },
+      "raw": {
+        "path": "assets-src/m3e0/raw/clay-sentinel-revision.png",
+        "sha256": "05b38ae818919eef3d1a6bb613c612e13c7b7933e18888b4aba2decab8107c33"
+      },
+      "source": {
+        "path": "assets-src/production-v1/enemies/clay-sentinel/idle.source.png",
+        "sha256": "794863e87d3885c33805b90ce9e83092fe237c1dd362cce256a790cf8fb29729",
+        "bytes": 2805,
+        "width": 128,
+        "height": 144,
+        "colors": [
+          "#24232b",
+          "#48434a",
+          "#c3d1ac",
+          "#bb6252",
+          "#ede2c8",
+          "#c6ad69",
+          "#8b6755",
+          "#b79578",
+          "#3e6861",
+          "#79a58c"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 10,
+          "top": 22,
+          "right": 117,
+          "bottom": 135
+        },
+        "margin": {
+          "left": 10,
+          "top": 22,
+          "right": 10,
+          "bottom": 8
+        }
+      },
+      "webSd": {
+        "path": "public/assets/production-v1/web-sd/enemies/clay-sentinel/idle@sd.png",
+        "sha256": "f21fe45569e4134228b75a3b4cfa29da5f8e3e900510d2bc091cc52fb4734fa9",
+        "bytes": 3174,
+        "width": 256,
+        "height": 288,
+        "colors": [
+          "#24232b",
+          "#48434a",
+          "#c3d1ac",
+          "#bb6252",
+          "#ede2c8",
+          "#c6ad69",
+          "#8b6755",
+          "#b79578",
+          "#3e6861",
+          "#79a58c"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 20,
+          "top": 44,
+          "right": 235,
+          "bottom": 271
+        },
+        "margin": {
+          "left": 20,
+          "top": 44,
+          "right": 20,
+          "bottom": 16
+        }
+      },
+      "webHd": {
+        "path": "public/assets/production-v1/web-hd/enemies/clay-sentinel/idle@hd.png",
+        "sha256": "2d0c86101c8bd12c0153048bf63ed94e502f8a3eec4afda0cbdae3b10a897ac2",
+        "bytes": 4763,
+        "width": 384,
+        "height": 432,
+        "colors": [
+          "#24232b",
+          "#48434a",
+          "#c3d1ac",
+          "#bb6252",
+          "#ede2c8",
+          "#c6ad69",
+          "#8b6755",
+          "#b79578",
+          "#3e6861",
+          "#79a58c"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 30,
+          "top": 66,
+          "right": 353,
+          "bottom": 407
+        },
+        "margin": {
+          "left": 30,
+          "top": 66,
+          "right": 30,
+          "bottom": 24
+        }
+      },
+      "thumbnail": null,
+      "layers": {
+        "kind": "palette-separated-png-layers",
+        "editableNativeSource": false,
+        "layers": [
+          {
+            "path": "assets-src/production-v1/enemies/clay-sentinel/idle.layers/silhouette.png",
+            "sha256": "7ebd8462d999521c7a203037a59a3c95daf804333b51d180c06900c8a29fb402",
+            "bytes": 1535,
+            "width": 128,
+            "height": 144,
+            "colors": [
+              "#24232b",
+              "#48434a"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 10,
+              "top": 22,
+              "right": 117,
+              "bottom": 135
+            },
+            "margin": {
+              "left": 10,
+              "top": 22,
+              "right": 10,
+              "bottom": 8
+            }
+          },
+          {
+            "path": "assets-src/production-v1/enemies/clay-sentinel/idle.layers/material.png",
+            "sha256": "856f1d3396850c8e8e0065000051976dec00e55aa3b3e52c9206c682b6ce6794",
+            "bytes": 1787,
+            "width": 128,
+            "height": 144,
+            "colors": [
+              "#c3d1ac",
+              "#ede2c8",
+              "#8b6755",
+              "#b79578",
+              "#3e6861",
+              "#79a58c"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 12,
+              "top": 24,
+              "right": 116,
+              "bottom": 134
+            },
+            "margin": {
+              "left": 12,
+              "top": 24,
+              "right": 11,
+              "bottom": 9
+            }
+          },
+          {
+            "path": "assets-src/production-v1/enemies/clay-sentinel/idle.layers/marks.png",
+            "sha256": "d8dd9551632e851b68f5e3d41af0b4fb6ceb74cf90bf9d50c87d7f2a90696e01",
+            "bytes": 1343,
+            "width": 128,
+            "height": 144,
+            "colors": [
+              "#bb6252",
+              "#c6ad69"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 14,
+              "top": 25,
+              "right": 114,
+              "bottom": 134
+            },
+            "margin": {
+              "left": 14,
+              "top": 25,
+              "right": 13,
+              "bottom": 9
+            }
+          }
+        ],
+        "compositeEqualsSourceAfterTransparentRgbCanonicalization": true
+      },
+      "native": {
+        "requiredFormat": ".aseprite",
+        "available": true,
+        "path": "assets-src/production-v1/enemies/clay-sentinel/idle.aseprite",
+        "sha256": "2a5b1addff5d2172f2955a443d54644a4115686b0c09d37ac5383259bd61cf8b",
+        "bytes": 6913,
+        "asepriteVersion": "Aseprite 1.3.18.5-x64",
+        "layerNames": [
+          "silhouette",
+          "material",
+          "marks"
+        ],
+        "reopened": true,
+        "exportPath": "docs/art/m3e0/evidence/native-roundtrip/enemy.clay-sentinel.idle.source.png",
+        "exportedPngSha256": "f26a5903970208a86433220517fd2cdd44a165f46196e5ea9c5570ab08967565",
+        "exportMatchesApprovedSourceAfterTransparentRgbCanonicalization": true,
+        "binaryAlpha": true,
+        "pivot": {
+          "x": 64,
+          "y": 136
+        },
+        "editabilityReview": {
+          "id": "enemy.clay-sentinel.idle",
+          "decision": "pass",
+          "reason": "Rock silhouette/shadow, clay body planes, and fired-clay crack/highlight marks form three coherent editable roles.",
+          "limitation": "Future animation still requires purpose-built body-part and frame separation."
+        }
+      },
+      "animation": {
+        "id": "enemy.clay-sentinel.animation",
+        "batch": "B1",
+        "available": true,
+        "runtimeId": "enemy.clay_sentinel",
+        "sourceGrid": "128x144",
+        "pivot": {
+          "x": 64,
+          "y": 136
+        },
+        "footBottom": 135,
+        "native": {
+          "path": "assets-src/production-v1/enemies/clay-sentinel/animation.aseprite",
+          "sha256": "68810968cd91cfa94aa9101d5751f6ce69fde545c5c8067ae9b981f5d558c8cb",
+          "bytes": 87154,
+          "reopened": true,
+          "layerNames": [
+            "silhouette",
+            "material",
+            "marks"
+          ],
+          "palette": [
+            "#24232B",
+            "#48434A",
+            "#8B6755",
+            "#B79578",
+            "#EDE2C8",
+            "#3E6861",
+            "#79A58C",
+            "#C3D1AC",
+            "#F7EFDA",
+            "#BB6252",
+            "#829BA5",
+            "#C6AD69"
+          ],
+          "tags": [
+            {
+              "name": "idle",
+              "from": 0,
+              "to": 3
+            },
+            {
+              "name": "attack",
+              "from": 4,
+              "to": 7
+            },
+            {
+              "name": "hit",
+              "from": 8,
+              "to": 9
+            },
+            {
+              "name": "defeat",
+              "from": 10,
+              "to": 13
+            }
+          ],
+          "durationsMs": [
+            167,
+            166,
+            167,
+            167,
+            83,
+            84,
+            83,
+            83,
+            83,
+            84,
+            125,
+            125,
+            125,
+            125
+          ]
+        },
+        "actions": [
+          {
+            "name": "idle",
+            "durations": [
+              167,
+              166,
+              167,
+              167
+            ]
+          },
+          {
+            "name": "attack",
+            "durations": [
+              83,
+              84,
+              83,
+              83
+            ]
+          },
+          {
+            "name": "hit",
+            "durations": [
+              83,
+              84
+            ]
+          },
+          {
+            "name": "defeat",
+            "durations": [
+              125,
+              125,
+              125,
+              125
+            ]
+          }
+        ],
+        "frames": [
+          {
+            "globalFrame": 0,
+            "action": "idle",
+            "actionFrame": 0,
+            "durationMs": 167,
+            "pose": {
+              "kind": "lean",
+              "dx": 0
+            },
+            "source": {
+              "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/000.source.png",
+              "sha256": "794863e87d3885c33805b90ce9e83092fe237c1dd362cce256a790cf8fb29729",
+              "bytes": 2805,
+              "width": 128,
+              "height": 144,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 10,
+                "top": 22,
+                "right": 117,
+                "bottom": 135
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/000.layers/silhouette.png",
+                "sha256": "991fe4259a7994240ffc7b35a73609ccb81b24f03b9cb3656eb81d96e7f2b071",
+                "bytes": 1491,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/000.layers/material.png",
+                "sha256": "4e20f939b2a48e7e62449119721a85b48f4205deaa2ebc50336ebc1f284213d8",
+                "bytes": 1747,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/000.layers/marks.png",
+                "sha256": "477af38d5a6c2ba6a57d13ee4e86ee96c546b5a25d2d00536f522afba715e184",
+                "bytes": 1279,
+                "width": 128,
+                "height": 144
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/enemies/clay-sentinel/animation/idle/000@sd.png",
+              "sha256": "1b54c3de64351cbe817fd4c672ea4b2fc543bd3928d0d18f11db157b2fbdd43c",
+              "bytes": 3090,
+              "width": 256,
+              "height": 288
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/enemies/clay-sentinel/animation/idle/000@hd.png",
+              "sha256": "2f054181e5bfd7989e2b9d360baf519fddd47f43361416ecf8b8e86ac5e94db2",
+              "bytes": 4432,
+              "width": 384,
+              "height": 432
+            }
+          },
+          {
+            "globalFrame": 1,
+            "action": "idle",
+            "actionFrame": 1,
+            "durationMs": 166,
+            "pose": {
+              "kind": "lean",
+              "dx": -1
+            },
+            "source": {
+              "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/001.source.png",
+              "sha256": "16c9124ba9ec28c2000067954912c915f0b7aeea293230a5229b35466f27c071",
+              "bytes": 2800,
+              "width": 128,
+              "height": 144,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 10,
+                "top": 22,
+                "right": 117,
+                "bottom": 135
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/001.layers/silhouette.png",
+                "sha256": "39e2f7384bbd800263acce6c3b11ac1f3f629cabfc2703a74ebb48c185249c6c",
+                "bytes": 1500,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/001.layers/material.png",
+                "sha256": "0f3ba491b1ad0f81f093acaff68fe7523d1b65967228413fd7ffe1a24c68dd87",
+                "bytes": 1725,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/001.layers/marks.png",
+                "sha256": "d96ad485670576405dae30224ae581d6d9c26fc623f44844f10cab260d2d44fb",
+                "bytes": 1274,
+                "width": 128,
+                "height": 144
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/enemies/clay-sentinel/animation/idle/001@sd.png",
+              "sha256": "b70c56cdc784e9460927e5238dba5f03f530ce3289b1a5c05cc0292c3cd3db57",
+              "bytes": 3089,
+              "width": 256,
+              "height": 288
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/enemies/clay-sentinel/animation/idle/001@hd.png",
+              "sha256": "d5b6c3b8d72833fc223bb159ea156c38f5851505aca1a6d01063e7ff8ad3ada9",
+              "bytes": 4410,
+              "width": 384,
+              "height": 432
+            }
+          },
+          {
+            "globalFrame": 2,
+            "action": "idle",
+            "actionFrame": 2,
+            "durationMs": 167,
+            "pose": {
+              "kind": "lean",
+              "dx": 0
+            },
+            "source": {
+              "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/002.source.png",
+              "sha256": "794863e87d3885c33805b90ce9e83092fe237c1dd362cce256a790cf8fb29729",
+              "bytes": 2805,
+              "width": 128,
+              "height": 144,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 10,
+                "top": 22,
+                "right": 117,
+                "bottom": 135
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/002.layers/silhouette.png",
+                "sha256": "991fe4259a7994240ffc7b35a73609ccb81b24f03b9cb3656eb81d96e7f2b071",
+                "bytes": 1491,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/002.layers/material.png",
+                "sha256": "4e20f939b2a48e7e62449119721a85b48f4205deaa2ebc50336ebc1f284213d8",
+                "bytes": 1747,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/002.layers/marks.png",
+                "sha256": "477af38d5a6c2ba6a57d13ee4e86ee96c546b5a25d2d00536f522afba715e184",
+                "bytes": 1279,
+                "width": 128,
+                "height": 144
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/enemies/clay-sentinel/animation/idle/002@sd.png",
+              "sha256": "1b54c3de64351cbe817fd4c672ea4b2fc543bd3928d0d18f11db157b2fbdd43c",
+              "bytes": 3090,
+              "width": 256,
+              "height": 288
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/enemies/clay-sentinel/animation/idle/002@hd.png",
+              "sha256": "2f054181e5bfd7989e2b9d360baf519fddd47f43361416ecf8b8e86ac5e94db2",
+              "bytes": 4432,
+              "width": 384,
+              "height": 432
+            }
+          },
+          {
+            "globalFrame": 3,
+            "action": "idle",
+            "actionFrame": 3,
+            "durationMs": 167,
+            "pose": {
+              "kind": "lean",
+              "dx": 1
+            },
+            "source": {
+              "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/003.source.png",
+              "sha256": "aac4104bd80c7b26561d241327d131a656d05446e9f4fe5520511d4c8ce7885e",
+              "bytes": 2799,
+              "width": 128,
+              "height": 144,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 10,
+                "top": 22,
+                "right": 117,
+                "bottom": 135
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/003.layers/silhouette.png",
+                "sha256": "be4804251c634c4c6e1d39f3017bf7f2bac6485c33605732fc8b60e21af4461d",
+                "bytes": 1498,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/003.layers/material.png",
+                "sha256": "f3d1496f415c3993be457e9748787fed3639aa1c43887165c56d980085692be7",
+                "bytes": 1726,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/idle/003.layers/marks.png",
+                "sha256": "587a22015b1a56dd11ba37e8619976b016decfbe4b0854ed5784d355adc5dc2a",
+                "bytes": 1273,
+                "width": 128,
+                "height": 144
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/enemies/clay-sentinel/animation/idle/003@sd.png",
+              "sha256": "568b2a88f2bd0803e73347dfd750b878f2d4e0a382def3635fa4cdc894ebb4cf",
+              "bytes": 3091,
+              "width": 256,
+              "height": 288
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/enemies/clay-sentinel/animation/idle/003@hd.png",
+              "sha256": "14f9eaecfcebe9b75058a64ca9dcb65a54e948c91a0a829eda4790305132d69f",
+              "bytes": 4425,
+              "width": 384,
+              "height": 432
+            }
+          },
+          {
+            "globalFrame": 4,
+            "action": "attack",
+            "actionFrame": 0,
+            "durationMs": 83,
+            "pose": {
+              "kind": "lean",
+              "dx": 0
+            },
+            "source": {
+              "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/000.source.png",
+              "sha256": "794863e87d3885c33805b90ce9e83092fe237c1dd362cce256a790cf8fb29729",
+              "bytes": 2805,
+              "width": 128,
+              "height": 144,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 10,
+                "top": 22,
+                "right": 117,
+                "bottom": 135
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/000.layers/silhouette.png",
+                "sha256": "991fe4259a7994240ffc7b35a73609ccb81b24f03b9cb3656eb81d96e7f2b071",
+                "bytes": 1491,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/000.layers/material.png",
+                "sha256": "4e20f939b2a48e7e62449119721a85b48f4205deaa2ebc50336ebc1f284213d8",
+                "bytes": 1747,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/000.layers/marks.png",
+                "sha256": "477af38d5a6c2ba6a57d13ee4e86ee96c546b5a25d2d00536f522afba715e184",
+                "bytes": 1279,
+                "width": 128,
+                "height": 144
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/enemies/clay-sentinel/animation/attack/000@sd.png",
+              "sha256": "1b54c3de64351cbe817fd4c672ea4b2fc543bd3928d0d18f11db157b2fbdd43c",
+              "bytes": 3090,
+              "width": 256,
+              "height": 288
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/enemies/clay-sentinel/animation/attack/000@hd.png",
+              "sha256": "2f054181e5bfd7989e2b9d360baf519fddd47f43361416ecf8b8e86ac5e94db2",
+              "bytes": 4432,
+              "width": 384,
+              "height": 432
+            }
+          },
+          {
+            "globalFrame": 5,
+            "action": "attack",
+            "actionFrame": 1,
+            "durationMs": 84,
+            "pose": {
+              "kind": "lean",
+              "dx": -2
+            },
+            "source": {
+              "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/001.source.png",
+              "sha256": "5aa9ed6ddf954584018d07073a828c4c3a265b8552680b8081ef45a70c7e13f1",
+              "bytes": 2789,
+              "width": 128,
+              "height": 144,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 9,
+                "top": 22,
+                "right": 117,
+                "bottom": 135
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/001.layers/silhouette.png",
+                "sha256": "7b872c3f2407414e1917f1112c2ffbf87416c1baa4d26cd186dbd0628d8a1af2",
+                "bytes": 1496,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/001.layers/material.png",
+                "sha256": "cba62f7f2db0ff25cf6146b96bf47af6ec16a2b593a2dce84644698655f4e33d",
+                "bytes": 1738,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/001.layers/marks.png",
+                "sha256": "9485ca10e32fe267df7efd657874e7244376e12088c562bc9feae6da387901f5",
+                "bytes": 1269,
+                "width": 128,
+                "height": 144
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/enemies/clay-sentinel/animation/attack/001@sd.png",
+              "sha256": "1d67ebaa8075fab0edb7221eaf59914c854c012f5b511655377d9e3a884f6882",
+              "bytes": 3095,
+              "width": 256,
+              "height": 288
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/enemies/clay-sentinel/animation/attack/001@hd.png",
+              "sha256": "b531364433ee73a141d4e8800f87cdb298c6413ca8c3bdc2800ceed513268de6",
+              "bytes": 4430,
+              "width": 384,
+              "height": 432
+            }
+          },
+          {
+            "globalFrame": 6,
+            "action": "attack",
+            "actionFrame": 2,
+            "durationMs": 83,
+            "pose": {
+              "kind": "lean",
+              "dx": -6
+            },
+            "source": {
+              "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/002.source.png",
+              "sha256": "ecb0b200eee69d30809a8853848337c885bb72a68dfc0b70e2534b79188c69ce",
+              "bytes": 2800,
+              "width": 128,
+              "height": 144,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 8,
+                "top": 22,
+                "right": 116,
+                "bottom": 135
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/002.layers/silhouette.png",
+                "sha256": "49de3c1a99fb70d1fec9cf20d49f5679551896953c4420fa52919e0bc2e70ba6",
+                "bytes": 1518,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/002.layers/material.png",
+                "sha256": "fe1a65536dee0f043f54fde56d55b4d2834ac836233bece4f7806700e0715ab9",
+                "bytes": 1729,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/002.layers/marks.png",
+                "sha256": "b5fa97707f6982f999ce34cbe53ce1795edacf7d774e57808ba32d7b372472a0",
+                "bytes": 1256,
+                "width": 128,
+                "height": 144
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/enemies/clay-sentinel/animation/attack/002@sd.png",
+              "sha256": "47179b7219180d853fb29bc8f28abcd8e828a6e78454b01bed62a92ff76e9dec",
+              "bytes": 3097,
+              "width": 256,
+              "height": 288
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/enemies/clay-sentinel/animation/attack/002@hd.png",
+              "sha256": "dbf1d83179478998b675d8e28fc339a7bb55c6f4e83fee901a0660b0f6ba9ff0",
+              "bytes": 4412,
+              "width": 384,
+              "height": 432
+            }
+          },
+          {
+            "globalFrame": 7,
+            "action": "attack",
+            "actionFrame": 3,
+            "durationMs": 83,
+            "pose": {
+              "kind": "lean",
+              "dx": -3
+            },
+            "source": {
+              "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/003.source.png",
+              "sha256": "3f7c306701bd4d65b304dfe7c3f853325f4a2bef1a2befde44b7f8bac3c03290",
+              "bytes": 2790,
+              "width": 128,
+              "height": 144,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 9,
+                "top": 22,
+                "right": 117,
+                "bottom": 135
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/003.layers/silhouette.png",
+                "sha256": "c32ddef0c542f696284a5e9dfe72f371f9922e82b5e5ac435331cdae6dbf02ee",
+                "bytes": 1500,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/003.layers/material.png",
+                "sha256": "06a32292d2f2a1821a96346a3daac891cba14a03879257e51470312c75163dc7",
+                "bytes": 1732,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/attack/003.layers/marks.png",
+                "sha256": "6094a914b955c3a9999b03982cfa8da967a1ffb372148963cbab93dc21904c0f",
+                "bytes": 1269,
+                "width": 128,
+                "height": 144
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/enemies/clay-sentinel/animation/attack/003@sd.png",
+              "sha256": "8174e58c2ff04931dc62f0e450eea3f620c43da3db39c62b838d8370bc1e681a",
+              "bytes": 3091,
+              "width": 256,
+              "height": 288
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/enemies/clay-sentinel/animation/attack/003@hd.png",
+              "sha256": "bb45a2546dbbf005decfa892919a979f55ea420ef506e0d7ad1cee62c4c723c0",
+              "bytes": 4410,
+              "width": 384,
+              "height": 432
+            }
+          },
+          {
+            "globalFrame": 8,
+            "action": "hit",
+            "actionFrame": 0,
+            "durationMs": 83,
+            "pose": {
+              "kind": "lean",
+              "dx": 3
+            },
+            "source": {
+              "path": "assets-src/production-v1/enemies/clay-sentinel/animation/hit/000.source.png",
+              "sha256": "bcf45e7e6560f5413f2e4e6c56d0cb977c7049310a3365b3428d35474371d708",
+              "bytes": 2793,
+              "width": 128,
+              "height": 144,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 11,
+                "top": 22,
+                "right": 117,
+                "bottom": 135
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/hit/000.layers/silhouette.png",
+                "sha256": "9e07012c389cd3f1520915cf9e39325fa2e38c87649d22d13515acb7fb0d4674",
+                "bytes": 1500,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/hit/000.layers/material.png",
+                "sha256": "d3fbcf6cb9649eb099fefd1bad43051f8cde5241a9746f7a6ab7d76adc7b665e",
+                "bytes": 1736,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/hit/000.layers/marks.png",
+                "sha256": "234e3a15d9c92258435d7ea4bd5595b541a19b1376c8bd4e67f190d95ee5bd5e",
+                "bytes": 1270,
+                "width": 128,
+                "height": 144
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/enemies/clay-sentinel/animation/hit/000@sd.png",
+              "sha256": "6fe9abe0279c2262c369059014ee6012fed32d0ec715ea8c9fe64bf3e91d79e2",
+              "bytes": 3089,
+              "width": 256,
+              "height": 288
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/enemies/clay-sentinel/animation/hit/000@hd.png",
+              "sha256": "9d4da53d66144540fac181996991a46dec725ce005669898a4ad77915d9ed2e3",
+              "bytes": 4416,
+              "width": 384,
+              "height": 432
+            }
+          },
+          {
+            "globalFrame": 9,
+            "action": "hit",
+            "actionFrame": 1,
+            "durationMs": 84,
+            "pose": {
+              "kind": "lean",
+              "dx": 0
+            },
+            "source": {
+              "path": "assets-src/production-v1/enemies/clay-sentinel/animation/hit/001.source.png",
+              "sha256": "794863e87d3885c33805b90ce9e83092fe237c1dd362cce256a790cf8fb29729",
+              "bytes": 2805,
+              "width": 128,
+              "height": 144,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 10,
+                "top": 22,
+                "right": 117,
+                "bottom": 135
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/hit/001.layers/silhouette.png",
+                "sha256": "991fe4259a7994240ffc7b35a73609ccb81b24f03b9cb3656eb81d96e7f2b071",
+                "bytes": 1491,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/hit/001.layers/material.png",
+                "sha256": "4e20f939b2a48e7e62449119721a85b48f4205deaa2ebc50336ebc1f284213d8",
+                "bytes": 1747,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/hit/001.layers/marks.png",
+                "sha256": "477af38d5a6c2ba6a57d13ee4e86ee96c546b5a25d2d00536f522afba715e184",
+                "bytes": 1279,
+                "width": 128,
+                "height": 144
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/enemies/clay-sentinel/animation/hit/001@sd.png",
+              "sha256": "1b54c3de64351cbe817fd4c672ea4b2fc543bd3928d0d18f11db157b2fbdd43c",
+              "bytes": 3090,
+              "width": 256,
+              "height": 288
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/enemies/clay-sentinel/animation/hit/001@hd.png",
+              "sha256": "2f054181e5bfd7989e2b9d360baf519fddd47f43361416ecf8b8e86ac5e94db2",
+              "bytes": 4432,
+              "width": 384,
+              "height": 432
+            }
+          },
+          {
+            "globalFrame": 10,
+            "action": "defeat",
+            "actionFrame": 0,
+            "durationMs": 125,
+            "pose": {
+              "kind": "scale",
+              "x": 1,
+              "y": 1,
+              "offset": 0
+            },
+            "source": {
+              "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/000.source.png",
+              "sha256": "794863e87d3885c33805b90ce9e83092fe237c1dd362cce256a790cf8fb29729",
+              "bytes": 2805,
+              "width": 128,
+              "height": 144,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 10,
+                "top": 22,
+                "right": 117,
+                "bottom": 135
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/000.layers/silhouette.png",
+                "sha256": "991fe4259a7994240ffc7b35a73609ccb81b24f03b9cb3656eb81d96e7f2b071",
+                "bytes": 1491,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/000.layers/material.png",
+                "sha256": "4e20f939b2a48e7e62449119721a85b48f4205deaa2ebc50336ebc1f284213d8",
+                "bytes": 1747,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/000.layers/marks.png",
+                "sha256": "477af38d5a6c2ba6a57d13ee4e86ee96c546b5a25d2d00536f522afba715e184",
+                "bytes": 1279,
+                "width": 128,
+                "height": 144
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/enemies/clay-sentinel/animation/defeat/000@sd.png",
+              "sha256": "1b54c3de64351cbe817fd4c672ea4b2fc543bd3928d0d18f11db157b2fbdd43c",
+              "bytes": 3090,
+              "width": 256,
+              "height": 288
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/enemies/clay-sentinel/animation/defeat/000@hd.png",
+              "sha256": "2f054181e5bfd7989e2b9d360baf519fddd47f43361416ecf8b8e86ac5e94db2",
+              "bytes": 4432,
+              "width": 384,
+              "height": 432
+            }
+          },
+          {
+            "globalFrame": 11,
+            "action": "defeat",
+            "actionFrame": 1,
+            "durationMs": 125,
+            "pose": {
+              "kind": "scale",
+              "x": 1.02,
+              "y": 0.9,
+              "offset": 1
+            },
+            "source": {
+              "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/001.source.png",
+              "sha256": "95f88451076469e1f2652f59c59f31152d0220ed3e7958219c1f5b191792c12a",
+              "bytes": 2586,
+              "width": 128,
+              "height": 144,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 10,
+                "top": 33,
+                "right": 119,
+                "bottom": 135
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/001.layers/silhouette.png",
+                "sha256": "c4b5adf388168a58b2bd697486b84c229a90d7012fb2ab4f4ddbef2e77fc5061",
+                "bytes": 1383,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/001.layers/material.png",
+                "sha256": "7f471cf7ec3b5001e27bdbe8117817282ae98e8534517f57e9114c545d0a3913",
+                "bytes": 1600,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/001.layers/marks.png",
+                "sha256": "4205c4ea72a62841bd435a56a36b254f9ab1c16bfd8e3e1795194d2156a99003",
+                "bytes": 1171,
+                "width": 128,
+                "height": 144
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/enemies/clay-sentinel/animation/defeat/001@sd.png",
+              "sha256": "d050b6e62f8d53a7446b59fbb87fedfb4451cc722c5d7031272833d97b21899f",
+              "bytes": 2855,
+              "width": 256,
+              "height": 288
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/enemies/clay-sentinel/animation/defeat/001@hd.png",
+              "sha256": "2b0a549f7210fd14fd6eb60f4130e93b9e1a4afa2d50c9e1365be397051e5ed8",
+              "bytes": 4101,
+              "width": 384,
+              "height": 432
+            }
+          },
+          {
+            "globalFrame": 12,
+            "action": "defeat",
+            "actionFrame": 2,
+            "durationMs": 125,
+            "pose": {
+              "kind": "scale",
+              "x": 1.06,
+              "y": 0.64,
+              "offset": 2
+            },
+            "source": {
+              "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/002.source.png",
+              "sha256": "0e841ab8bee12279bc876b5c069457ea8fbc5fc93af1aeb43725e2e75810c0ad",
+              "bytes": 1977,
+              "width": 128,
+              "height": 144,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 9,
+                "top": 63,
+                "right": 122,
+                "bottom": 135
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/002.layers/silhouette.png",
+                "sha256": "ebdc53bf775e25ef3531a12413a820603b018c0bed2d486f702fa784e86eb8d5",
+                "bytes": 1080,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/002.layers/material.png",
+                "sha256": "1878d04495178eb9bed44b08eeef416275524f1cfd77bc36d5ea6ae260192032",
+                "bytes": 1243,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/002.layers/marks.png",
+                "sha256": "4e5deb5d852f21a79d04a54e2b2b7d336ec30ed2e1232d8d6f2da4e3326f7498",
+                "bytes": 898,
+                "width": 128,
+                "height": 144
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/enemies/clay-sentinel/animation/defeat/002@sd.png",
+              "sha256": "4103910787fd3887c530b6096152cecdeb45ccebf979a2707bea0804b47d7f86",
+              "bytes": 2217,
+              "width": 256,
+              "height": 288
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/enemies/clay-sentinel/animation/defeat/002@hd.png",
+              "sha256": "308038a8cee558992024faefd5f4ac02abf6709665ffe4b80486d83018355590",
+              "bytes": 3174,
+              "width": 384,
+              "height": 432
+            }
+          },
+          {
+            "globalFrame": 13,
+            "action": "defeat",
+            "actionFrame": 3,
+            "durationMs": 125,
+            "pose": {
+              "kind": "scale",
+              "x": 1.1,
+              "y": 0.38,
+              "offset": 3
+            },
+            "source": {
+              "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/003.source.png",
+              "sha256": "b8827f0534adb0d7457ab0ab96bcbacb06766bb65ba0e39d493db0831e595b16",
+              "bytes": 1336,
+              "width": 128,
+              "height": 144,
+              "colors": [
+                "#24232b",
+                "#3e6861",
+                "#48434a",
+                "#79a58c",
+                "#8b6755",
+                "#b79578",
+                "#bb6252",
+                "#c3d1ac",
+                "#c6ad69",
+                "#ede2c8"
+              ],
+              "alpha": [
+                0,
+                255
+              ],
+              "bounds": {
+                "left": 8,
+                "top": 92,
+                "right": 125,
+                "bottom": 135
+              }
+            },
+            "layers": [
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/003.layers/silhouette.png",
+                "sha256": "8fab8f6dd03e2cf05800fa80378fc1abbdcbca4440144b9b9c734d1735f9c084",
+                "bytes": 744,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/003.layers/material.png",
+                "sha256": "bb19d8dfc22300170744331cbc9452a7a0d9182f500b9224b0bd1e61084b008f",
+                "bytes": 823,
+                "width": 128,
+                "height": 144
+              },
+              {
+                "path": "assets-src/production-v1/enemies/clay-sentinel/animation/defeat/003.layers/marks.png",
+                "sha256": "ea7ec66cabbefd45df30d7d11071821ad56719262f9f292e9a5c7f5938fd167a",
+                "bytes": 634,
+                "width": 128,
+                "height": 144
+              }
+            ],
+            "webSd": {
+              "path": "public/assets/production-v1/web-sd/enemies/clay-sentinel/animation/defeat/003@sd.png",
+              "sha256": "dacbd31b2cbf9c8a98f1ec288a2f5d51d1e271895bc4b917d5a4108a7288be59",
+              "bytes": 1523,
+              "width": 256,
+              "height": 288
+            },
+            "webHd": {
+              "path": "public/assets/production-v1/web-hd/enemies/clay-sentinel/animation/defeat/003@hd.png",
+              "sha256": "37a60ce553803479170d9a1c4853ef4f45d481ae6dbb5d7db6a8c16375df3c26",
+              "bytes": 2178,
+              "width": 384,
+              "height": 432
+            }
+          }
+        ],
+        "visualReview": {
+          "id": "enemy.clay-sentinel.animation",
+          "decision": "pass",
+          "checks": {
+            "idle": "脚部稳定，肩背有一像素呼吸摆动",
+            "attack": "按左向朝向前倾，双敌布局仍能分辨",
+            "hit": "反向短促偏移，土石轮廓没有散裂",
+            "defeat": "四阶段压低为低矮土石形，末帧不再呈站立威胁轮廓"
+          },
+          "limitation": "B1 使用确定性整数像素姿态变换，未制作独立石块脱落特效。"
+        },
+        "contactSheet": "docs/art/b1/evidence/enemy.clay-sentinel.animation-sequence.png"
+      }
+    },
+    {
+      "id": "card.lxy.jade-strike.art",
+      "kind": "sprite",
+      "status": "b1-static-verified-unchanged",
+      "sourceGrid": "128x128",
+      "pivot": {
+        "x": 64,
+        "y": 64
+      },
+      "input": {
+        "path": "assets-src/m3c/source/cards/jade-strike/art.source.png",
+        "sha256": "6d646c9d52d2116b2ecd827efaa1f30e53c84a0dd9252fc20d9bde8bb7ba13e6"
+      },
+      "raw": null,
+      "source": {
+        "path": "assets-src/production-v1/cards/jade-strike/art.source.png",
+        "sha256": "7c8263c8af5938b158653e92fcca0379c27fa874b701749050392b312271feb0",
+        "bytes": 1342,
+        "width": 128,
+        "height": 128,
+        "colors": [
+          "#3e6861",
+          "#c3d1ac",
+          "#79a58c",
+          "#ede2c8",
+          "#829ba5",
+          "#48434a",
+          "#24232b",
+          "#b79578",
+          "#bb6252",
+          "#8b6755",
+          "#f7efda"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 13,
+          "top": 19,
+          "right": 114,
+          "bottom": 113
+        },
+        "margin": {
+          "left": 13,
+          "top": 19,
+          "right": 13,
+          "bottom": 14
+        }
+      },
+      "webSd": {
+        "path": "public/assets/production-v1/web-sd/cards/jade-strike/art@sd.png",
+        "sha256": "d25bb2ae9198299f0405c06d282655710df89fe4a226187b6c3877e08feea7f5",
+        "bytes": 2636,
+        "width": 512,
+        "height": 512,
+        "colors": [
+          "#3e6861",
+          "#c3d1ac",
+          "#79a58c",
+          "#ede2c8",
+          "#829ba5",
+          "#48434a",
+          "#24232b",
+          "#b79578",
+          "#bb6252",
+          "#8b6755",
+          "#f7efda"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 52,
+          "top": 76,
+          "right": 459,
+          "bottom": 455
+        },
+        "margin": {
+          "left": 52,
+          "top": 76,
+          "right": 52,
+          "bottom": 56
+        }
+      },
+      "webHd": {
+        "path": "public/assets/production-v1/web-hd/cards/jade-strike/art@hd.png",
+        "sha256": "6660f21f0c1167b03195b527b40859d991e527e6567849beb51ebeacc74ed8f5",
+        "bytes": 5479,
+        "width": 1024,
+        "height": 1024,
+        "colors": [
+          "#3e6861",
+          "#c3d1ac",
+          "#79a58c",
+          "#ede2c8",
+          "#829ba5",
+          "#48434a",
+          "#24232b",
+          "#b79578",
+          "#bb6252",
+          "#8b6755",
+          "#f7efda"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 104,
+          "top": 152,
+          "right": 919,
+          "bottom": 911
+        },
+        "margin": {
+          "left": 104,
+          "top": 152,
+          "right": 104,
+          "bottom": 112
+        }
+      },
+      "thumbnail": {
+        "source": {
+          "path": "assets-src/production-v1/cards/jade-strike/thumb.source.png",
+          "sha256": "3d3ac5c9e47f476e404774830b94d2f1053d8b9217bd884ec7ed9be7a03ce39f",
+          "bytes": 678,
+          "width": 64,
+          "height": 64,
+          "colors": [
+            "#3e6861",
+            "#c3d1ac",
+            "#79a58c",
+            "#ede2c8",
+            "#829ba5",
+            "#48434a",
+            "#24232b",
+            "#b79578",
+            "#bb6252",
+            "#8b6755"
+          ],
+          "alpha": [
+            0,
+            255
+          ],
+          "bounds": {
+            "left": 6,
+            "top": 9,
+            "right": 56,
+            "bottom": 56
+          },
+          "margin": {
+            "left": 6,
+            "top": 9,
+            "right": 7,
+            "bottom": 7
+          }
+        },
+        "webSd": {
+          "path": "public/assets/production-v1/web-sd/cards/jade-strike/thumb@sd.png",
+          "sha256": "8ceb460e882d25f3c6ff1d3a5833f2b35f1600ad9390a6f6f87e930efd668931",
+          "bytes": 755,
+          "width": 128,
+          "height": 128,
+          "colors": [
+            "#3e6861",
+            "#c3d1ac",
+            "#79a58c",
+            "#ede2c8",
+            "#829ba5",
+            "#48434a",
+            "#24232b",
+            "#b79578",
+            "#bb6252",
+            "#8b6755"
+          ],
+          "alpha": [
+            0,
+            255
+          ],
+          "bounds": {
+            "left": 12,
+            "top": 18,
+            "right": 113,
+            "bottom": 113
+          },
+          "margin": {
+            "left": 12,
+            "top": 18,
+            "right": 14,
+            "bottom": 14
+          }
+        },
+        "webHd": {
+          "path": "public/assets/production-v1/web-hd/cards/jade-strike/thumb@hd.png",
+          "sha256": "f5d39fe0710bb0b760e8a7dd11fc50fc6923f97f09091e542bfc6e82c87d3f6d",
+          "bytes": 1097,
+          "width": 192,
+          "height": 192,
+          "colors": [
+            "#3e6861",
+            "#c3d1ac",
+            "#79a58c",
+            "#ede2c8",
+            "#829ba5",
+            "#48434a",
+            "#24232b",
+            "#b79578",
+            "#bb6252",
+            "#8b6755"
+          ],
+          "alpha": [
+            0,
+            255
+          ],
+          "bounds": {
+            "left": 18,
+            "top": 27,
+            "right": 170,
+            "bottom": 170
+          },
+          "margin": {
+            "left": 18,
+            "top": 27,
+            "right": 21,
+            "bottom": 21
+          }
+        },
+        "derivation": "nearest 128 to 64; integer 2x/3x runtime"
+      },
+      "layers": {
+        "kind": "palette-separated-png-layers",
+        "editableNativeSource": false,
+        "layers": [
+          {
+            "path": "assets-src/production-v1/cards/jade-strike/art.layers/silhouette.png",
+            "sha256": "6abd69f50ab89911bd2f2c043d9cee963a862bc57ac572a520283870d80eb3fc",
+            "bytes": 439,
+            "width": 128,
+            "height": 128,
+            "colors": [
+              "#48434a",
+              "#24232b"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 13,
+              "top": 27,
+              "right": 110,
+              "bottom": 112
+            },
+            "margin": {
+              "left": 13,
+              "top": 27,
+              "right": 17,
+              "bottom": 15
+            }
+          },
+          {
+            "path": "assets-src/production-v1/cards/jade-strike/art.layers/material.png",
+            "sha256": "1a1369846c39325bfdd0087f29125c538329b9b18ed0a74b294835cdca6aa02f",
+            "bytes": 1122,
+            "width": 128,
+            "height": 128,
+            "colors": [
+              "#3e6861",
+              "#c3d1ac",
+              "#79a58c",
+              "#ede2c8",
+              "#b79578",
+              "#8b6755",
+              "#f7efda"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 13,
+              "top": 19,
+              "right": 114,
+              "bottom": 113
+            },
+            "margin": {
+              "left": 13,
+              "top": 19,
+              "right": 13,
+              "bottom": 14
+            }
+          },
+          {
+            "path": "assets-src/production-v1/cards/jade-strike/art.layers/marks.png",
+            "sha256": "a6d2f3cd9f31d0f0175eaf318a59fa59c0f11796c1d7fc5d3512818646d53237",
+            "bytes": 461,
+            "width": 128,
+            "height": 128,
+            "colors": [
+              "#829ba5",
+              "#bb6252"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 21,
+              "top": 23,
+              "right": 104,
+              "bottom": 109
+            },
+            "margin": {
+              "left": 21,
+              "top": 23,
+              "right": 23,
+              "bottom": 18
+            }
+          }
+        ],
+        "compositeEqualsSourceAfterTransparentRgbCanonicalization": true
+      },
+      "native": {
+        "requiredFormat": ".aseprite",
+        "available": true,
+        "path": "assets-src/production-v1/cards/jade-strike/art.aseprite",
+        "sha256": "722caba5a2f831e5b279feafb48bafbefdb552a59cfca9f8f66ea73ce52e58b2",
+        "bytes": 3055,
+        "asepriteVersion": "Aseprite 1.3.18.5-x64",
+        "layerNames": [
+          "silhouette",
+          "material",
+          "marks"
+        ],
+        "reopened": true,
+        "exportPath": "docs/art/m3e0/evidence/native-roundtrip/card.lxy.jade-strike.art.source.png",
+        "exportedPngSha256": "b472da6be8e521ccc3f70ac4dee01baaed5761cae92004d4e7c7be1f960041e9",
+        "exportMatchesApprovedSourceAfterTransparentRgbCanonicalization": true,
+        "binaryAlpha": true,
+        "pivot": {
+          "x": 64,
+          "y": 64
+        },
+        "editabilityReview": {
+          "id": "card.lxy.jade-strike.art",
+          "decision": "pass",
+          "reason": "Weapon outline/shadow, jade body, and strike trail/accent marks can be edited independently without flattening the composition.",
+          "limitation": "Approval covers this static card illustration only."
+        }
+      },
+      "b1Verification": {
+        "id": "card.lxy.jade-strike.art",
+        "sourceSha256": "7c8263c8af5938b158653e92fcca0379c27fa874b701749050392b312271feb0",
+        "nativeSha256": "722caba5a2f831e5b279feafb48bafbefdb552a59cfca9f8f66ea73ce52e58b2",
+        "webSdSha256": "d25bb2ae9198299f0405c06d282655710df89fe4a226187b6c3877e08feea7f5",
+        "webHdSha256": "6660f21f0c1167b03195b527b40859d991e527e6567849beb51ebeacc74ed8f5",
+        "unchanged": true
+      }
+    },
+    {
+      "id": "card.lxy.jade-guard.art",
+      "kind": "sprite",
+      "status": "b1-static-verified-unchanged",
+      "sourceGrid": "128x128",
+      "pivot": {
+        "x": 64,
+        "y": 64
+      },
+      "input": {
+        "path": "assets-src/m3c/source/cards/jade-guard/art.source.png",
+        "sha256": "dd0c6b5a3a13043dd2381c933a0e21d6fd259175a6c0ddca18de07f164ee89ac"
+      },
+      "raw": null,
+      "source": {
+        "path": "assets-src/production-v1/cards/jade-guard/art.source.png",
+        "sha256": "bd41f3b40653864edab195e8d7f8bf953b314b238ab1c097febabe877a065ee4",
+        "bytes": 1625,
+        "width": 128,
+        "height": 128,
+        "colors": [
+          "#3e6861",
+          "#c3d1ac",
+          "#48434a",
+          "#24232b",
+          "#ede2c8",
+          "#79a58c",
+          "#829ba5",
+          "#f7efda",
+          "#8b6755",
+          "#c6ad69",
+          "#b79578",
+          "#bb6252"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 13,
+          "top": 13,
+          "right": 113,
+          "bottom": 114
+        },
+        "margin": {
+          "left": 13,
+          "top": 13,
+          "right": 14,
+          "bottom": 13
+        }
+      },
+      "webSd": {
+        "path": "public/assets/production-v1/web-sd/cards/jade-guard/art@sd.png",
+        "sha256": "fb138d969776d8af561b9a6783f4bcce3c22e5fff20df6694d661b30e05acbe9",
+        "bytes": 3187,
+        "width": 512,
+        "height": 512,
+        "colors": [
+          "#3e6861",
+          "#c3d1ac",
+          "#48434a",
+          "#24232b",
+          "#ede2c8",
+          "#79a58c",
+          "#829ba5",
+          "#f7efda",
+          "#8b6755",
+          "#c6ad69",
+          "#b79578",
+          "#bb6252"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 52,
+          "top": 52,
+          "right": 455,
+          "bottom": 459
+        },
+        "margin": {
+          "left": 52,
+          "top": 52,
+          "right": 56,
+          "bottom": 52
+        }
+      },
+      "webHd": {
+        "path": "public/assets/production-v1/web-hd/cards/jade-guard/art@hd.png",
+        "sha256": "6c0629427725a422c374a54fd77360beec4ffd7d628c6a7fff3853b87eb4338c",
+        "bytes": 6465,
+        "width": 1024,
+        "height": 1024,
+        "colors": [
+          "#3e6861",
+          "#c3d1ac",
+          "#48434a",
+          "#24232b",
+          "#ede2c8",
+          "#79a58c",
+          "#829ba5",
+          "#f7efda",
+          "#8b6755",
+          "#c6ad69",
+          "#b79578",
+          "#bb6252"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 104,
+          "top": 104,
+          "right": 911,
+          "bottom": 919
+        },
+        "margin": {
+          "left": 104,
+          "top": 104,
+          "right": 112,
+          "bottom": 104
+        }
+      },
+      "thumbnail": {
+        "source": {
+          "path": "assets-src/production-v1/cards/jade-guard/thumb.source.png",
+          "sha256": "f88f6b3db1ff666b72edb1c85303029ef212ea830e4a5392909bf357a35bb2c6",
+          "bytes": 832,
+          "width": 64,
+          "height": 64,
+          "colors": [
+            "#3e6861",
+            "#48434a",
+            "#24232b",
+            "#ede2c8",
+            "#79a58c",
+            "#c3d1ac",
+            "#f7efda",
+            "#829ba5",
+            "#8b6755",
+            "#c6ad69",
+            "#b79578",
+            "#bb6252"
+          ],
+          "alpha": [
+            0,
+            255
+          ],
+          "bounds": {
+            "left": 6,
+            "top": 6,
+            "right": 56,
+            "bottom": 56
+          },
+          "margin": {
+            "left": 6,
+            "top": 6,
+            "right": 7,
+            "bottom": 7
+          }
+        },
+        "webSd": {
+          "path": "public/assets/production-v1/web-sd/cards/jade-guard/thumb@sd.png",
+          "sha256": "4b34cb6c2c3fe18b43e171c376e3df8853fe2c1340df432c4709cdecaed75dea",
+          "bytes": 913,
+          "width": 128,
+          "height": 128,
+          "colors": [
+            "#3e6861",
+            "#48434a",
+            "#24232b",
+            "#ede2c8",
+            "#79a58c",
+            "#c3d1ac",
+            "#f7efda",
+            "#829ba5",
+            "#8b6755",
+            "#c6ad69",
+            "#b79578",
+            "#bb6252"
+          ],
+          "alpha": [
+            0,
+            255
+          ],
+          "bounds": {
+            "left": 12,
+            "top": 12,
+            "right": 113,
+            "bottom": 113
+          },
+          "margin": {
+            "left": 12,
+            "top": 12,
+            "right": 14,
+            "bottom": 14
+          }
+        },
+        "webHd": {
+          "path": "public/assets/production-v1/web-hd/cards/jade-guard/thumb@hd.png",
+          "sha256": "8680bb32fc8e5579cd4552b2fe37d7eb176a4f6ea15ef1910653eaba3874224b",
+          "bytes": 1351,
+          "width": 192,
+          "height": 192,
+          "colors": [
+            "#3e6861",
+            "#48434a",
+            "#24232b",
+            "#ede2c8",
+            "#79a58c",
+            "#c3d1ac",
+            "#f7efda",
+            "#829ba5",
+            "#8b6755",
+            "#c6ad69",
+            "#b79578",
+            "#bb6252"
+          ],
+          "alpha": [
+            0,
+            255
+          ],
+          "bounds": {
+            "left": 18,
+            "top": 18,
+            "right": 170,
+            "bottom": 170
+          },
+          "margin": {
+            "left": 18,
+            "top": 18,
+            "right": 21,
+            "bottom": 21
+          }
+        },
+        "derivation": "nearest 128 to 64; integer 2x/3x runtime"
+      },
+      "layers": {
+        "kind": "palette-separated-png-layers",
+        "editableNativeSource": false,
+        "layers": [
+          {
+            "path": "assets-src/production-v1/cards/jade-guard/art.layers/silhouette.png",
+            "sha256": "5a0f6bea59abf6397b8a50e937a9927dc73d6e21e615fa00f270921491d6c0c6",
+            "bytes": 704,
+            "width": 128,
+            "height": 128,
+            "colors": [
+              "#48434a",
+              "#24232b"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 13,
+              "top": 17,
+              "right": 113,
+              "bottom": 114
+            },
+            "margin": {
+              "left": 13,
+              "top": 17,
+              "right": 14,
+              "bottom": 13
+            }
+          },
+          {
+            "path": "assets-src/production-v1/cards/jade-guard/art.layers/material.png",
+            "sha256": "69d82a8ed1912a245c4ede93c533086bf2de1cbe1bab8b4f533c1eb90179a2f6",
+            "bytes": 1409,
+            "width": 128,
+            "height": 128,
+            "colors": [
+              "#3e6861",
+              "#c3d1ac",
+              "#ede2c8",
+              "#79a58c",
+              "#f7efda",
+              "#8b6755",
+              "#b79578"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 15,
+              "top": 13,
+              "right": 111,
+              "bottom": 113
+            },
+            "margin": {
+              "left": 15,
+              "top": 13,
+              "right": 16,
+              "bottom": 14
+            }
+          },
+          {
+            "path": "assets-src/production-v1/cards/jade-guard/art.layers/marks.png",
+            "sha256": "52afe68beebe744b4c32806f5a5d2f272f55223ab530c854125cb90b1d9d141d",
+            "bytes": 394,
+            "width": 128,
+            "height": 128,
+            "colors": [
+              "#829ba5",
+              "#c6ad69",
+              "#bb6252"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 16,
+              "top": 18,
+              "right": 103,
+              "bottom": 106
+            },
+            "margin": {
+              "left": 16,
+              "top": 18,
+              "right": 24,
+              "bottom": 21
+            }
+          }
+        ],
+        "compositeEqualsSourceAfterTransparentRgbCanonicalization": true
+      },
+      "native": {
+        "requiredFormat": ".aseprite",
+        "available": true,
+        "path": "assets-src/production-v1/cards/jade-guard/art.aseprite",
+        "sha256": "b46972fc569891e6d8c305cd86779460188ddd4290fde4a574a17052ef3f9545",
+        "bytes": 3878,
+        "asepriteVersion": "Aseprite 1.3.18.5-x64",
+        "layerNames": [
+          "silhouette",
+          "material",
+          "marks"
+        ],
+        "reopened": true,
+        "exportPath": "docs/art/m3e0/evidence/native-roundtrip/card.lxy.jade-guard.art.source.png",
+        "exportedPngSha256": "c4456975dcbb0a35ef61be1fbeaf1f941798821fa92219e79711db0042a292c6",
+        "exportMatchesApprovedSourceAfterTransparentRgbCanonicalization": true,
+        "binaryAlpha": true,
+        "pivot": {
+          "x": 64,
+          "y": 64
+        },
+        "editabilityReview": {
+          "id": "card.lxy.jade-guard.art",
+          "decision": "pass",
+          "reason": "Shield contour, jade material planes, and glint/rubbed-mark accents remain distinct editable roles.",
+          "limitation": "Approval covers this static card illustration only."
+        }
+      },
+      "b1Verification": {
+        "id": "card.lxy.jade-guard.art",
+        "sourceSha256": "bd41f3b40653864edab195e8d7f8bf953b314b238ab1c097febabe877a065ee4",
+        "nativeSha256": "b46972fc569891e6d8c305cd86779460188ddd4290fde4a574a17052ef3f9545",
+        "webSdSha256": "fb138d969776d8af561b9a6783f4bcce3c22e5fff20df6694d661b30e05acbe9",
+        "webHdSha256": "6c0629427725a422c374a54fd77360beec4ffd7d628c6a7fff3853b87eb4338c",
+        "unchanged": true
+      }
+    },
+    {
+      "id": "card.lxy.breathing.art",
+      "kind": "sprite",
+      "status": "b1-static-verified-unchanged",
+      "sourceGrid": "128x128",
+      "pivot": {
+        "x": 64,
+        "y": 64
+      },
+      "input": {
+        "path": "assets-src/m3c/source/cards/breath-regulation/art.source.png",
+        "sha256": "ec36659e7994a9d9a8ccb16556680ed4b8e91124d684dca5efcf911793d2f8e5"
+      },
+      "raw": null,
+      "source": {
+        "path": "assets-src/production-v1/cards/breath-regulation/art.source.png",
+        "sha256": "7290f538c942948ffff910fb303ade6d2b981b7c6a77f3c123284ef5aebf5944",
+        "bytes": 722,
+        "width": 128,
+        "height": 128,
+        "colors": [
+          "#8b6755",
+          "#bb6252",
+          "#3e6861",
+          "#79a58c",
+          "#c3d1ac",
+          "#f7efda",
+          "#ede2c8",
+          "#829ba5",
+          "#48434a",
+          "#24232b"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 19,
+          "top": 13,
+          "right": 113,
+          "bottom": 114
+        },
+        "margin": {
+          "left": 19,
+          "top": 13,
+          "right": 14,
+          "bottom": 13
+        }
+      },
+      "webSd": {
+        "path": "public/assets/production-v1/web-sd/cards/breath-regulation/art@sd.png",
+        "sha256": "5b2e1f2a1f9dba7e409ae392dce33aa5de26dbe054b39c4b3a0fa7657b5594a0",
+        "bytes": 1791,
+        "width": 512,
+        "height": 512,
+        "colors": [
+          "#8b6755",
+          "#bb6252",
+          "#3e6861",
+          "#79a58c",
+          "#c3d1ac",
+          "#f7efda",
+          "#ede2c8",
+          "#829ba5",
+          "#48434a",
+          "#24232b"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 76,
+          "top": 52,
+          "right": 455,
+          "bottom": 459
+        },
+        "margin": {
+          "left": 76,
+          "top": 52,
+          "right": 56,
+          "bottom": 52
+        }
+      },
+      "webHd": {
+        "path": "public/assets/production-v1/web-hd/cards/breath-regulation/art@hd.png",
+        "sha256": "7c4ed13bfb0918ffca7fd4447252251f3fb4fcfa191a2215e9aeb9ed95039899",
+        "bytes": 3544,
+        "width": 1024,
+        "height": 1024,
+        "colors": [
+          "#8b6755",
+          "#bb6252",
+          "#3e6861",
+          "#79a58c",
+          "#c3d1ac",
+          "#f7efda",
+          "#ede2c8",
+          "#829ba5",
+          "#48434a",
+          "#24232b"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 152,
+          "top": 104,
+          "right": 911,
+          "bottom": 919
+        },
+        "margin": {
+          "left": 152,
+          "top": 104,
+          "right": 112,
+          "bottom": 104
+        }
+      },
+      "thumbnail": {
+        "source": {
+          "path": "assets-src/production-v1/cards/breath-regulation/thumb.source.png",
+          "sha256": "98574ee2dd4d23320f343b4dff1b3386948057cb98a6b7abe2bf8bccbfeec5c0",
+          "bytes": 458,
+          "width": 64,
+          "height": 64,
+          "colors": [
+            "#8b6755",
+            "#bb6252",
+            "#3e6861",
+            "#79a58c",
+            "#c3d1ac",
+            "#f7efda",
+            "#829ba5",
+            "#ede2c8",
+            "#48434a",
+            "#24232b"
+          ],
+          "alpha": [
+            0,
+            255
+          ],
+          "bounds": {
+            "left": 9,
+            "top": 6,
+            "right": 56,
+            "bottom": 56
+          },
+          "margin": {
+            "left": 9,
+            "top": 6,
+            "right": 7,
+            "bottom": 7
+          }
+        },
+        "webSd": {
+          "path": "public/assets/production-v1/web-sd/cards/breath-regulation/thumb@sd.png",
+          "sha256": "becdb0fd5c6a6a6d1a07a9435d1a108b3f7a82277346ae17c28ac4e8fc2df1d6",
+          "bytes": 510,
+          "width": 128,
+          "height": 128,
+          "colors": [
+            "#8b6755",
+            "#bb6252",
+            "#3e6861",
+            "#79a58c",
+            "#c3d1ac",
+            "#f7efda",
+            "#829ba5",
+            "#ede2c8",
+            "#48434a",
+            "#24232b"
+          ],
+          "alpha": [
+            0,
+            255
+          ],
+          "bounds": {
+            "left": 18,
+            "top": 12,
+            "right": 113,
+            "bottom": 113
+          },
+          "margin": {
+            "left": 18,
+            "top": 12,
+            "right": 14,
+            "bottom": 14
+          }
+        },
+        "webHd": {
+          "path": "public/assets/production-v1/web-hd/cards/breath-regulation/thumb@hd.png",
+          "sha256": "914e6ca816450fdb88d8035a5c16de3686e82039c56d2aa98962df5c8e67194b",
+          "bytes": 713,
+          "width": 192,
+          "height": 192,
+          "colors": [
+            "#8b6755",
+            "#bb6252",
+            "#3e6861",
+            "#79a58c",
+            "#c3d1ac",
+            "#f7efda",
+            "#829ba5",
+            "#ede2c8",
+            "#48434a",
+            "#24232b"
+          ],
+          "alpha": [
+            0,
+            255
+          ],
+          "bounds": {
+            "left": 27,
+            "top": 18,
+            "right": 170,
+            "bottom": 170
+          },
+          "margin": {
+            "left": 27,
+            "top": 18,
+            "right": 21,
+            "bottom": 21
+          }
+        },
+        "derivation": "nearest 128 to 64; integer 2x/3x runtime"
+      },
+      "layers": {
+        "kind": "palette-separated-png-layers",
+        "editableNativeSource": false,
+        "layers": [
+          {
+            "path": "assets-src/production-v1/cards/breath-regulation/art.layers/silhouette.png",
+            "sha256": "a1008c0583969c0d696599cf03b719c864d47da80cab54d406c2550841ec0004",
+            "bytes": 346,
+            "width": 128,
+            "height": 128,
+            "colors": [
+              "#48434a",
+              "#24232b"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 19,
+              "top": 38,
+              "right": 113,
+              "bottom": 114
+            },
+            "margin": {
+              "left": 19,
+              "top": 38,
+              "right": 14,
+              "bottom": 13
+            }
+          },
+          {
+            "path": "assets-src/production-v1/cards/breath-regulation/art.layers/material.png",
+            "sha256": "954ba40aaf9ef79a81ea248ec3c5f072e6c923f6ad9a4d008748fdc60ef55fec",
+            "bytes": 590,
+            "width": 128,
+            "height": 128,
+            "colors": [
+              "#8b6755",
+              "#3e6861",
+              "#79a58c",
+              "#c3d1ac",
+              "#f7efda",
+              "#ede2c8"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 21,
+              "top": 13,
+              "right": 112,
+              "bottom": 112
+            },
+            "margin": {
+              "left": 21,
+              "top": 13,
+              "right": 15,
+              "bottom": 15
+            }
+          },
+          {
+            "path": "assets-src/production-v1/cards/breath-regulation/art.layers/marks.png",
+            "sha256": "5861c6ed932a709ccd4d653741dd5deafc566c13f3a45fb003d063862fd3b7c2",
+            "bytes": 257,
+            "width": 128,
+            "height": 128,
+            "colors": [
+              "#bb6252",
+              "#829ba5"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 32,
+              "top": 14,
+              "right": 111,
+              "bottom": 107
+            },
+            "margin": {
+              "left": 32,
+              "top": 14,
+              "right": 16,
+              "bottom": 20
+            }
+          }
+        ],
+        "compositeEqualsSourceAfterTransparentRgbCanonicalization": true
+      },
+      "native": {
+        "requiredFormat": ".aseprite",
+        "available": true,
+        "path": "assets-src/production-v1/cards/breath-regulation/art.aseprite",
+        "sha256": "23b2ea1244088362728bbd5f7c01b6eb7682a9469d91dd7c2e59828d6c0d5076",
+        "bytes": 1948,
+        "asepriteVersion": "Aseprite 1.3.18.5-x64",
+        "layerNames": [
+          "silhouette",
+          "material",
+          "marks"
+        ],
+        "reopened": true,
+        "exportPath": "docs/art/m3e0/evidence/native-roundtrip/card.lxy.breathing.art.source.png",
+        "exportedPngSha256": "1e1faab8ddf047a2f4199400ce6da91fc65f320323cbdcb3d2239ead4da43bb5",
+        "exportMatchesApprovedSourceAfterTransparentRgbCanonicalization": true,
+        "binaryAlpha": true,
+        "pivot": {
+          "x": 64,
+          "y": 64
+        },
+        "editabilityReview": {
+          "id": "card.lxy.breathing.art",
+          "decision": "pass",
+          "reason": "Altar and jade outline, primary material fills, and breath/record accents remain independently editable.",
+          "limitation": "Approval covers this static card illustration only."
+        }
+      },
+      "b1Verification": {
+        "id": "card.lxy.breathing.art",
+        "sourceSha256": "7290f538c942948ffff910fb303ade6d2b981b7c6a77f3c123284ef5aebf5944",
+        "nativeSha256": "23b2ea1244088362728bbd5f7c01b6eb7682a9469d91dd7c2e59828d6c0d5076",
+        "webSdSha256": "5b2e1f2a1f9dba7e409ae392dce33aa5de26dbe054b39c4b3a0fa7657b5594a0",
+        "webHdSha256": "7c4ed13bfb0918ffca7fd4447252251f3fb4fcfa191a2215e9aeb9ed95039899",
+        "unchanged": true
+      }
+    },
+    {
+      "id": "relic.archive-seal.icon",
+      "kind": "sprite",
+      "status": "revised-b0",
+      "sourceGrid": "32x32",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "input": {
+        "path": "assets-src/m3e0/raw/archive-seal-revision.png",
+        "sha256": "daefdc61ff480c35c0b7f06d98536484b90e66059b55033e3ca7ed308fc23162"
+      },
+      "raw": {
+        "path": "assets-src/m3e0/raw/archive-seal-revision.png",
+        "sha256": "daefdc61ff480c35c0b7f06d98536484b90e66059b55033e3ca7ed308fc23162"
+      },
+      "source": {
+        "path": "assets-src/production-v1/relics/archive-seal/icon.source.png",
+        "sha256": "58f544ddb0c768fec97e50d13b439ca68b05f99fb13314e98095741973273511",
+        "bytes": 330,
+        "width": 32,
+        "height": 32,
+        "colors": [
+          "#8b6755",
+          "#bb6252",
+          "#48434a",
+          "#24232b",
+          "#ede2c8",
+          "#c6ad69",
+          "#c3d1ac"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 4,
+          "top": 4,
+          "right": 27,
+          "bottom": 26
+        },
+        "margin": {
+          "left": 4,
+          "top": 4,
+          "right": 4,
+          "bottom": 5
+        }
+      },
+      "webSd": {
+        "path": "public/assets/production-v1/web-sd/relics/archive-seal/icon@sd.png",
+        "sha256": "137857c1afce2b500d96df19296e535f4c19fddf97f216eee894df9759691a45",
+        "bytes": 366,
+        "width": 64,
+        "height": 64,
+        "colors": [
+          "#8b6755",
+          "#bb6252",
+          "#48434a",
+          "#24232b",
+          "#ede2c8",
+          "#c6ad69",
+          "#c3d1ac"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 8,
+          "top": 8,
+          "right": 55,
+          "bottom": 53
+        },
+        "margin": {
+          "left": 8,
+          "top": 8,
+          "right": 8,
+          "bottom": 10
+        }
+      },
+      "webHd": {
+        "path": "public/assets/production-v1/web-hd/relics/archive-seal/icon@hd.png",
+        "sha256": "374dad8c2a83c1fa1143eac0fecef599cd121932d3ea6aff726a565d1f5926f0",
+        "bytes": 479,
+        "width": 96,
+        "height": 96,
+        "colors": [
+          "#8b6755",
+          "#bb6252",
+          "#48434a",
+          "#24232b",
+          "#ede2c8",
+          "#c6ad69",
+          "#c3d1ac"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 12,
+          "top": 12,
+          "right": 83,
+          "bottom": 80
+        },
+        "margin": {
+          "left": 12,
+          "top": 12,
+          "right": 12,
+          "bottom": 15
+        }
+      },
+      "thumbnail": null,
+      "layers": {
+        "kind": "palette-separated-png-layers",
+        "editableNativeSource": false,
+        "layers": [
+          {
+            "path": "assets-src/production-v1/relics/archive-seal/icon.layers/silhouette.png",
+            "sha256": "705d6c93567c39fcee1005d2fb5c3359dad786b364249a35fb3ea399ba374e4c",
+            "bytes": 215,
+            "width": 32,
+            "height": 32,
+            "colors": [
+              "#48434a",
+              "#24232b"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 4,
+              "top": 4,
+              "right": 27,
+              "bottom": 26
+            },
+            "margin": {
+              "left": 4,
+              "top": 4,
+              "right": 4,
+              "bottom": 5
+            }
+          },
+          {
+            "path": "assets-src/production-v1/relics/archive-seal/icon.layers/material.png",
+            "sha256": "42303b222b6daaa35031b4b76f5a1efb53abeeb20892d5a8952d45f256e16371",
+            "bytes": 226,
+            "width": 32,
+            "height": 32,
+            "colors": [
+              "#8b6755",
+              "#ede2c8",
+              "#c3d1ac"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 4,
+              "top": 4,
+              "right": 27,
+              "bottom": 26
+            },
+            "margin": {
+              "left": 4,
+              "top": 4,
+              "right": 4,
+              "bottom": 5
+            }
+          },
+          {
+            "path": "assets-src/production-v1/relics/archive-seal/icon.layers/marks.png",
+            "sha256": "b207844b49c7919f68e1f5989b1d555a327a9a524f139c845a127dba9ee85c44",
+            "bytes": 252,
+            "width": 32,
+            "height": 32,
+            "colors": [
+              "#bb6252",
+              "#c6ad69"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 5,
+              "top": 4,
+              "right": 27,
+              "bottom": 25
+            },
+            "margin": {
+              "left": 5,
+              "top": 4,
+              "right": 4,
+              "bottom": 6
+            }
+          }
+        ],
+        "compositeEqualsSourceAfterTransparentRgbCanonicalization": true
+      },
+      "native": {
+        "requiredFormat": ".aseprite",
+        "available": true,
+        "path": "assets-src/production-v1/relics/archive-seal/icon.aseprite",
+        "sha256": "3003a6c785d6959d49769e30aec679679af10281d07557fd2e94daf6820a4acb",
+        "bytes": 922,
+        "asepriteVersion": "Aseprite 1.3.18.5-x64",
+        "layerNames": [
+          "silhouette",
+          "material",
+          "marks"
+        ],
+        "reopened": true,
+        "exportPath": "docs/art/m3e0/evidence/native-roundtrip/relic.archive-seal.icon.source.png",
+        "exportedPngSha256": "a10156a531cc28d79ed59ddbb9092684ffff69e36b87fc303a9d830deaa1df7c",
+        "exportMatchesApprovedSourceAfterTransparentRgbCanonicalization": true,
+        "binaryAlpha": true,
+        "pivot": {
+          "x": 16,
+          "y": 16
+        },
+        "editabilityReview": {
+          "id": "relic.archive-seal.icon",
+          "decision": "pass",
+          "reason": "Seal boundary, paper/clay body, and red/gold imprint marks are separately editable at the frozen 32-pixel grid.",
+          "limitation": "Small mark clusters must remain pixel-snapped during later edits."
+        }
+      }
+    },
+    {
+      "id": "relic.jade-needle.icon",
+      "kind": "sprite",
+      "status": "revised-b0",
+      "sourceGrid": "32x32",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "input": {
+        "path": "assets-src/m3e0/raw/jade-needle-revision.png",
+        "sha256": "8541a5e17054e8efeb042369cb72a3b84346acda9dd48420c5a49e5c33dc691d"
+      },
+      "raw": {
+        "path": "assets-src/m3e0/raw/jade-needle-revision.png",
+        "sha256": "8541a5e17054e8efeb042369cb72a3b84346acda9dd48420c5a49e5c33dc691d"
+      },
+      "source": {
+        "path": "assets-src/production-v1/relics/jade-needle/icon.source.png",
+        "sha256": "8f59cb5bc88e35249df483d2d8c15e5da3307cc03c6f71d82204421a3605de57",
+        "bytes": 222,
+        "width": 32,
+        "height": 32,
+        "colors": [
+          "#24232b",
+          "#79a58c",
+          "#c3d1ac",
+          "#ede2c8",
+          "#f7efda",
+          "#3e6861",
+          "#829ba5",
+          "#48434a",
+          "#bb6252",
+          "#c6ad69"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 5,
+          "top": 14,
+          "right": 27,
+          "bottom": 27
+        },
+        "margin": {
+          "left": 5,
+          "top": 14,
+          "right": 4,
+          "bottom": 4
+        }
+      },
+      "webSd": {
+        "path": "public/assets/production-v1/web-sd/relics/jade-needle/icon@sd.png",
+        "sha256": "0ac706f5494170b916df40af21fe74262967ba546f07db7626e384c02cf1ac6c",
+        "bytes": 267,
+        "width": 64,
+        "height": 64,
+        "colors": [
+          "#24232b",
+          "#79a58c",
+          "#c3d1ac",
+          "#ede2c8",
+          "#f7efda",
+          "#3e6861",
+          "#829ba5",
+          "#48434a",
+          "#bb6252",
+          "#c6ad69"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 10,
+          "top": 28,
+          "right": 55,
+          "bottom": 55
+        },
+        "margin": {
+          "left": 10,
+          "top": 28,
+          "right": 8,
+          "bottom": 8
+        }
+      },
+      "webHd": {
+        "path": "public/assets/production-v1/web-hd/relics/jade-needle/icon@hd.png",
+        "sha256": "ef1843dcaea01d7f4dd2280a9c39797fab74990f84d023c78de09d081bbcb036",
+        "bytes": 319,
+        "width": 96,
+        "height": 96,
+        "colors": [
+          "#24232b",
+          "#79a58c",
+          "#c3d1ac",
+          "#ede2c8",
+          "#f7efda",
+          "#3e6861",
+          "#829ba5",
+          "#48434a",
+          "#bb6252",
+          "#c6ad69"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 15,
+          "top": 42,
+          "right": 83,
+          "bottom": 83
+        },
+        "margin": {
+          "left": 15,
+          "top": 42,
+          "right": 12,
+          "bottom": 12
+        }
+      },
+      "thumbnail": null,
+      "layers": {
+        "kind": "palette-separated-png-layers",
+        "editableNativeSource": false,
+        "layers": [
+          {
+            "path": "assets-src/production-v1/relics/jade-needle/icon.layers/silhouette.png",
+            "sha256": "cc087b278262964d4a288a57654bface7354fdb102240eeca17c082987cf82b2",
+            "bytes": 170,
+            "width": 32,
+            "height": 32,
+            "colors": [
+              "#24232b",
+              "#48434a"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 6,
+              "top": 14,
+              "right": 27,
+              "bottom": 27
+            },
+            "margin": {
+              "left": 6,
+              "top": 14,
+              "right": 4,
+              "bottom": 4
+            }
+          },
+          {
+            "path": "assets-src/production-v1/relics/jade-needle/icon.layers/material.png",
+            "sha256": "e3ee9fde59eb4181fae68e96558cd93aa17153c2904fdb5e911105777d98dcd2",
+            "bytes": 188,
+            "width": 32,
+            "height": 32,
+            "colors": [
+              "#79a58c",
+              "#c3d1ac",
+              "#ede2c8",
+              "#f7efda",
+              "#3e6861"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 5,
+              "top": 15,
+              "right": 26,
+              "bottom": 27
+            },
+            "margin": {
+              "left": 5,
+              "top": 15,
+              "right": 5,
+              "bottom": 4
+            }
+          },
+          {
+            "path": "assets-src/production-v1/relics/jade-needle/icon.layers/marks.png",
+            "sha256": "582a17080bbf38a568935d722d7879b8ded72823064275dd3f91922cd033f67c",
+            "bytes": 138,
+            "width": 32,
+            "height": 32,
+            "colors": [
+              "#829ba5",
+              "#bb6252",
+              "#c6ad69"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 17,
+              "top": 20,
+              "right": 26,
+              "bottom": 23
+            },
+            "margin": {
+              "left": 17,
+              "top": 20,
+              "right": 5,
+              "bottom": 8
+            }
+          }
+        ],
+        "compositeEqualsSourceAfterTransparentRgbCanonicalization": true
+      },
+      "native": {
+        "requiredFormat": ".aseprite",
+        "available": true,
+        "path": "assets-src/production-v1/relics/jade-needle/icon.aseprite",
+        "sha256": "2f9421a87fde351677f3a414a37b6bf08fbfa712a09e21f887b0fb3998f4d065",
+        "bytes": 654,
+        "asepriteVersion": "Aseprite 1.3.18.5-x64",
+        "layerNames": [
+          "silhouette",
+          "material",
+          "marks"
+        ],
+        "reopened": true,
+        "exportPath": "docs/art/m3e0/evidence/native-roundtrip/relic.jade-needle.icon.source.png",
+        "exportedPngSha256": "052a66da6387494d8f7066009a70d06d41c8a5d69c09cad0dff2368fc2cc51e4",
+        "exportMatchesApprovedSourceAfterTransparentRgbCanonicalization": true,
+        "binaryAlpha": true,
+        "pivot": {
+          "x": 16,
+          "y": 16
+        },
+        "editabilityReview": {
+          "id": "relic.jade-needle.icon",
+          "decision": "pass",
+          "reason": "Needle contour, jade shaft material, and tip/highlight marks are distinct despite the deliberately sparse 32-pixel icon.",
+          "limitation": "The one-pixel tip is an approved exception; shaft continuity must be rechecked after edits."
+        }
+      }
+    },
+    {
+      "id": "relic.river-stone.icon",
+      "kind": "sprite",
+      "status": "b1-static-verified-unchanged",
+      "sourceGrid": "32x32",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "input": {
+        "path": "assets-src/m3c/source/relics/river-stone/icon.source.png",
+        "sha256": "1e14b35f332a4fb3c0c934837424befcf3a89514d575cee7eef4b4d1fbd76a9a"
+      },
+      "raw": null,
+      "source": {
+        "path": "assets-src/production-v1/relics/river-stone/icon.source.png",
+        "sha256": "1e14b35f332a4fb3c0c934837424befcf3a89514d575cee7eef4b4d1fbd76a9a",
+        "bytes": 315,
+        "width": 32,
+        "height": 32,
+        "colors": [
+          "#48434a",
+          "#24232b",
+          "#8b6755",
+          "#b79578",
+          "#79a58c",
+          "#c6ad69",
+          "#ede2c8",
+          "#c3d1ac",
+          "#3e6861"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 4,
+          "top": 7,
+          "right": 27,
+          "bottom": 23
+        },
+        "margin": {
+          "left": 4,
+          "top": 7,
+          "right": 4,
+          "bottom": 8
+        }
+      },
+      "webSd": {
+        "path": "public/assets/production-v1/web-sd/relics/river-stone/icon@sd.png",
+        "sha256": "92288d8eb8e01c731628e2dfd91d5a236046294fed90af07f6cc8d8bb34b117f",
+        "bytes": 340,
+        "width": 64,
+        "height": 64,
+        "colors": [
+          "#48434a",
+          "#24232b",
+          "#8b6755",
+          "#b79578",
+          "#79a58c",
+          "#c6ad69",
+          "#ede2c8",
+          "#c3d1ac",
+          "#3e6861"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 8,
+          "top": 14,
+          "right": 55,
+          "bottom": 47
+        },
+        "margin": {
+          "left": 8,
+          "top": 14,
+          "right": 8,
+          "bottom": 16
+        }
+      },
+      "webHd": {
+        "path": "public/assets/production-v1/web-hd/relics/river-stone/icon@hd.png",
+        "sha256": "1092f36d5b5a0711b923718314c2865d10086c4896da98a32e09558045e2aae4",
+        "bytes": 461,
+        "width": 96,
+        "height": 96,
+        "colors": [
+          "#48434a",
+          "#24232b",
+          "#8b6755",
+          "#b79578",
+          "#79a58c",
+          "#c6ad69",
+          "#ede2c8",
+          "#c3d1ac",
+          "#3e6861"
+        ],
+        "alpha": [
+          0,
+          255
+        ],
+        "bounds": {
+          "left": 12,
+          "top": 21,
+          "right": 83,
+          "bottom": 71
+        },
+        "margin": {
+          "left": 12,
+          "top": 21,
+          "right": 12,
+          "bottom": 24
+        }
+      },
+      "thumbnail": null,
+      "layers": {
+        "kind": "palette-separated-png-layers",
+        "editableNativeSource": false,
+        "layers": [
+          {
+            "path": "assets-src/production-v1/relics/river-stone/icon.layers/silhouette.png",
+            "sha256": "ec1ff7b9bcf4dff762f3e0ae84fb03cf7cea9ebea98911f321e065bd8311d068",
+            "bytes": 213,
+            "width": 32,
+            "height": 32,
+            "colors": [
+              "#48434a",
+              "#24232b"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 4,
+              "top": 7,
+              "right": 27,
+              "bottom": 23
+            },
+            "margin": {
+              "left": 4,
+              "top": 7,
+              "right": 4,
+              "bottom": 8
+            }
+          },
+          {
+            "path": "assets-src/production-v1/relics/river-stone/icon.layers/material.png",
+            "sha256": "811567bd364237e9cb433a1c57113138c4bb50f3dc981a6f73da62c932d6cd18",
+            "bytes": 258,
+            "width": 32,
+            "height": 32,
+            "colors": [
+              "#8b6755",
+              "#b79578",
+              "#79a58c",
+              "#ede2c8",
+              "#c3d1ac",
+              "#3e6861"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 5,
+              "top": 8,
+              "right": 27,
+              "bottom": 21
+            },
+            "margin": {
+              "left": 5,
+              "top": 8,
+              "right": 4,
+              "bottom": 10
+            }
+          },
+          {
+            "path": "assets-src/production-v1/relics/river-stone/icon.layers/marks.png",
+            "sha256": "9d7ce1d62721a53ec1cb0b10f91812a178b353ea40570bbbe42707257e4f6353",
+            "bytes": 144,
+            "width": 32,
+            "height": 32,
+            "colors": [
+              "#c6ad69"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 8,
+              "top": 9,
+              "right": 25,
+              "bottom": 18
+            },
+            "margin": {
+              "left": 8,
+              "top": 9,
+              "right": 6,
+              "bottom": 13
+            }
+          }
+        ],
+        "compositeEqualsSourceAfterTransparentRgbCanonicalization": true
+      },
+      "native": {
+        "requiredFormat": ".aseprite",
+        "available": true,
+        "path": "assets-src/production-v1/relics/river-stone/icon.aseprite",
+        "sha256": "3b6832f1df38ef336c15348cca407046cda10ec9d6a6c25b1b18311d7ccd1f6a",
+        "bytes": 843,
+        "asepriteVersion": "Aseprite 1.3.18.5-x64",
+        "layerNames": [
+          "silhouette",
+          "material",
+          "marks"
+        ],
+        "reopened": true,
+        "exportPath": "docs/art/m3e0/evidence/native-roundtrip/relic.river-stone.icon.source.png",
+        "exportedPngSha256": "52ceb0937a5013cce3c6580b6796fe686cc2225c8d8212c95340dfbe12914a35",
+        "exportMatchesApprovedSourceAfterTransparentRgbCanonicalization": true,
+        "binaryAlpha": true,
+        "pivot": {
+          "x": 16,
+          "y": 16
+        },
+        "editabilityReview": {
+          "id": "relic.river-stone.icon",
+          "decision": "pass",
+          "reason": "Stone silhouette, earth material, and restrained highlight marks remain separate and editable.",
+          "limitation": "Approval covers this static icon only."
+        }
+      },
+      "b1Verification": {
+        "id": "relic.river-stone.icon",
+        "sourceSha256": "1e14b35f332a4fb3c0c934837424befcf3a89514d575cee7eef4b4d1fbd76a9a",
+        "nativeSha256": "3b6832f1df38ef336c15348cca407046cda10ec9d6a6c25b1b18311d7ccd1f6a",
+        "webSdSha256": "92288d8eb8e01c731628e2dfd91d5a236046294fed90af07f6cc8d8bb34b117f",
+        "webHdSha256": "1092f36d5b5a0711b923718314c2865d10086c4896da98a32e09558045e2aae4",
+        "unchanged": true
+      }
+    },
+    {
+      "id": "scene.lingjiatan.battle",
+      "kind": "background",
+      "status": "revised-b0",
+      "sourceGrid": "640x360",
+      "pivot": {
+        "x": 320,
+        "y": 180
+      },
+      "input": {
+        "path": "assets-src/m3e0/raw/lingjiatan-battle-revision.png",
+        "sha256": "a944686187ce9b9e35a287c48e86fae612d668d1d3690d67df9c78ba85e16dab"
+      },
+      "raw": {
+        "path": "assets-src/m3e0/raw/lingjiatan-battle-revision.png",
+        "sha256": "a944686187ce9b9e35a287c48e86fae612d668d1d3690d67df9c78ba85e16dab"
+      },
+      "source": {
+        "path": "assets-src/production-v1/scenes/lingjiatan-battle/battle.source.png",
+        "sha256": "8e181aea0a80d40619abf49b6b8851556aa62230aa62b8fd629882c7390536b9",
+        "bytes": 31707,
+        "width": 640,
+        "height": 360,
+        "colors": [
+          "#ede2c8",
+          "#f7efda",
+          "#c6ad69",
+          "#b79578",
+          "#8b6755",
+          "#c3d1ac",
+          "#bb6252",
+          "#48434a",
+          "#24232b",
+          "#829ba5",
+          "#79a58c",
+          "#3e6861"
+        ],
+        "alpha": [
+          255
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 639,
+          "bottom": 359
+        },
+        "margin": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      },
+      "webSd": {
+        "path": "public/assets/production-v1/web-sd/scenes/lingjiatan-battle/battle@sd.png",
+        "sha256": "0966b2c2c212e671d4cd4f981e2baa770885673e483c0077a9044777bf629558",
+        "bytes": 38070,
+        "width": 1280,
+        "height": 720,
+        "colors": [
+          "#ede2c8",
+          "#f7efda",
+          "#c6ad69",
+          "#b79578",
+          "#8b6755",
+          "#c3d1ac",
+          "#bb6252",
+          "#48434a",
+          "#24232b",
+          "#829ba5",
+          "#79a58c",
+          "#3e6861"
+        ],
+        "alpha": [
+          255
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1279,
+          "bottom": 719
+        },
+        "margin": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      },
+      "webHd": {
+        "path": "public/assets/production-v1/web-hd/scenes/lingjiatan-battle/battle@hd.png",
+        "sha256": "a56bf7054cb5f9d5bd84b52ddb66b362751dfbb40aea34b9f43da6405d92d0e7",
+        "bytes": 55059,
+        "width": 1920,
+        "height": 1080,
+        "colors": [
+          "#ede2c8",
+          "#f7efda",
+          "#c6ad69",
+          "#b79578",
+          "#8b6755",
+          "#c3d1ac",
+          "#bb6252",
+          "#48434a",
+          "#24232b",
+          "#829ba5",
+          "#79a58c",
+          "#3e6861"
+        ],
+        "alpha": [
+          255
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1919,
+          "bottom": 1079
+        },
+        "margin": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      },
+      "thumbnail": null,
+      "layers": {
+        "kind": "palette-separated-png-layers",
+        "editableNativeSource": false,
+        "layers": [
+          {
+            "path": "assets-src/production-v1/scenes/lingjiatan-battle/battle.layers/silhouette.png",
+            "sha256": "3ff20095583ef0e4cd2363c70ea86a987c671c9dcddd39dc46061592d00a8289",
+            "bytes": 12489,
+            "width": 640,
+            "height": 360,
+            "colors": [
+              "#48434a",
+              "#24232b"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 0,
+              "top": 65,
+              "right": 639,
+              "bottom": 359
+            },
+            "margin": {
+              "left": 0,
+              "top": 65,
+              "right": 0,
+              "bottom": 0
+            }
+          },
+          {
+            "path": "assets-src/production-v1/scenes/lingjiatan-battle/battle.layers/material.png",
+            "sha256": "b098e942be93e77e01ac105abc89e4e86e80073d8d5fab2ca3acfd6e8bcfe374",
+            "bytes": 25931,
+            "width": 640,
+            "height": 360,
+            "colors": [
+              "#ede2c8",
+              "#f7efda",
+              "#b79578",
+              "#8b6755",
+              "#c3d1ac",
+              "#79a58c",
+              "#3e6861"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 0,
+              "top": 0,
+              "right": 639,
+              "bottom": 355
+            },
+            "margin": {
+              "left": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 4
+            }
+          },
+          {
+            "path": "assets-src/production-v1/scenes/lingjiatan-battle/battle.layers/marks.png",
+            "sha256": "74161ee0b711491231f9a5031c74d0ffc43a9843a6de89935bc0099544cabc26",
+            "bytes": 10375,
+            "width": 640,
+            "height": 360,
+            "colors": [
+              "#c6ad69",
+              "#bb6252",
+              "#829ba5"
+            ],
+            "alpha": [
+              0,
+              255
+            ],
+            "bounds": {
+              "left": 0,
+              "top": 49,
+              "right": 639,
+              "bottom": 351
+            },
+            "margin": {
+              "left": 0,
+              "top": 49,
+              "right": 0,
+              "bottom": 8
+            }
+          }
+        ],
+        "compositeEqualsSourceAfterTransparentRgbCanonicalization": true
+      },
+      "native": {
+        "requiredFormat": ".aseprite",
+        "available": true,
+        "path": "assets-src/production-v1/scenes/lingjiatan-battle/battle.aseprite",
+        "sha256": "32feed2186d96e292badeca9e3ef212bbbd7ba0302eb8458b50926cdfcf6393f",
+        "bytes": 73823,
+        "asepriteVersion": "Aseprite 1.3.18.5-x64",
+        "layerNames": [
+          "silhouette",
+          "material",
+          "marks"
+        ],
+        "reopened": true,
+        "exportPath": "docs/art/m3e0/evidence/native-roundtrip/scene.lingjiatan.battle.source.png",
+        "exportedPngSha256": "6df5605572f00af29bca47a0525be5d42fb0dd0a6429684a84c81c4c6e290be4",
+        "exportMatchesApprovedSourceAfterTransparentRgbCanonicalization": true,
+        "binaryAlpha": true,
+        "pivot": {
+          "x": 320,
+          "y": 180
+        },
+        "editabilityReview": {
+          "id": "scene.lingjiatan.battle",
+          "decision": "pass",
+          "reason": "Dark foreground/ruin structure, primary sky/soil/stone materials, and fired-earth/highlight marks remain coherent independent editing roles.",
+          "limitation": "These are color-and-material editing layers, not parallax depth layers."
+        }
+      }
+    }
+  ]
+}

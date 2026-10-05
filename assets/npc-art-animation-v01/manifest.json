@@ -1,0 +1,1095 @@
+{
+  "generator": "native-image_gen",
+  "exporter": "sharp nearest + key-pose assembly",
+  "grid": [
+    160,
+    160
+  ],
+  "footBottom": 149,
+  "units": [
+    {
+      "slug": "clay-sentinel",
+      "sourceHashes": {
+        "idle": "d35e2852695e26db62c2e0b94e57bab0e897aac790483b58205fffee05df99f2",
+        "actions": "b8c19a5d343b83a27dd1e634dc7fa3787b5bfcd48cd483927b400858cac3ef21"
+      },
+      "sourceBoxes": {
+        "idle": {
+          "left": 59,
+          "top": 80,
+          "width": 1075,
+          "height": 1195,
+          "area": 882946
+        },
+        "poses": [
+          {
+            "left": 20,
+            "top": 37,
+            "width": 799,
+            "height": 633,
+            "area": 257402
+          },
+          {
+            "left": 893,
+            "top": 51,
+            "width": 539,
+            "height": 620,
+            "area": 223498
+          },
+          {
+            "left": 1603,
+            "top": 103,
+            "width": 521,
+            "height": 567,
+            "area": 208564
+          }
+        ]
+      },
+      "frames": [
+        {
+          "action": "idle",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/clay-sentinel/animation/idle/000@sd.png",
+          "sha256": "b2be78be8f990a0a8d5c7ec6a54f90327f078900d7c9e199960e87c2b0098d1f",
+          "bytes": 24304
+        },
+        {
+          "action": "idle",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/clay-sentinel/animation/idle/000@hd.png",
+          "sha256": "53cc65c267e5c0ca2fbcc0e8deb650ffdcd6afd4b8f19be1bd4965f156083c4e",
+          "bytes": 28804
+        },
+        {
+          "action": "idle",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/clay-sentinel/animation/idle/001@sd.png",
+          "sha256": "fa3d7c8d7404a1a0eae38885910c1f41ff68d8f0c286aa8b9096a896d817cd99",
+          "bytes": 24279
+        },
+        {
+          "action": "idle",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/clay-sentinel/animation/idle/001@hd.png",
+          "sha256": "d3b5a9edc670b23b5f09f901331ed11ce03284ddf4c36e1adffc8725a2caa910",
+          "bytes": 28773
+        },
+        {
+          "action": "idle",
+          "index": 2,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/clay-sentinel/animation/idle/002@sd.png",
+          "sha256": "bd5b5288039b3b1487a9ac735fc355576f4224484493bce3699c3e701c273d72",
+          "bytes": 24138
+        },
+        {
+          "action": "idle",
+          "index": 2,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/clay-sentinel/animation/idle/002@hd.png",
+          "sha256": "6f5b09749dbb7dac0dc15633dbd1cd2abec3baae1a8c0740d74bb8169b9ae44a",
+          "bytes": 28595
+        },
+        {
+          "action": "idle",
+          "index": 3,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/clay-sentinel/animation/idle/003@sd.png",
+          "sha256": "fa3d7c8d7404a1a0eae38885910c1f41ff68d8f0c286aa8b9096a896d817cd99",
+          "bytes": 24279
+        },
+        {
+          "action": "idle",
+          "index": 3,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/clay-sentinel/animation/idle/003@hd.png",
+          "sha256": "d3b5a9edc670b23b5f09f901331ed11ce03284ddf4c36e1adffc8725a2caa910",
+          "bytes": 28773
+        },
+        {
+          "action": "attack",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/clay-sentinel/animation/attack/000@sd.png",
+          "sha256": "8682ded4085e1ea486dd6d4e43124a7f8edef30ac1f3ff0683d031b289d2845c",
+          "bytes": 24165
+        },
+        {
+          "action": "attack",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/clay-sentinel/animation/attack/000@hd.png",
+          "sha256": "c31fb81d44fef55fd83a37989b3453b4a84a38d797e52660fc3b6b65962439ca",
+          "bytes": 28638
+        },
+        {
+          "action": "attack",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/clay-sentinel/animation/attack/001@sd.png",
+          "sha256": "2af05fea8f54dcb58a543cbc9adf5c994c3d64ae1c85765d9975e03be7549b2f",
+          "bytes": 26184
+        },
+        {
+          "action": "attack",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/clay-sentinel/animation/attack/001@hd.png",
+          "sha256": "d78402cbc59b41a332315e47acdbb423b349d70d5dd8c1414f951f1f467229eb",
+          "bytes": 30581
+        },
+        {
+          "action": "attack",
+          "index": 2,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/clay-sentinel/animation/attack/002@sd.png",
+          "sha256": "9664645012f8a61d9b32c1bd847e6520efff43b0778d6fda47e4b06e717a008e",
+          "bytes": 26201
+        },
+        {
+          "action": "attack",
+          "index": 2,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/clay-sentinel/animation/attack/002@hd.png",
+          "sha256": "31ef3f2987648f093f4180a606b57feb2c2c6bf9f2b83688747252ce76560d3f",
+          "bytes": 30601
+        },
+        {
+          "action": "attack",
+          "index": 3,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/clay-sentinel/animation/attack/003@sd.png",
+          "sha256": "b2be78be8f990a0a8d5c7ec6a54f90327f078900d7c9e199960e87c2b0098d1f",
+          "bytes": 24304
+        },
+        {
+          "action": "attack",
+          "index": 3,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/clay-sentinel/animation/attack/003@hd.png",
+          "sha256": "53cc65c267e5c0ca2fbcc0e8deb650ffdcd6afd4b8f19be1bd4965f156083c4e",
+          "bytes": 28804
+        },
+        {
+          "action": "hit",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/clay-sentinel/animation/hit/000@sd.png",
+          "sha256": "395a35b97e39552240dc9b876d47c499cd8431890a384d68ab792a986404691a",
+          "bytes": 23262
+        },
+        {
+          "action": "hit",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/clay-sentinel/animation/hit/000@hd.png",
+          "sha256": "d3eb94fdcf339db14e51c7a18ea0b293b124fcfc509dc212f19e8052b27a051b",
+          "bytes": 27082
+        },
+        {
+          "action": "hit",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/clay-sentinel/animation/hit/001@sd.png",
+          "sha256": "12dc866df569ef13ba9dccf9703d9a196654391503158d07dace388bb5be9699",
+          "bytes": 23263
+        },
+        {
+          "action": "hit",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/clay-sentinel/animation/hit/001@hd.png",
+          "sha256": "3010b226ecc68e2461d6ec83d42ada6c630e2592003ec61e8d4ea99a5c5f516f",
+          "bytes": 27081
+        },
+        {
+          "action": "defeat",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/clay-sentinel/animation/defeat/000@sd.png",
+          "sha256": "12dc866df569ef13ba9dccf9703d9a196654391503158d07dace388bb5be9699",
+          "bytes": 23263
+        },
+        {
+          "action": "defeat",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/clay-sentinel/animation/defeat/000@hd.png",
+          "sha256": "3010b226ecc68e2461d6ec83d42ada6c630e2592003ec61e8d4ea99a5c5f516f",
+          "bytes": 27081
+        },
+        {
+          "action": "defeat",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/clay-sentinel/animation/defeat/001@sd.png",
+          "sha256": "42986fa9fc6376b3592f851ff3f323ac54f4dd0c961f823b7d6cf3eac7dc1910",
+          "bytes": 22617
+        },
+        {
+          "action": "defeat",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/clay-sentinel/animation/defeat/001@hd.png",
+          "sha256": "4a46e7f96d1242560610a11024523a9d8682012f5971c9870f03c1366b432938",
+          "bytes": 26475
+        },
+        {
+          "action": "defeat",
+          "index": 2,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/clay-sentinel/animation/defeat/002@sd.png",
+          "sha256": "031f7c2fb0879cd4778795fb3de0b8b34b6b93a0fa40f00dd3f951515ecde8b0",
+          "bytes": 21870
+        },
+        {
+          "action": "defeat",
+          "index": 2,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/clay-sentinel/animation/defeat/002@hd.png",
+          "sha256": "433f8325481dcfa63d9891588ce54276adc34d8e281f0be23edd29b55b890974",
+          "bytes": 25555
+        },
+        {
+          "action": "defeat",
+          "index": 3,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/clay-sentinel/animation/defeat/003@sd.png",
+          "sha256": "d94098d7994e1db213e320803dd821b9773e9b3b65354083be9e7ca0fb4d019c",
+          "bytes": 21735
+        },
+        {
+          "action": "defeat",
+          "index": 3,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/clay-sentinel/animation/defeat/003@hd.png",
+          "sha256": "ab9859e2eef8340fa7bd9e6fed8968913514addbf0b206d7b6d8bb0f6c2722a7",
+          "bytes": 24303
+        }
+      ]
+    },
+    {
+      "slug": "vein-moth",
+      "sourceHashes": {
+        "idle": "87de4900b5cf12793c93ae7df7da34dec0a3163c23b2b941ced1fe5dfa12ab2d",
+        "actions": "1e2e1a559291ac08047e2cb570d9f16d029d7d16c4479356b5b3d1c77cad8e4b",
+        "wingCycle": "a798f899ffe2ccb57c7d9afff5caebe0d739fe96c42f91a43e9154aabc27b759"
+      },
+      "sourceBoxes": {
+        "idle": {
+          "left": 39,
+          "top": 140,
+          "width": 1129,
+          "height": 1107,
+          "area": 639849
+        },
+        "poses": [
+          {
+            "left": 22,
+            "top": 35,
+            "width": 843,
+            "height": 625,
+            "area": 237769
+          },
+          {
+            "left": 908,
+            "top": 145,
+            "width": 491,
+            "height": 523,
+            "area": 142268
+          },
+          {
+            "left": 1527,
+            "top": 376,
+            "width": 628,
+            "height": 296,
+            "area": 115244
+          }
+        ],
+        "wings": [
+          {
+            "left": 123,
+            "top": 42,
+            "width": 681,
+            "height": 642,
+            "area": 234795
+          },
+          {
+            "left": 945,
+            "top": 61,
+            "width": 481,
+            "height": 623,
+            "area": 170785
+          },
+          {
+            "left": 1654,
+            "top": 32,
+            "width": 359,
+            "height": 652,
+            "area": 134406
+          }
+        ]
+      },
+      "frames": [
+        {
+          "action": "idle",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/vein-moth/animation/idle/000@sd.png",
+          "sha256": "5e9abe5eafd0548be2c4c5f3330ce63d9acd5f5eb6a1342741910d8f8c6a2f6c",
+          "bytes": 20373
+        },
+        {
+          "action": "idle",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/vein-moth/animation/idle/000@hd.png",
+          "sha256": "ae858472f95f12df948b91aacf4b3ddd72367fe97fc26a8ec9b91e2235b30355",
+          "bytes": 24509
+        },
+        {
+          "action": "idle",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/vein-moth/animation/idle/001@sd.png",
+          "sha256": "35d67386ab20e06eb4ba5ccbb66a796414f71790863cdac2455c6f88820b6eab",
+          "bytes": 15450
+        },
+        {
+          "action": "idle",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/vein-moth/animation/idle/001@hd.png",
+          "sha256": "2c3612fac6f8a70c4192997558f2f5a5905ea65d4fe8502cb8677bd4906a7600",
+          "bytes": 18375
+        },
+        {
+          "action": "idle",
+          "index": 2,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/vein-moth/animation/idle/002@sd.png",
+          "sha256": "058f524ab9611cc0d27cb3449f59bb4080d153e3667e1b9fa3e97b10396b0101",
+          "bytes": 12159
+        },
+        {
+          "action": "idle",
+          "index": 2,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/vein-moth/animation/idle/002@hd.png",
+          "sha256": "49b806ef6653a511a569ec61cdcaef52e231e4fc2e2cab0c1568349624b8948d",
+          "bytes": 14706
+        },
+        {
+          "action": "idle",
+          "index": 3,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/vein-moth/animation/idle/003@sd.png",
+          "sha256": "35d67386ab20e06eb4ba5ccbb66a796414f71790863cdac2455c6f88820b6eab",
+          "bytes": 15450
+        },
+        {
+          "action": "idle",
+          "index": 3,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/vein-moth/animation/idle/003@hd.png",
+          "sha256": "2c3612fac6f8a70c4192997558f2f5a5905ea65d4fe8502cb8677bd4906a7600",
+          "bytes": 18375
+        },
+        {
+          "action": "attack",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/vein-moth/animation/attack/000@sd.png",
+          "sha256": "4481d8085bd82d79cf8c397d7f52e951c4ddab262791b7c4f14f678e9cab4565",
+          "bytes": 13886
+        },
+        {
+          "action": "attack",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/vein-moth/animation/attack/000@hd.png",
+          "sha256": "ed5cfafc36bf1dda8e84bb99b4827e03416983332ccc9a132a0bbae2d659229f",
+          "bytes": 16822
+        },
+        {
+          "action": "attack",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/vein-moth/animation/attack/001@sd.png",
+          "sha256": "179afa77e85ca55bf57b68e406f38799866cf9708f52e84ba0d71c8c0e8050cf",
+          "bytes": 22038
+        },
+        {
+          "action": "attack",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/vein-moth/animation/attack/001@hd.png",
+          "sha256": "65049e1a69ef4b0643fd4740230e6f4f8b348d637fab69fb05f84257547622e2",
+          "bytes": 26614
+        },
+        {
+          "action": "attack",
+          "index": 2,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/vein-moth/animation/attack/002@sd.png",
+          "sha256": "3a393120f1f0e0a96884204fcd8f1082257be57b7a459235989b00eb35f38b5d",
+          "bytes": 22068
+        },
+        {
+          "action": "attack",
+          "index": 2,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/vein-moth/animation/attack/002@hd.png",
+          "sha256": "ca031f51ad635275b5c315847aa156cdc1bd1e9c6d017973b0c8803910c6cfe1",
+          "bytes": 26655
+        },
+        {
+          "action": "attack",
+          "index": 3,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/vein-moth/animation/attack/003@sd.png",
+          "sha256": "9bb88c76498cf24bdd3b2351048aa909a8748c0fc286b826a749fa204d9b7c21",
+          "bytes": 13901
+        },
+        {
+          "action": "attack",
+          "index": 3,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/vein-moth/animation/attack/003@hd.png",
+          "sha256": "9488fcf23b6fdd9121d26ea86fd2bac610a588cfaaf3defaabf80d56933e12ab",
+          "bytes": 16842
+        },
+        {
+          "action": "hit",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/vein-moth/animation/hit/000@sd.png",
+          "sha256": "57836617a4f9a40321af691f3800436f33b95bb937daed3f2ff4e28a81d621d6",
+          "bytes": 13779
+        },
+        {
+          "action": "hit",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/vein-moth/animation/hit/000@hd.png",
+          "sha256": "98e14d19d9d109245eba47f01c156f7c34f03a291e9492ec0adc3a73b91d7121",
+          "bytes": 16567
+        },
+        {
+          "action": "hit",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/vein-moth/animation/hit/001@sd.png",
+          "sha256": "0e5c125aaf7efc9d8ebbe93ceb10a4d373b6cd6da742c2ee5f3cf8e1a69d7920",
+          "bytes": 13780
+        },
+        {
+          "action": "hit",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/vein-moth/animation/hit/001@hd.png",
+          "sha256": "2dec7aeb587e9f318d758feffed0d9c7994476a097161d2feb79a8f12040de6a",
+          "bytes": 16567
+        },
+        {
+          "action": "defeat",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/vein-moth/animation/defeat/000@sd.png",
+          "sha256": "0e5c125aaf7efc9d8ebbe93ceb10a4d373b6cd6da742c2ee5f3cf8e1a69d7920",
+          "bytes": 13780
+        },
+        {
+          "action": "defeat",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/vein-moth/animation/defeat/000@hd.png",
+          "sha256": "2dec7aeb587e9f318d758feffed0d9c7994476a097161d2feb79a8f12040de6a",
+          "bytes": 16567
+        },
+        {
+          "action": "defeat",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/vein-moth/animation/defeat/001@sd.png",
+          "sha256": "9c51b32f1b1056627b5f67a910a737b0ef6f7f907b8e935a083cab3605d85507",
+          "bytes": 11676
+        },
+        {
+          "action": "defeat",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/vein-moth/animation/defeat/001@hd.png",
+          "sha256": "c9e9f34e3977d00d3d925f0d74557994af6e3d30ab56ab80d8dd315c8fd107c3",
+          "bytes": 14049
+        },
+        {
+          "action": "defeat",
+          "index": 2,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/vein-moth/animation/defeat/002@sd.png",
+          "sha256": "e60a2b0ed7e40a26efdcf4f0d0d705e52890b9363b43b13fcc76940ea97a4223",
+          "bytes": 11254
+        },
+        {
+          "action": "defeat",
+          "index": 2,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/vein-moth/animation/defeat/002@hd.png",
+          "sha256": "c56817a449f6be464c35fc5d137cb57eef1cf25086a3ce95be2b2e24ddfdc17c",
+          "bytes": 13496
+        },
+        {
+          "action": "defeat",
+          "index": 3,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/vein-moth/animation/defeat/003@sd.png",
+          "sha256": "491c878fddc11f5a026051980eaa98d95d6de30045ff0da4d8796e22126c4a27",
+          "bytes": 11152
+        },
+        {
+          "action": "defeat",
+          "index": 3,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/vein-moth/animation/defeat/003@hd.png",
+          "sha256": "857bd3ee1977a2085f81ab89c57388159cac21944f6443ec600497da4517bbc7",
+          "bytes": 12663
+        }
+      ]
+    },
+    {
+      "slug": "shard-beast",
+      "sourceHashes": {
+        "idle": "86babca285397b4a1284ee586acd4cf6a762efcc391cfeed91a68ef5d115745e",
+        "actions": "13516b86530fc3932b15172f0d23614a4a920241869c57129808c5b1f96f5a8f"
+      },
+      "sourceBoxes": {
+        "idle": {
+          "left": 64,
+          "top": 116,
+          "width": 1230,
+          "height": 1002,
+          "area": 724796
+        },
+        "poses": [
+          {
+            "left": 19,
+            "top": 86,
+            "width": 775,
+            "height": 576,
+            "area": 223776
+          },
+          {
+            "left": 874,
+            "top": 99,
+            "width": 585,
+            "height": 562,
+            "area": 202372
+          },
+          {
+            "left": 1515,
+            "top": 195,
+            "width": 622,
+            "height": 464,
+            "area": 176211
+          }
+        ]
+      },
+      "frames": [
+        {
+          "action": "idle",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/shard-beast/animation/idle/000@sd.png",
+          "sha256": "94b9b38269c28f8ea2ba95222a94e9e4fab165ca97361367e3878515279b5cb0",
+          "bytes": 19768
+        },
+        {
+          "action": "idle",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/shard-beast/animation/idle/000@hd.png",
+          "sha256": "c92811b34f997b6ae3cfcf56f22fe7222d6199008982e6407ab7accfb9736ca6",
+          "bytes": 23078
+        },
+        {
+          "action": "idle",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/shard-beast/animation/idle/001@sd.png",
+          "sha256": "8aed1246178de1643aada9f39b3e0198a31b28537db633a398e9d31d5a295d7c",
+          "bytes": 19570
+        },
+        {
+          "action": "idle",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/shard-beast/animation/idle/001@hd.png",
+          "sha256": "8f1819bff3ad8390bec6ae72a80d74e4d641852c639b0287ae9f56d67c6bf44d",
+          "bytes": 22868
+        },
+        {
+          "action": "idle",
+          "index": 2,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/shard-beast/animation/idle/002@sd.png",
+          "sha256": "16bca241ed8973625f0a06061debf77cc1570859e34a396aa7130d789dae002f",
+          "bytes": 19476
+        },
+        {
+          "action": "idle",
+          "index": 2,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/shard-beast/animation/idle/002@hd.png",
+          "sha256": "6bd50b26281bdd5e84fd3777651ef4dc2fe1342de0d07e7ef27adee7fbf8bed1",
+          "bytes": 22745
+        },
+        {
+          "action": "idle",
+          "index": 3,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/shard-beast/animation/idle/003@sd.png",
+          "sha256": "84a43723d4b10b89100f8fac6959587a7c99cb444148da16ced3ea53caf616cd",
+          "bytes": 19575
+        },
+        {
+          "action": "idle",
+          "index": 3,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/shard-beast/animation/idle/003@hd.png",
+          "sha256": "1331e829f7eaa3813b17df790ebacc736a3693439ab006d4b6ac4e66671757fa",
+          "bytes": 22881
+        },
+        {
+          "action": "attack",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/shard-beast/animation/attack/000@sd.png",
+          "sha256": "91ea42fc0695b921e18ae8ff83708d145802b5d1be3093289ae46f6ea1796500",
+          "bytes": 19572
+        },
+        {
+          "action": "attack",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/shard-beast/animation/attack/000@hd.png",
+          "sha256": "b984b12fccc67ff8d985b5b08488835f57389bc15d19ffa6dadcd64d0531fd95",
+          "bytes": 22872
+        },
+        {
+          "action": "attack",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/shard-beast/animation/attack/001@sd.png",
+          "sha256": "6e3908707fed8619d831caea4200d4f36a4253023086abc9f7d15c1163b23cc7",
+          "bytes": 25214
+        },
+        {
+          "action": "attack",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/shard-beast/animation/attack/001@hd.png",
+          "sha256": "5daead9634b6bf5145cd6ec1a9fdb987eb5be0b3220e6cedb73f835e1bf3628b",
+          "bytes": 29018
+        },
+        {
+          "action": "attack",
+          "index": 2,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/shard-beast/animation/attack/002@sd.png",
+          "sha256": "114078bed671d1ebd669974d7cd757ac3e35f76651ee5c7b71165ba16db4edeb",
+          "bytes": 25450
+        },
+        {
+          "action": "attack",
+          "index": 2,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/shard-beast/animation/attack/002@hd.png",
+          "sha256": "f833f4db352fcdc8438174a5f2d99445fc5d55215ac67616cbd81c8762f316a5",
+          "bytes": 29331
+        },
+        {
+          "action": "attack",
+          "index": 3,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/shard-beast/animation/attack/003@sd.png",
+          "sha256": "94b9b38269c28f8ea2ba95222a94e9e4fab165ca97361367e3878515279b5cb0",
+          "bytes": 19768
+        },
+        {
+          "action": "attack",
+          "index": 3,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/shard-beast/animation/attack/003@hd.png",
+          "sha256": "c92811b34f997b6ae3cfcf56f22fe7222d6199008982e6407ab7accfb9736ca6",
+          "bytes": 23078
+        },
+        {
+          "action": "hit",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/shard-beast/animation/hit/000@sd.png",
+          "sha256": "c53a6e98ab3ce74cae5314ab541ddee26f321fca1d998d38d02d3e11d7fe4026",
+          "bytes": 23104
+        },
+        {
+          "action": "hit",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/shard-beast/animation/hit/000@hd.png",
+          "sha256": "f264672ca39336769a17f263bab5a15d637b3e99ba92990209772d5c4802dfcd",
+          "bytes": 26808
+        },
+        {
+          "action": "hit",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/shard-beast/animation/hit/001@sd.png",
+          "sha256": "48e8725f0803e134fe864427f39b435b2ff6136238a234c97d4a09be09b0deb3",
+          "bytes": 23107
+        },
+        {
+          "action": "hit",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/shard-beast/animation/hit/001@hd.png",
+          "sha256": "ba74e96e3ad8b1b57a80ddec97c6d1d8c93c0481886a2ef017ae83f10efafe6e",
+          "bytes": 26804
+        },
+        {
+          "action": "defeat",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/shard-beast/animation/defeat/000@sd.png",
+          "sha256": "48e8725f0803e134fe864427f39b435b2ff6136238a234c97d4a09be09b0deb3",
+          "bytes": 23107
+        },
+        {
+          "action": "defeat",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/shard-beast/animation/defeat/000@hd.png",
+          "sha256": "ba74e96e3ad8b1b57a80ddec97c6d1d8c93c0481886a2ef017ae83f10efafe6e",
+          "bytes": 26804
+        },
+        {
+          "action": "defeat",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/shard-beast/animation/defeat/001@sd.png",
+          "sha256": "f3ad909f211e41df2b92c5d0e7606df7214d797924d149e13ed1a884abeee276",
+          "bytes": 21149
+        },
+        {
+          "action": "defeat",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/shard-beast/animation/defeat/001@hd.png",
+          "sha256": "00def981667fe0c3fb5599243e74a12620dbe71d9de842ab2e59bbb1b0d99b54",
+          "bytes": 24353
+        },
+        {
+          "action": "defeat",
+          "index": 2,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/shard-beast/animation/defeat/002@sd.png",
+          "sha256": "f914494f9b9b626dc96921e27b4f174a027977d8ff55e20d91a2a585a7f067be",
+          "bytes": 20270
+        },
+        {
+          "action": "defeat",
+          "index": 2,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/shard-beast/animation/defeat/002@hd.png",
+          "sha256": "7a2f4660b1b3477b734e0adb28e777de3c3ca719d64a126852b46b744b191ea4",
+          "bytes": 23261
+        },
+        {
+          "action": "defeat",
+          "index": 3,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/shard-beast/animation/defeat/003@sd.png",
+          "sha256": "1297cb68cdea09bd9a4a12b865618c2ba31adf81aa1ad2de8864ca116f4d013d",
+          "bytes": 20037
+        },
+        {
+          "action": "defeat",
+          "index": 3,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/shard-beast/animation/defeat/003@hd.png",
+          "sha256": "68d01a35e03df171fd5ea4d5b3cea9d95f306cba95b540f95c53132cd8dcaf7a",
+          "bytes": 22021
+        }
+      ]
+    },
+    {
+      "slug": "tablet-warden",
+      "sourceHashes": {
+        "idle": "75281ae01b69471bad5ea8bd43ddc28c61368cbc7ff9ecc217c73aab45b82977",
+        "actions": "646a360d5a6ce5caa215bc7c46fea98d3b95f2b274838e355a1375c457b69683"
+      },
+      "sourceBoxes": {
+        "idle": {
+          "left": 69,
+          "top": 166,
+          "width": 1072,
+          "height": 1092,
+          "area": 789947
+        },
+        "poses": [
+          {
+            "left": 34,
+            "top": 47,
+            "width": 766,
+            "height": 624,
+            "area": 281267
+          },
+          {
+            "left": 864,
+            "top": 61,
+            "width": 521,
+            "height": 606,
+            "area": 232013
+          },
+          {
+            "left": 1574,
+            "top": 126,
+            "width": 546,
+            "height": 545,
+            "area": 205239
+          }
+        ]
+      },
+      "frames": [
+        {
+          "action": "idle",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/tablet-warden/animation/idle/000@sd.png",
+          "sha256": "42a352745a0978b91f37289dc804bdf4ffcc1d36379193de8300223cb89e5f2f",
+          "bytes": 26089
+        },
+        {
+          "action": "idle",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/tablet-warden/animation/idle/000@hd.png",
+          "sha256": "25b7fbf1543c3c5520b4bcaaaf24af3f340a7591762af545e167ff9816692b8a",
+          "bytes": 31371
+        },
+        {
+          "action": "idle",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/tablet-warden/animation/idle/001@sd.png",
+          "sha256": "8f1c7c98a973d1c8e8e28b1f2087a91d027924133e94f34dd5e571845fdcdd60",
+          "bytes": 25990
+        },
+        {
+          "action": "idle",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/tablet-warden/animation/idle/001@hd.png",
+          "sha256": "c69949f264593898c76a128539ad596cd5e8e5ba3f6297da5c1b8b0b77d19933",
+          "bytes": 31243
+        },
+        {
+          "action": "idle",
+          "index": 2,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/tablet-warden/animation/idle/002@sd.png",
+          "sha256": "7ba89549d9ed32d1307e3cee4246d8069e09a966111a2064a89877c9ddff27ed",
+          "bytes": 25964
+        },
+        {
+          "action": "idle",
+          "index": 2,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/tablet-warden/animation/idle/002@hd.png",
+          "sha256": "79185a9500810727a6dfb9b21df0da092578ca635da9091a56b195300906318a",
+          "bytes": 31205
+        },
+        {
+          "action": "idle",
+          "index": 3,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/tablet-warden/animation/idle/003@sd.png",
+          "sha256": "4adeab02ed1e92145cf721723a3cb2f6b1c39b06e0f5d8fa33484b6e89729abe",
+          "bytes": 26070
+        },
+        {
+          "action": "idle",
+          "index": 3,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/tablet-warden/animation/idle/003@hd.png",
+          "sha256": "90386b63cd767b41a25c9324a244efbd3eb8ed5d03b5ab745e5750b32098d0db",
+          "bytes": 31346
+        },
+        {
+          "action": "attack",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/tablet-warden/animation/attack/000@sd.png",
+          "sha256": "272ddfebde20f2e66f8ae0af8054c1504b2150408c4f7b79826e30330a691cc3",
+          "bytes": 25991
+        },
+        {
+          "action": "attack",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/tablet-warden/animation/attack/000@hd.png",
+          "sha256": "e865a600e671a79d2639031442e876b02946f2339c19ac5ecdcf67ea06680cfd",
+          "bytes": 31249
+        },
+        {
+          "action": "attack",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/tablet-warden/animation/attack/001@sd.png",
+          "sha256": "baefa9abc83e82d0708b0dc8474e0d093bbd4408c7fd2acb2fd35cba452d53fd",
+          "bytes": 30780
+        },
+        {
+          "action": "attack",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/tablet-warden/animation/attack/001@hd.png",
+          "sha256": "0ea4df1149d951873313689ac3dcfaed725992cc3f156c588c6f01f48e05424c",
+          "bytes": 35914
+        },
+        {
+          "action": "attack",
+          "index": 2,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/tablet-warden/animation/attack/002@sd.png",
+          "sha256": "46ae63794a09e3a67f4f34f36029bf100115d00fa16feef1739b1092e7e06bcd",
+          "bytes": 30942
+        },
+        {
+          "action": "attack",
+          "index": 2,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/tablet-warden/animation/attack/002@hd.png",
+          "sha256": "4ee78883ccaa08f27141cb0007e37479e89e1c0ab921ae530e3e9ce56842c2f5",
+          "bytes": 36261
+        },
+        {
+          "action": "attack",
+          "index": 3,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/tablet-warden/animation/attack/003@sd.png",
+          "sha256": "42a352745a0978b91f37289dc804bdf4ffcc1d36379193de8300223cb89e5f2f",
+          "bytes": 26089
+        },
+        {
+          "action": "attack",
+          "index": 3,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/tablet-warden/animation/attack/003@hd.png",
+          "sha256": "25b7fbf1543c3c5520b4bcaaaf24af3f340a7591762af545e167ff9816692b8a",
+          "bytes": 31371
+        },
+        {
+          "action": "hit",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/tablet-warden/animation/hit/000@sd.png",
+          "sha256": "e0303d18e848c47ce3060bd8f6992697f6f00e08485a0adebbd04009a19953a2",
+          "bytes": 25935
+        },
+        {
+          "action": "hit",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/tablet-warden/animation/hit/000@hd.png",
+          "sha256": "7b5eb29422bd606bf1f39e2c4d7ed4bd0a9fd942a3b030a68563dde21f56d5b1",
+          "bytes": 30264
+        },
+        {
+          "action": "hit",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/tablet-warden/animation/hit/001@sd.png",
+          "sha256": "b81224de46560cef83daa7eb2a20f372f874db6bb5a5840511d92867fc1de314",
+          "bytes": 25935
+        },
+        {
+          "action": "hit",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/tablet-warden/animation/hit/001@hd.png",
+          "sha256": "f173e9c32d4ad3b4ad419e75294acbeef19f6eecede07d6f9607fa0e0339a077",
+          "bytes": 30263
+        },
+        {
+          "action": "defeat",
+          "index": 0,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/tablet-warden/animation/defeat/000@sd.png",
+          "sha256": "b81224de46560cef83daa7eb2a20f372f874db6bb5a5840511d92867fc1de314",
+          "bytes": 25935
+        },
+        {
+          "action": "defeat",
+          "index": 0,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/tablet-warden/animation/defeat/000@hd.png",
+          "sha256": "f173e9c32d4ad3b4ad419e75294acbeef19f6eecede07d6f9607fa0e0339a077",
+          "bytes": 30263
+        },
+        {
+          "action": "defeat",
+          "index": 1,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/tablet-warden/animation/defeat/001@sd.png",
+          "sha256": "3ff3c91269d2fffe5e89884a822bc7173e1f28630e82ce9c43dff7d62d7e1dfb",
+          "bytes": 23794
+        },
+        {
+          "action": "defeat",
+          "index": 1,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/tablet-warden/animation/defeat/001@hd.png",
+          "sha256": "d26811e25bdd4c231113377a349054f8b1001e50f325c5371010cd261522fef3",
+          "bytes": 27983
+        },
+        {
+          "action": "defeat",
+          "index": 2,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/tablet-warden/animation/defeat/002@sd.png",
+          "sha256": "a3239a66caf8777121132f4a6c0aeabbc0dca4f58acdf34df68def64d9fc8fc9",
+          "bytes": 22637
+        },
+        {
+          "action": "defeat",
+          "index": 2,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/tablet-warden/animation/defeat/002@hd.png",
+          "sha256": "29b8584bc78b3fb9011f4d3afb1a09695293753e9c6a90291818cef6bde6ee18",
+          "bytes": 26499
+        },
+        {
+          "action": "defeat",
+          "index": 3,
+          "profile": "web-sd",
+          "path": "web-sd/enemies/tablet-warden/animation/defeat/003@sd.png",
+          "sha256": "1dcad9d080afb0c6cdea46329088dcc51cfa189300f4ce1d1b9ebb6e48bba842",
+          "bytes": 22463
+        },
+        {
+          "action": "defeat",
+          "index": 3,
+          "profile": "web-hd",
+          "path": "web-hd/enemies/tablet-warden/animation/defeat/003@hd.png",
+          "sha256": "d6ad4c3f0ecb16b50673ae264e0484f8d19e34c77fdb656c822befc4159d23d7",
+          "bytes": 24861
+        }
+      ]
+    }
+  ]
+}

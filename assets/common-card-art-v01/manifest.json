@@ -1,0 +1,113 @@
+{
+  "tool": "native image_gen",
+  "cards": [
+    {
+      "cardId": "card.common.stone_strike",
+      "name": "石击",
+      "source": "common-stone-strike-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "stone-strike.webp",
+      "sourceSha256": "f4aefce5ed2d1efcaec2da7938dabc4b89cffbba9513cc451b0f72afcd6cf682",
+      "runtimeBytes": 146250
+    },
+    {
+      "cardId": "card.common.steadfast_guard",
+      "name": "坚守",
+      "source": "common-steadfast-guard-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "steadfast-guard.webp",
+      "sourceSha256": "814c794c1dea7526ede6e575c9ecfa3ee86dec2ee315264d30c00ca9d3090e74",
+      "runtimeBytes": 151722
+    },
+    {
+      "cardId": "card.common.read_slips",
+      "name": "翻简",
+      "source": "common-read-slips-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "read-slips.webp",
+      "sourceSha256": "68126eab5a7daad34c17222cba13f4c12f793b81417c47e57eb1a402ee8ab83a",
+      "runtimeBytes": 139258
+    },
+    {
+      "cardId": "card.common.jade_shield",
+      "name": "玉璧护身",
+      "source": "common-jade-shield-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "jade-shield.webp",
+      "sourceSha256": "0c1be412e3880f01b33632aed6af18817cd0898d9a2c9ebd416dbbf7948599cb",
+      "runtimeBytes": 145544
+    },
+    {
+      "cardId": "card.common.clay_seal",
+      "name": "封泥束势",
+      "source": "common-clay-seal-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "clay-seal.webp",
+      "sourceSha256": "4cce1a7e398b1b6b0f64cffafc7c2bb2eb73b9ee1a1ef9abf9aae8ec8043d1f1",
+      "runtimeBytes": 148016
+    },
+    {
+      "cardId": "card.common.shard_volley",
+      "name": "碎石飞掷",
+      "source": "common-shard-volley-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "shard-volley.webp",
+      "sourceSha256": "8153214aea4ee8143a7d6fa3e416c9895c50dbfd443858154d2ffe2aec08a33b",
+      "runtimeBytes": 158336
+    },
+    {
+      "cardId": "card.common.chisel_gap",
+      "name": "凿隙",
+      "source": "common-chisel-gap-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "chisel-gap.webp",
+      "sourceSha256": "c444d1c810c45067fa0d3fb1cb8da7ba9cbfaa21084d71f79ecc4dba64281312",
+      "runtimeBytes": 149356
+    },
+    {
+      "cardId": "card.common.stored_light",
+      "name": "藏光",
+      "source": "common-stored-light-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "stored-light.webp",
+      "sourceSha256": "7ef66b1efa2daf7d0f87d493c136a706015e09f442437c6e2afea0a9b99c6bf4",
+      "runtimeBytes": 143942
+    },
+    {
+      "cardId": "card.common.turning_counter",
+      "name": "回身击",
+      "source": "common-turning-counter-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "turning-counter.webp",
+      "sourceSha256": "dcbccc01f71e11e51482ccf44789c08c2cc51d85a1dd4ea2afb519cd5bac5627",
+      "runtimeBytes": 150258
+    }
+  ]
+}

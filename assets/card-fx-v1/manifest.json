@@ -1,0 +1,47 @@
+{
+  "source": "assets-src/card-fx-v1/atlas.png",
+  "assets": [
+    {
+      "name": "slash",
+      "path": "public/assets/card-fx-v1/slash.png",
+      "width": 384,
+      "height": 384,
+      "sha256": "35664aea95e71187715e18298c112e57ab0773f9badab4d2142cff82c39faf49"
+    },
+    {
+      "name": "stone",
+      "path": "public/assets/card-fx-v1/stone.png",
+      "width": 384,
+      "height": 384,
+      "sha256": "680f97e6353a21433cedd72046937e67813fb376c996fd179aa024f80105caed"
+    },
+    {
+      "name": "paper",
+      "path": "public/assets/card-fx-v1/paper.png",
+      "width": 384,
+      "height": 384,
+      "sha256": "6d6d78c2f13d45ba0e09b70e910ec9def3721b02689cc5b03e8500f34e3a9852"
+    },
+    {
+      "name": "guard",
+      "path": "public/assets/card-fx-v1/guard.png",
+      "width": 384,
+      "height": 384,
+      "sha256": "890d59d8c0cf7d4ff94e1511f092c579668e6469a93f13875646f87e5913ed2d"
+    },
+    {
+      "name": "fracture",
+      "path": "public/assets/card-fx-v1/fracture.png",
+      "width": 384,
+      "height": 384,
+      "sha256": "d4e3fbcf512ea20d6249e54a45954d9795de62b3628dfc21cd084527a9a1e2be"
+    },
+    {
+      "name": "ribbon",
+      "path": "public/assets/card-fx-v1/ribbon.png",
+      "width": 384,
+      "height": 384,
+      "sha256": "eba037f73a2b9e690cbc92de1391520a124b6ade5eacff91fdf8f5705e1b5489"
+    }
+  ]
+}

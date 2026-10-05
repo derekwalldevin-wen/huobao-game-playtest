@@ -1,0 +1,486 @@
+{
+  "tool": "native image_gen",
+  "cards": [
+    {
+      "cardId": "card.lxy.star_edge",
+      "name": "星纹斩",
+      "source": "lxy-star-edge-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-star-edge.webp",
+      "sourceSha256": "e4177ce06b4b34b1ea0f1f88c57ceea6bf6d2bc39cfd00434ddce6d600ea3143",
+      "runtimeSha256": "eedfc1ee1f312c163b0b50ec349b7c7d492bfcc2ee45c6acb68535ddba5a406e",
+      "runtimeBytes": 156264
+    },
+    {
+      "cardId": "card.lxy.twin_chime",
+      "name": "双鸣",
+      "source": "lxy-twin-chime-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-twin-chime.webp",
+      "sourceSha256": "1694d985dc6f2639b1309cf8a842b1405ec24fd446a2bc133c10864733cd5b2e",
+      "runtimeSha256": "e923ad4078d443c20441ea941b87f18ce6f739d68e9c04c2abd56b119e3d9ec5",
+      "runtimeBytes": 155930
+    },
+    {
+      "cardId": "card.lxy.crack_mark",
+      "name": "裂纹",
+      "source": "lxy-crack-mark-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-crack-mark.webp",
+      "sourceSha256": "a0abc1143bbdf1950c84dd8e8115b4b99781571e27184c3b07550e64cf64f8cf",
+      "runtimeSha256": "4a2e9ec4a8301b5d7d92da3637ab6596430f17088f421d8b08c1395d5c2f0a70",
+      "runtimeBytes": 146652
+    },
+    {
+      "cardId": "card.lxy.echo_cut",
+      "name": "回声刃",
+      "source": "lxy-echo-cut-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-echo-cut.webp",
+      "sourceSha256": "cba9f343494ae587bc8120ddad764303dc680440380e76b9612e092117442c88",
+      "runtimeSha256": "eaa6d59932e629bb788ed49413381301dedf23e07483f6ba0403a319d38404e3",
+      "runtimeBytes": 150856
+    },
+    {
+      "cardId": "card.lxy.heavy_jade",
+      "name": "重玉",
+      "source": "lxy-heavy-jade-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-heavy-jade.webp",
+      "sourceSha256": "5c39514163227c018b354ecdb9614efddc1c02b9b8858dbeb4aae6667802ffb1",
+      "runtimeSha256": "d9163537f0e661655d8bda3e11f48f17f83c916751a72df5da3669e53b807468",
+      "runtimeBytes": 155356
+    },
+    {
+      "cardId": "card.lxy.sweeping_arc",
+      "name": "环斩",
+      "source": "lxy-sweeping-arc-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-sweeping-arc.webp",
+      "sourceSha256": "d76ea8773587a6feb0aa23b8bfc6d54763ee57e1b7e8d481ba10963acc3a3f4d",
+      "runtimeSha256": "28c64c9dea4df655e994b2012013909803cbb8f82ed20c333451e2a84b543db2",
+      "runtimeBytes": 169812
+    },
+    {
+      "cardId": "card.lxy.star_wall",
+      "name": "星纹壁",
+      "source": "lxy-star-wall-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-star-wall.webp",
+      "sourceSha256": "04a96cb4b5413653f12cfd848c8f3280353f166b2ca5501d259b39d96cfbeba5",
+      "runtimeSha256": "b1daab0165d3e7299768bb2818016b5e32a183c916a696ac7dcbfeb874f7ef5c",
+      "runtimeBytes": 177730
+    },
+    {
+      "cardId": "card.lxy.counter_pattern",
+      "name": "守中击",
+      "source": "lxy-counter-pattern-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-counter-pattern.webp",
+      "sourceSha256": "235985b49e4f0b89232ce086ca7007190eb629b1dc2b5fb5aa77a2150ac22fd2",
+      "runtimeSha256": "4dcd26bdea333f4113d9f0224d6249fa541d629c5f629eade7d6554131ce0e29",
+      "runtimeBytes": 156102
+    },
+    {
+      "cardId": "card.lxy.ring_barrier",
+      "name": "环璧",
+      "source": "lxy-ring-barrier-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-ring-barrier.webp",
+      "sourceSha256": "13e72e9318eff82bd9dda37918e8585ef39faa077b259d3191b9558f7da2a70e",
+      "runtimeSha256": "9fd8565de30505ac1659048effbd51455810c27ed2ac64f116adbd715b44d35a",
+      "runtimeBytes": 170374
+    },
+    {
+      "cardId": "card.lxy.guarded_read",
+      "name": "护卷",
+      "source": "lxy-guarded-read-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-guarded-read.webp",
+      "sourceSha256": "2a557edb37dfc90c78b9e84bd07dfeef4921fedec329c7bdcd7caebaf7087752",
+      "runtimeSha256": "32096d9627cb790cfdf0a91f7e2e7f9f68fd956c0d1799c3d9a9083926233338",
+      "runtimeBytes": 166324
+    },
+    {
+      "cardId": "card.lxy.quick_screen",
+      "name": "掩护",
+      "source": "lxy-quick-screen-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-quick-screen.webp",
+      "sourceSha256": "c8bc9e7580f6a2f68d028950ff2b5fc8ff324772fbe86626d38ce82de1007aa9",
+      "runtimeSha256": "f871ee4c6b0e901dd824eb11923eefc4ae21fffa78ce338ffb33f35cfd9c7d15",
+      "runtimeBytes": 147172
+    },
+    {
+      "cardId": "card.lxy.rooted_jade",
+      "name": "镇玉",
+      "source": "lxy-rooted-jade-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-rooted-jade.webp",
+      "sourceSha256": "180e3082b690f36dc2c00756914c6d9818cc5205206dedd4cccfc4c9fb2b1478",
+      "runtimeSha256": "698ed68d09b9e3b8befb41a40a8bf36433a01cfccf35e2daa44cef855be25d25",
+      "runtimeBytes": 167230
+    },
+    {
+      "cardId": "card.lxy.trace_vein",
+      "name": "寻脉",
+      "source": "lxy-trace-vein-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-trace-vein.webp",
+      "sourceSha256": "3cf9938d72b047111fbbc75cbfe780c72f2154a121d4d135ac804ece94705cc8",
+      "runtimeSha256": "6465abb6b2385f0e8ef0c8a9bee98c2494f9272acf31d6988f9109b620985676",
+      "runtimeBytes": 175152
+    },
+    {
+      "cardId": "card.lxy.quiet_ink",
+      "name": "静墨",
+      "source": "lxy-quiet-ink-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-quiet-ink.webp",
+      "sourceSha256": "18df727c142f839a3cae826d6753da7b39c2234a715409b1ab4fa6ba165e8a82",
+      "runtimeSha256": "cb0e916dfa125bf21b581c2cefa1c0cfea08c08b4f5639eb9388f1febda01a17",
+      "runtimeBytes": 160442
+    },
+    {
+      "cardId": "card.lxy.return_flow",
+      "name": "回流",
+      "source": "lxy-return-flow-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-return-flow.webp",
+      "sourceSha256": "909cc6cf88994846fc5a4fccafd146cf7ff859e046f1562cb431dc2e70d8835f",
+      "runtimeSha256": "0be5de8d5fb2cdbf59dd54bf3ba84cfcae869409f1fc5f58d2539cfe1f1f0729",
+      "runtimeBytes": 149128
+    },
+    {
+      "cardId": "card.lxy.steady_step",
+      "name": "稳步",
+      "source": "lxy-steady-step-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-steady-step.webp",
+      "sourceSha256": "8eb475e142eb12fceb54b6a2cc5fec23868d963bfb6e30bb2af4b48499227d0a",
+      "runtimeSha256": "edcbdc1432e746b9fb7b3c6450a5ed7ddcac4689dd02d322123dfee9942ee315",
+      "runtimeBytes": 174668
+    },
+    {
+      "cardId": "card.lxy.inspect_fault",
+      "name": "察隙",
+      "source": "lxy-inspect-fault-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-inspect-fault.webp",
+      "sourceSha256": "6468c5d0eb2efae471f49d1062a443510fd5634dbb8884b35d5808a9d4467214",
+      "runtimeSha256": "b69166c3080602f573936385df0089a2d7dc089efa1cd2c82f4d1136186318b4",
+      "runtimeBytes": 153290
+    },
+    {
+      "cardId": "card.lxy.settle_dust",
+      "name": "定尘",
+      "source": "lxy-settle-dust-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-settle-dust.webp",
+      "sourceSha256": "ff2c4374f8b994bc736798094644de504bc20d6962cb572f707dfd4fe17ca917",
+      "runtimeSha256": "6d62ffe79e84a57f8906603c897f206a1da189dadcee3ae8f615262ec9f32197",
+      "runtimeBytes": 173280
+    },
+    {
+      "cardId": "card.lxy.dragon_chant",
+      "name": "龙吟",
+      "source": "lxy-dragon-chant-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "lxy-dragon-chant.webp",
+      "sourceSha256": "1afe6e1de896ed1a71c2894fe89eca83780ce3042678d220074526302285800c",
+      "runtimeSha256": "faf9283d4ce1c21259ba3562aa5e5274346f96e39c1b4a78cb07ac3fde10b0eb",
+      "runtimeBytes": 174676
+    },
+    {
+      "cardId": "card.fnl.hammer_strike",
+      "name": "锤击",
+      "source": "fnl-hammer-strike-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "fnl-hammer-strike.webp",
+      "sourceSha256": "2a9a839ec720217da8eb55a694d385d92bd8a13be9bc5695ecf6f8a7ad8dd5f3",
+      "runtimeSha256": "d22d1fe1bfb1bfc9a680f098216b9f24fd75e3a2be15569caf91754dc7c2fe9a",
+      "runtimeBytes": 171456
+    },
+    {
+      "cardId": "card.fnl.hammer_guard",
+      "name": "架锤",
+      "source": "fnl-hammer-guard-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "fnl-hammer-guard.webp",
+      "sourceSha256": "fa7db66916d1baa4750418298157a16dfa05281b8884701afebda43766fe748a",
+      "runtimeSha256": "1328bfe7d69ffa115ea13b3f3a4b50ac014bb19bc5493414849b27cd3e27d2d7",
+      "runtimeBytes": 163794
+    },
+    {
+      "cardId": "card.fnl.grind",
+      "name": "打磨",
+      "source": "fnl-grind-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "fnl-grind.webp",
+      "sourceSha256": "980689a9d51325c0f90a41d0f9e799aa558d5035b185e344fe02ef0dd6ec01cf",
+      "runtimeSha256": "768158aede3d4c1aa8a05bf0cc217f25970bfca83a9d2a3e99b3c055ff1521c0",
+      "runtimeBytes": 159076
+    },
+    {
+      "cardId": "card.fnl.find_gap",
+      "name": "寻隙",
+      "source": "fnl-find-gap-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "fnl-find-gap.webp",
+      "sourceSha256": "0f108b4afd5d0a9179100d472ddafebef61814a4d270c79a5e74b56a7bb787da",
+      "runtimeSha256": "d6b5cf23aeb8d99589a560a2822d0b33a986f8b276cdbb3415bb3256172c26cd",
+      "runtimeBytes": 150118
+    },
+    {
+      "cardId": "card.fnl.quake_hammer",
+      "name": "裂地重锤",
+      "source": "fnl-quake-hammer-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "fnl-quake-hammer.webp",
+      "sourceSha256": "a28545e724f79c9be07e37719e36a7730599abcee666a2cd5af1cfdff6887d9d",
+      "runtimeSha256": "afa0a7efc3b27feab77f422aff1b64e7ac0f4d1eb1b9687341ce72a6741e4cb0",
+      "runtimeBytes": 171216
+    },
+    {
+      "cardId": "card.fnl.armor_break",
+      "name": "破甲凿",
+      "source": "fnl-armor-break-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "fnl-armor-break.webp",
+      "sourceSha256": "6129de181cd12c9587afd57fb6d01b4e031da2a1a467c7b97e5a7e742f2ad61a",
+      "runtimeSha256": "b71e4eae15d6cc0baf375bd800e98c419e4a98f50eb90113c81648d556e4da34",
+      "runtimeBytes": 154966
+    },
+    {
+      "cardId": "card.fnl.chain_hits",
+      "name": "连环锤",
+      "source": "fnl-chain-hits-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "fnl-chain-hits.webp",
+      "sourceSha256": "1f11a780063ae238076e2448cffbeeba61e0a172ad142a0abf8d56fb4f6ae171",
+      "runtimeSha256": "53597805ea104143194a5e78c43bd7fc39db80df7f0218d6140b091d8d546bd2",
+      "runtimeBytes": 147790
+    },
+    {
+      "cardId": "card.fnl.split_mountain",
+      "name": "开山",
+      "source": "fnl-split-mountain-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "fnl-split-mountain.webp",
+      "sourceSha256": "9b8ec932c13c0c997110eb74c081c0224999dac27a658b1c429d4e22407c122b",
+      "runtimeSha256": "28ffa0cdc2b4bc4bda82676e104efb5f06f543fcb468181ce665f5adf5fbe65a",
+      "runtimeBytes": 187472
+    },
+    {
+      "cardId": "card.fnl.masterwork",
+      "name": "匠心",
+      "source": "fnl-masterwork-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "fnl-masterwork.webp",
+      "sourceSha256": "591f827efcafc1da6eb511adbd49a97f2704849895127e4d007110dd1c6f4c08",
+      "runtimeSha256": "21911d9d2916dad54b3123be99b7e3ab95cef23149fa4350c9869c55d7dd2470",
+      "runtimeBytes": 165666
+    },
+    {
+      "cardId": "card.ygg.shield_strike",
+      "name": "盾击",
+      "source": "ygg-shield-strike-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "ygg-shield-strike.webp",
+      "sourceSha256": "383583e552a17e4a39f954175fb7f4377f48a5f72665e48d0c9dfe07d3236580",
+      "runtimeSha256": "8eefc88aec0b9a5a95da6a46e09e249bb2958de45c3fd966c6400e637532f4e6",
+      "runtimeBytes": 163986
+    },
+    {
+      "cardId": "card.ygg.rock_guard",
+      "name": "岩盾",
+      "source": "ygg-rock-guard-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "ygg-rock-guard.webp",
+      "sourceSha256": "eae627f005cecfd75b98eccef1d3b4b817c1b5d474a194867eaf54c86a8555d7",
+      "runtimeSha256": "4d712003433c49970a2f96b0a943ffe457d602c26ffd4281bd4aa9b312a15f78",
+      "runtimeBytes": 170512
+    },
+    {
+      "cardId": "card.ygg.horse_stance",
+      "name": "扎马",
+      "source": "ygg-horse-stance-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "ygg-horse-stance.webp",
+      "sourceSha256": "c2230bf870248a7557a355f1afdaa37bd5f5b20a7f0a2bdfabc381be36365760",
+      "runtimeSha256": "f0544e899c580431d16ba0b0d1f47eaa91fc4f55e538e7ef5ab7542793b76a1a",
+      "runtimeBytes": 172978
+    },
+    {
+      "cardId": "card.ygg.stomp",
+      "name": "震地踏",
+      "source": "ygg-stomp-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "ygg-stomp.webp",
+      "sourceSha256": "d802d7168027235f48e48634b7349ed9dae251f2e57738e65837153076a557b8",
+      "runtimeSha256": "57650b21330bbf443a807addd6099f3d209cbd3e9bd39809bc876e4b06028819",
+      "runtimeBytes": 169390
+    },
+    {
+      "cardId": "card.ygg.vessel_wall",
+      "name": "方尊壁垒",
+      "source": "ygg-vessel-wall-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "ygg-vessel-wall.webp",
+      "sourceSha256": "b0bc9069aeee96ca03173ab3dc15020701608a5b54ca4075119a4f33b92f2c5b",
+      "runtimeSha256": "9368d02e5b627b2f033e49246230c2626a60afa1c1ea6575921416386ed0ec8d",
+      "runtimeBytes": 159622
+    },
+    {
+      "cardId": "card.ygg.hold",
+      "name": "据守",
+      "source": "ygg-hold-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "ygg-hold.webp",
+      "sourceSha256": "6243285863649861354a628da8612a0bdffd2082b05e621c4349c11f33058e5a",
+      "runtimeSha256": "d8446172d7b7e26b586848e02c32b69c5e50f61f05dfeb402c8fea50a99af935",
+      "runtimeBytes": 169654
+    },
+    {
+      "cardId": "card.ygg.guard_counter",
+      "name": "以守代攻",
+      "source": "ygg-guard-counter-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "ygg-guard-counter.webp",
+      "sourceSha256": "f3dde08f9472a09bd5d3276d73af8d270b8990b5a9a4b3e8ae3fd39e46b500f7",
+      "runtimeSha256": "9de2701be51f2749c2223f03a052f298c4ab3efab2b58d66b004c4dc7da4c779",
+      "runtimeBytes": 169410
+    },
+    {
+      "cardId": "card.ygg.immovable",
+      "name": "不动如山",
+      "source": "ygg-immovable-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "ygg-immovable.webp",
+      "sourceSha256": "42a2b18e80572a39935727aea789bb1033f7e9f8a0fdc6b05bb41fcc78185255",
+      "runtimeSha256": "60197ab64fc83bd48bc3117c141cd2bba9dd0b0555e6d2cfdbdea5ef67db8b33",
+      "runtimeBytes": 169138
+    },
+    {
+      "cardId": "card.ygg.roar",
+      "name": "咆哮",
+      "source": "ygg-roar-v01.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": "ygg-roar.webp",
+      "sourceSha256": "a651286e5b878b202ecc01bce1b45be146c9b4945eea2ba9fabc05c39383f967",
+      "runtimeSha256": "8c8f557e32b7309a556850fdfff1e458ea8e47ee62ff93389b2dc472f4b48b0a",
+      "runtimeBytes": 166836
+    }
+  ]
+}

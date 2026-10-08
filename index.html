@@ -6,11 +6,30 @@
     <meta name="theme-color" content="#24232b" />
     <meta name="description" content="《德宝奇遇记：凌家滩探险》独立可玩首版" />
     <title>德宝奇遇记：凌家滩探险</title>
-    <script type="module" crossorigin src="./assets/main-CtWtSlmo.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/styles-DDrJWw3-.js">
-    <link rel="stylesheet" crossorigin href="./assets/styles-D7y7r5YZ.css">
+    <meta name="huobao-opening-video" content="" />
+    <link rel="stylesheet" href="/huobao-game-playtest/opening-loader.css" />
+    <link rel="preload" as="image" href="./assets/opening-v1/gateway.webp" fetchpriority="high" />
+    <script type="module" crossorigin src="/huobao-game-playtest/assets/main-CCHXkyD0.js"></script>
+    <link rel="modulepreload" crossorigin href="/huobao-game-playtest/assets/styles-1wzaGEhU.js">
+    <link rel="stylesheet" crossorigin href="/huobao-game-playtest/assets/styles-D7y7r5YZ.css">
   </head>
   <body>
+    <section id="opening-loader" aria-label="探险资源加载">
+      <div class="opening-stage">
+        <div class="opening-mist" aria-hidden="true"></div>
+        <h1 class="opening-title">德宝奇遇记<span class="opening-subtitle">凌家滩探险</span></h1>
+        <div class="opening-bi" aria-hidden="true">
+          <img src="./assets/opening-v1/bi.webp" alt="" />
+          <img class="opening-light" src="./assets/opening-v1/bi-light.webp" alt="" />
+          <span class="opening-core"></span>
+        </div>
+        <div class="opening-record">
+          <div class="opening-track" role="progressbar" aria-label="探险资源" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span></span></div>
+          <div class="opening-status"><span class="opening-message">正在展开探险档案……</span><span class="opening-percent">0%</span></div>
+          <p class="opening-caption">余光照见旧纹，遗址静候来人</p>
+        </div>
+      </div>
+    </section>
     <main id="app" aria-label="德宝奇遇记：凌家滩探险"></main>
   </body>
 </html>

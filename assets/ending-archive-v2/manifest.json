@@ -1,0 +1,18 @@
+[
+  {
+    "source": "frame-master-v1.png",
+    "runtime": "frame.webp",
+    "width": 1536,
+    "height": 807,
+    "alpha": true,
+    "sha256": "73181ffd6918281a9503fc83b50111e02fef2343967ba7b7bcc11d14cc1a5afc"
+  },
+  {
+    "source": "primary-button-master-v1.png",
+    "runtime": "button.webp",
+    "width": 900,
+    "height": 243,
+    "alpha": true,
+    "sha256": "3f66df8fb22d6ef972ef9dcef74c627e01e5bd2590c6d8cff144aa39ecf5160a"
+  }
+]

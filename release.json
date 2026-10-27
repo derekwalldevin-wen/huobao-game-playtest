@@ -1,18 +1,24 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-27",
   "kind": "web-playtest",
   "sourceRepository": "private",
   "sourceBranch": "task/battle-ui-v2-signature-integration-20260929",
-  "sourceSha": "21fbf6ae8b1066d01f9696d8dbbb8c58da5fe4d0",
+  "sourceSha": "c9276081b6364b22a810289eb5142eeb8e415fb6",
   "music": "standalone BGM omitted under existing public playtest policy; movie audio and CC0 SFX retained",
+  "updates": [
+    "three menu covers and rarity",
+    "six new gold cards and dedicated raster FX",
+    "expedition growth",
+    "four story reward illustrations"
+  ],
   "validation": {
     "typecheck": "passed",
     "releaseBuild": "passed",
     "releaseAssetCheck": "passed",
     "tests": {
-      "passed": 1061,
       "failed": 1,
-      "total": 1062,
+      "passed": 1165,
+      "total": 1166,
       "knownFailure": "legacy compact/v07 policy requires at least one win"
     }
   },
@@ -3033,6 +3039,66 @@
       "sha256": "a094514ca57cf8f9c5e8d8d1adab5d8cd3a377297ff016f9df2c05b3ecd77f0a"
     },
     {
+      "path": "assets/gold-card-v1/banked-veins.webp",
+      "bytes": 169754,
+      "sha256": "251a16930a6aa5f42fbc5acdeeafb812c4803f1f53b44f6e705bce821a0818ef"
+    },
+    {
+      "path": "assets/gold-card-v1/dragon-resonance.webp",
+      "bytes": 177096,
+      "sha256": "434f780536fdbed07a4165339ec9af6085ae472bd728c39aa5c0340c97dac4e1"
+    },
+    {
+      "path": "assets/gold-card-v1/jade-citadel.webp",
+      "bytes": 187996,
+      "sha256": "9611b18bface06837a189b963acc681a69f8b8d0a841d4e49ea4d013606b880a"
+    },
+    {
+      "path": "assets/gold-card-v1/master-disassembly.webp",
+      "bytes": 168830,
+      "sha256": "3b046d124bc03c65402b56218218d7facba5acf1d835f86f16516bee2f19f110"
+    },
+    {
+      "path": "assets/gold-card-v1/shattered-bi.webp",
+      "bytes": 211502,
+      "sha256": "ae17cc0ca9836d003ba2e248b0bdc39050bf8d1edffc1d77bdd0e098898baa97"
+    },
+    {
+      "path": "assets/gold-card-v1/surrendered-wall.webp",
+      "bytes": 200532,
+      "sha256": "b106e553a16878fd3ea97efef1e6e308246d90f37a719608fc4872c394f8d741"
+    },
+    {
+      "path": "assets/gold-fx-v1/deconstruct.webp",
+      "bytes": 234102,
+      "sha256": "342757f6c85c622d50ac9baff880767c0e76f05c300d5aea418e0fa97b1a47d0"
+    },
+    {
+      "path": "assets/gold-fx-v1/mountain.webp",
+      "bytes": 255780,
+      "sha256": "49e0531e84737ed9578116812098b46fef2b1bdb427fc9fa7ed97402cd993624"
+    },
+    {
+      "path": "assets/gold-fx-v1/resonance.webp",
+      "bytes": 211784,
+      "sha256": "d155c73bfe4ee291b5eb23651a1fbcf3494548d9bc65270285425a79640096ed"
+    },
+    {
+      "path": "assets/gold-fx-v1/shatter.webp",
+      "bytes": 319026,
+      "sha256": "37acbcdb9f81e2aa2c63008d4e5aa69fb8f8aa7244cd5e6e9ee9fcdfc514e041"
+    },
+    {
+      "path": "assets/gold-fx-v1/store.webp",
+      "bytes": 165976,
+      "sha256": "ffab8f0c3f60af1ca502c6b011256d466821dad4adf1dd053472e7f305875fea"
+    },
+    {
+      "path": "assets/gold-fx-v1/ward.webp",
+      "bytes": 255680,
+      "sha256": "1f48e1f78f304ec7cc0f8f6472b346f13721ba65fde474aa29feace469b11037"
+    },
+    {
       "path": "assets/hero-roster-v1/cards/archive-light.webp",
       "bytes": 154826,
       "sha256": "49090ffc6d112dc8b6a7e64ec2467fbbc655b300176a6f749105218a68fcae14"
@@ -3388,9 +3454,9 @@
       "sha256": "ed2c0c3db31be80c78ebbbd3f0a62cbc1f6d493c0783501f63ad33de883112b4"
     },
     {
-      "path": "assets/main-BgFdBjjM.js",
-      "bytes": 1923670,
-      "sha256": "f5b61a772d1a6d31b05bda06b5781f7a2ed417147eb2a82511ec550979d3359a"
+      "path": "assets/main-BT4C15nJ.js",
+      "bytes": 1955884,
+      "sha256": "bc598be8e2f27a45327bf808b3db79947d8d0ca56847158dd7e90f790934b515"
     },
     {
       "path": "assets/main-Dj7JHLg7.css",
@@ -3416,6 +3482,26 @@
       "path": "assets/menu-art-v1/button.png",
       "bytes": 1587284,
       "sha256": "95cdea1002a1e75917aaf9f35c12738f041a3eda755bcd0018e8e3b2bc0d219d"
+    },
+    {
+      "path": "assets/menu-cover-v6/starlit.webp",
+      "bytes": 387726,
+      "sha256": "1e1a383dddf72585fb6dd250f9719b6f3d9642596e58e9a7f71bce8eec785323"
+    },
+    {
+      "path": "assets/menu-cover-v6/storm.webp",
+      "bytes": 400212,
+      "sha256": "099c8b8b65d69510a93dbaa907146c6947197a69a061bfad46f80573ce577769"
+    },
+    {
+      "path": "assets/menu-cover-v6/sunset.webp",
+      "bytes": 366422,
+      "sha256": "59f359add3a1cd3dcce5ed529d7a8f6e32c106c6db85dcee24f14bf6ac7bf1cb"
+    },
+    {
+      "path": "assets/menu-cover-v6/title.webp",
+      "bytes": 466292,
+      "sha256": "b59be4900eb845582ce1135143ed3c42256dcdc11fddd60b649b7109ea0a29f4"
     },
     {
       "path": "assets/npc-art-animation-v01/manifest.json",
@@ -5838,6 +5924,26 @@
       "sha256": "518d04d538180255571d24ba2daf60a46ef5b8c991b0b85dd1eacab823041557"
     },
     {
+      "path": "assets/story-reward-v1/embers.webp",
+      "bytes": 357992,
+      "sha256": "0f39d40a4c41ed333bbc15a5c2027798c576f2786ac8546e6c4a153c1e59a2c6"
+    },
+    {
+      "path": "assets/story-reward-v1/lantern.webp",
+      "bytes": 363024,
+      "sha256": "c06d1dc4768ed0e5af11af5744e688ddb60c24cc75f71e610a416caeb9b0bbf8"
+    },
+    {
+      "path": "assets/story-reward-v1/passage.webp",
+      "bytes": 449328,
+      "sha256": "397e9c8aafe50da0b8a552f16dd35fab7306b641a9100132dac238f95d1236fc"
+    },
+    {
+      "path": "assets/story-reward-v1/remembrance.webp",
+      "bytes": 333692,
+      "sha256": "b5f92ff670063be1aa05e7b71f5639b38c59450b237faa1acfa5606e23230d24"
+    },
+    {
       "path": "assets/three-act-v1/altar.webp",
       "bytes": 459718,
       "sha256": "e1773a4a631334ae6675961308f9c1c4d1bbcae6f29bc9ed84332080370c087d"
@@ -6464,18 +6570,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 1842,
-      "sha256": "ee0141bcabe07bfad21a53a1b376bfa8fc9fa17ed57a3e6f57124348183189ce"
+      "bytes": 1911,
+      "sha256": "5f29ed099d2859c2e40611757b37a3bcbfcad59f456000cd9a5603402f31599e"
     },
     {
       "path": "opening-loader.css",
-      "bytes": 3361,
-      "sha256": "6f5d3b7f0ab058458b5aae9a277c244f29bf38d2649e4694931ba6eb4cd185bd"
-    },
-    {
-      "path": "README.md",
-      "bytes": 1271,
-      "sha256": "9caf6a5072f2d39fffe71bcba7821ab79e39bb1aaa71311957ee0f6640d850b5"
+      "bytes": 3748,
+      "sha256": "44ea2621d43dd138c0574c4bc5cb56fc79142b4415785c9c79a4735a9aa8fcdd"
     }
   ]
 }

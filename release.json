@@ -1,24 +1,29 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "kind": "web-playtest",
   "sourceRepository": "private",
   "sourceBranch": "task/battle-ui-v2-signature-integration-20260929",
-  "sourceSha": "c9276081b6364b22a810289eb5142eeb8e415fb6",
-  "music": "standalone BGM omitted under existing public playtest policy; movie audio and CC0 SFX retained",
+  "sourceSha": "87614f65d379d317877a5582cc283c855fe87f7a",
+  "music": "standalone BGM omitted under existing public policy; film audio and CC0 SFX retained",
   "updates": [
-    "three menu covers and rarity",
-    "six new gold cards and dedicated raster FX",
-    "expedition growth",
-    "four story reward illustrations"
+    "menu-only startup",
+    "on-demand selection, story, deck and actual battle assets",
+    "28 WebP runtime copies with preserved PNG masters"
   ],
+  "startup": {
+    "imageFiles": 11,
+    "imageBytes": 1568974,
+    "previousImageFiles": 339,
+    "previousImageBytes": 73654286
+  },
   "validation": {
     "typecheck": "passed",
     "releaseBuild": "passed",
     "releaseAssetCheck": "passed",
     "tests": {
       "failed": 1,
-      "passed": 1165,
-      "total": 1166,
+      "passed": 1179,
+      "total": 1180,
       "knownFailure": "legacy compact/v07 policy requires at least one win"
     }
   },
@@ -3459,6 +3464,16 @@
       "sha256": "bc598be8e2f27a45327bf808b3db79947d8d0ca56847158dd7e90f790934b515"
     },
     {
+      "path": "assets/main-BX2c39qr.js",
+      "bytes": 1963632,
+      "sha256": "fe88fb645fce6a4c7cf05ac6aa5ad97c7f936d33012d541d741dea3c597abf9a"
+    },
+    {
+      "path": "assets/main-CbQPMyBL.css",
+      "bytes": 6245,
+      "sha256": "83c0b5011cd5f81ac1a79d85392b0ebd6f03ae0bb7ff0a7e2e95683d4dae253e"
+    },
+    {
       "path": "assets/main-Dj7JHLg7.css",
       "bytes": 6221,
       "sha256": "78df172b70038e4655059690c5b54dedd1c51b2e4b9131ebc9ddd6151b37a494"
@@ -5689,6 +5704,146 @@
       "sha256": "c7ccdb7043954ae7fc63f0316e40351188da6a52ea213f87278243db3f7e59bf"
     },
     {
+      "path": "assets/runtime-webp-v1/004fda2bc785071f.webp",
+      "bytes": 290762,
+      "sha256": "19ba4eee67d85bb6258a6f2f8e6ee0b3064f80aae17b95fcb14cf3e11e2aa37f"
+    },
+    {
+      "path": "assets/runtime-webp-v1/042e4cc6e0838e24.webp",
+      "bytes": 43696,
+      "sha256": "3abae82474b7651b5d163bd055e8a14e96df56fc3b906ded193a779f44551968"
+    },
+    {
+      "path": "assets/runtime-webp-v1/09a0c1d9cdca517b.webp",
+      "bytes": 319618,
+      "sha256": "36e11b3ff0854a6144d27fecd114fbba38cd762ed8def6854078fe2704081c52"
+    },
+    {
+      "path": "assets/runtime-webp-v1/0d0cf8647b8eed28.webp",
+      "bytes": 52942,
+      "sha256": "1f202d2eb8554906bbed1be8a8e0668a476f9a6c5d166211f664e6f5f50661ab"
+    },
+    {
+      "path": "assets/runtime-webp-v1/17547d90ec197118.webp",
+      "bytes": 61240,
+      "sha256": "68838ae2be1bb2918ddf60f5775d42b8a66d47b9e67e910495c9e8b58ed8d242"
+    },
+    {
+      "path": "assets/runtime-webp-v1/1eb553725e50fcd4.webp",
+      "bytes": 99150,
+      "sha256": "416867f4397badb9febbd1409b35556323d92803698fc8c75516fdc298454047"
+    },
+    {
+      "path": "assets/runtime-webp-v1/22561db97c3f48b9.webp",
+      "bytes": 682144,
+      "sha256": "919600e2e23dff46fdf6666b7f2082d8c178fa34650170aaf0689e3bed34403f"
+    },
+    {
+      "path": "assets/runtime-webp-v1/31e750f857493157.webp",
+      "bytes": 50554,
+      "sha256": "f12636501cd358c14ec9ac1facef42879a3731b37b2b16bfdb6ca367884fe40a"
+    },
+    {
+      "path": "assets/runtime-webp-v1/34d3f7f3d6c14a58.webp",
+      "bytes": 456172,
+      "sha256": "337372b9466fadeca94a371b9508aae770a610caab08fc07c3517fb827889ada"
+    },
+    {
+      "path": "assets/runtime-webp-v1/4e9b83ab5b933e74.webp",
+      "bytes": 279154,
+      "sha256": "7ee9263a3ac62df74ae49fca59bdb10a99eb1c18de3092b304945c84159af979"
+    },
+    {
+      "path": "assets/runtime-webp-v1/5406048c082e9921.webp",
+      "bytes": 259344,
+      "sha256": "fd85d1fe2c8e03a0554bfa30a651f01ea59f934e53a75d665e7a9bb149aace54"
+    },
+    {
+      "path": "assets/runtime-webp-v1/642736226a2b9cff.webp",
+      "bytes": 52986,
+      "sha256": "6744749cf656b0a0541d8a7c442ef89469e2118e61d8b84601ab72511b0cc1a2"
+    },
+    {
+      "path": "assets/runtime-webp-v1/7c8d706266c779e3.webp",
+      "bytes": 90890,
+      "sha256": "edea0dc4505240c13bfc699bf760499ffbd29bcdccb7b566227830d28f22c6c4"
+    },
+    {
+      "path": "assets/runtime-webp-v1/7f50f58653314fc7.webp",
+      "bytes": 255814,
+      "sha256": "1c53c1436a3e89503fd0ba99a630d79dcfa15a9f73faf607962c1bd065af9e9a"
+    },
+    {
+      "path": "assets/runtime-webp-v1/967a3a5316a2fba5.webp",
+      "bytes": 356912,
+      "sha256": "6524d6ca456ecf5e87e3e46101b1fa1920bad0e5a124227b94aa8f05101eb84b"
+    },
+    {
+      "path": "assets/runtime-webp-v1/96c573c816a00ff7.webp",
+      "bytes": 477264,
+      "sha256": "c25ced805a50efea53443e2e03c2d76cd3c09564cfcbb8fcc484089313ba3683"
+    },
+    {
+      "path": "assets/runtime-webp-v1/99d186b5054cbbd3.webp",
+      "bytes": 408770,
+      "sha256": "c9f01987a5e8e6b93f199ed26d85e4f52dfbcaec6db5ffcdb1c4d7e6b8ecd470"
+    },
+    {
+      "path": "assets/runtime-webp-v1/9c1cb893d8e50b09.webp",
+      "bytes": 303838,
+      "sha256": "4b10e3d506826764798c1750d15d71fe484940dfde097cc063728a0867ca9172"
+    },
+    {
+      "path": "assets/runtime-webp-v1/9c4eb84b20d1cc5e.webp",
+      "bytes": 235916,
+      "sha256": "57b4508d8812b2e3f0a9f27a078e7c8a1af7d366e0077e08d07be4c80a66089e"
+    },
+    {
+      "path": "assets/runtime-webp-v1/9c6e41ca81c815ef.webp",
+      "bytes": 237024,
+      "sha256": "bcfe158d5995346e5265b474f2964f02ce6da82dafd8ee7b6694671ee3419d87"
+    },
+    {
+      "path": "assets/runtime-webp-v1/9e6926c48df49c7c.webp",
+      "bytes": 590468,
+      "sha256": "22b0e134856c74a6151a39a5dcf620295d6762f2f6396adef8cd56b8f16ade19"
+    },
+    {
+      "path": "assets/runtime-webp-v1/b1ec8f5733347d07.webp",
+      "bytes": 151264,
+      "sha256": "6436c2e13dd172acd392e260c5d5ec39e3911c0792bdb3f907831fbd89666639"
+    },
+    {
+      "path": "assets/runtime-webp-v1/b3aa9bc73c43bc19.webp",
+      "bytes": 394044,
+      "sha256": "7ba06bc6d46330873f71746a883d1e7b1c4c9e644554595406e733b5817173a9"
+    },
+    {
+      "path": "assets/runtime-webp-v1/c511841995c804d6.webp",
+      "bytes": 42232,
+      "sha256": "3b120e921103d6c04dac03d1375e214c55e37ce5cb767e359deebf8e6453c352"
+    },
+    {
+      "path": "assets/runtime-webp-v1/d750348a192d42ea.webp",
+      "bytes": 73618,
+      "sha256": "3b0309b462aa202e0dade48cfcea35ad12d442b54e22d9b511835217e8866ea1"
+    },
+    {
+      "path": "assets/runtime-webp-v1/d93d404883897f08.webp",
+      "bytes": 348206,
+      "sha256": "dd64fd665f090dab7b31dc955566aed9a2d8dc079ad22001bf5632be7f40be66"
+    },
+    {
+      "path": "assets/runtime-webp-v1/de4886ad33612bd4.webp",
+      "bytes": 77636,
+      "sha256": "e47aaa56232a019a37887fafece20482becbf1ce8d38c89a12406f81470df5cc"
+    },
+    {
+      "path": "assets/runtime-webp-v1/fcb0c114c917bc89.webp",
+      "bytes": 112444,
+      "sha256": "d41c1faa47864c2c1849217591d0839625028ea90e33fe0304b6cf853fe98729"
+    },
+    {
       "path": "assets/story-film-ui-v2/frame.webp",
       "bytes": 103226,
       "sha256": "4eb1f2dc87afca0d38a60543cb459fdabfabc611a712d6d10a6595282f3d64f1"
@@ -6571,7 +6726,7 @@
     {
       "path": "index.html",
       "bytes": 1911,
-      "sha256": "5f29ed099d2859c2e40611757b37a3bcbfcad59f456000cd9a5603402f31599e"
+      "sha256": "1028a26f860558a92196357e45d6f700871c7450734349eff2d54c978c527807"
     },
     {
       "path": "opening-loader.css",
